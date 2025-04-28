@@ -1,0 +1,21 @@
+Start_Time,End_Time,Instance,InstanceID,Price,Market,Region,Zone,Algorithm_Name,Allocation_Strategy,Class,Time_in_Seconds,Total_Threads,Available_Threads,Mops_Total,Mops_per_Thread,Status
+2025-04-26 15:23:16.350484,2025-04-26 15:23:54.505825,m6a.24xlarge,i-0a808539644843549,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.86,48,48,169998.07,3541.63,SUCCESS
+2025-04-26 15:23:26.360757,2025-04-26 15:24:05.646484,m6a.24xlarge,i-05667e83dd899a10f,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.96,48,48,168955.76,3519.91,SUCCESS
+2025-04-26 15:23:36.371112,2025-04-26 15:24:13.968636,m6a.24xlarge,i-0c08ad1ad9650ae77,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.88,48,48,169753.27,3536.53,SUCCESS
+2025-04-26 15:23:46.372820,2025-04-26 15:24:24.363798,m6a.24xlarge,i-07feedebd4ca65c50,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.97,48,48,168857.67,3517.87,SUCCESS
+2025-04-26 15:23:56.383161,2025-04-26 15:24:34.824295,m6a.24xlarge,i-06c38d7a5abffa390,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.72,48,48,171418.31,3571.21,SUCCESS
+2025-04-26 15:24:06.393481,2025-04-26 15:24:45.751027,m6a.24xlarge,i-02bf06d10c67f70dc,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.95,48,48,169094.7,3522.81,SUCCESS
+2025-04-26 15:24:16.402310,2025-04-26 15:24:55.987792,m6a.24xlarge,i-02b763e6a283e5436,,spot,sa-east-1,b,bt.C.x,lowest-price,C,17.55,48,48,163280.14,3401.67,SUCCESS
+2025-04-26 15:24:26.412594,2025-04-26 15:25:04.242799,c6a.24xlarge,i-071a4f7d107dcbfd4,,spot,sa-east-1,a,bt.C.x,lowest-price,C,17.11,48,48,167492.36,3489.42,SUCCESS
+2025-04-26 15:24:36.422932,2025-04-26 15:25:14.307160,c6a.24xlarge,i-0400cc43c2ba0d891,,spot,sa-east-1,a,bt.C.x,lowest-price,C,17.02,48,48,168433.9,3509.04,SUCCESS
+2025-04-26 15:24:46.433179,2025-04-26 15:25:33.565855,m5a.24xlarge,i-05d356e87f1d2774e,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.88,48,48,106633.48,2221.53,SUCCESS
+2025-04-28 10:40:51.876933,2025-04-28 10:41:32.835001,m6a.24xlarge,i-051da1dae5b99fd8c,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.87,48,48,169929.10,3540.19,SUCCESS
+2025-04-28 10:41:21.907498,2025-04-28 10:41:39.915306,m6a.24xlarge,i-0e1c3e7078344965d,,spot,sa-east-1,b,bt.C.x,lowest-price,,,,,,,"FAILED:bash: /cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x: No such file or directory"
+2025-04-28 10:41:01.886818,2025-04-28 10:41:41.675313,m6a.24xlarge,i-0ab0a637dc6a2d3e5,,spot,sa-east-1,b,bt.C.x,lowest-price,C,17.00,48,48,168649.49,3513.53,SUCCESS
+2025-04-28 10:41:11.897134,2025-04-28 10:41:51.311954,m6a.24xlarge,i-0e672f48d709f30e7,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.84,48,48,170227.17,3546.40,SUCCESS
+2025-04-28 10:41:31.912864,2025-04-28 10:42:21.934523,m5a.24xlarge,i-053b0909972a9437b,,spot,sa-east-1,a,bt.C.x,lowest-price,C,27.75,48,48,103306.01,2152.21,SUCCESS
+2025-04-28 10:42:11.947880,2025-04-28 10:42:29.036842,m5a.24xlarge,i-0718d7429268e1a74,,spot,sa-east-1,a,bt.C.x,lowest-price,,,,,,,"FAILED:bash: /cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x: No such file or directory"
+2025-04-28 10:41:41.923347,2025-04-28 10:42:30.870139,m5a.24xlarge,i-0be7c490577412561,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.71,48,48,107317.76,2235.79,SUCCESS
+2025-04-28 10:41:51.930988,2025-04-28 10:42:42.425467,m5a.24xlarge,i-0e4e8b34e7340da2c,,spot,sa-east-1,a,bt.C.x,lowest-price,C,27.27,48,48,105089.16,2189.36,SUCCESS
+2025-04-28 10:42:01.941658,2025-04-28 10:42:59.954582,m5a.24xlarge,i-08674ceef8b743092,,spot,sa-east-1,a,bt.C.x,lowest-price,C,35.35,48,48,81090.78,1689.39,SUCCESS
+2025-04-28 10:42:21.957796,2025-04-28 10:47:22.842995,m5a.24xlarge,i-0b93cff14cbf7eaf1,,spot,sa-east-1,a,bt.C.x,lowest-price,,,,,,,FAILED:SSH timeout: 10.128.66.69:22 not reachable after 300 seconds.
