@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import json
 import aws_bench.pricing_handler as aws
 from aws_bench.constants import AWSConfig, SSHConfig, BenchmarkConfig
 
@@ -12,7 +13,6 @@ from pathlib import Path
 import argparse
 import pandas as pd # type: ignore
 import csv
-from datetime import datetime
 import re
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -20,6 +20,35 @@ import threading
 import socket
 import subprocess
 
+def process_fleet_response(response, filename="./results/fleet_attempts.csv"):
+    attempts = []
+
+    for error in response.get("Errors", []):
+        overrides = error["LaunchTemplateAndOverrides"]["Overrides"]
+        attempts.append({
+            "InstanceType": overrides.get("InstanceType", ""),
+            "SubnetId": overrides.get("SubnetId", ""),
+            "Status": "error",
+            "ErrorCode": error.get("ErrorCode", ""),
+            "ErrorMessage": error.get("ErrorMessage", "")
+        })
+
+    for success in response.get("Instances", []):
+        overrides = success["LaunchTemplateAndOverrides"]["Overrides"]
+        attempts.append({
+            "InstanceType": overrides.get("InstanceType", ""),
+            "SubnetId": overrides.get("SubnetId", ""),
+            "Status": "success",
+            "ErrorCode": "",
+            "ErrorMessage": ""
+        })
+
+    # Escreve no CSV, na ordem em que vieram no JSON
+    with open(filename, mode="w", newline="") as csvfile:
+        fieldnames = ["InstanceType", "SubnetId", "Status", "InstanceIds", "ErrorCode", "ErrorMessage"]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(attempts)
 
 
 def get_status_ip(region, instance_id):
@@ -169,14 +198,15 @@ def create_fleet(region, cluster_size, allocation_strategy, target_capacity):
         "Type": "instant",
         "TagSpecifications" : [{
                 'ResourceType': 'instance',
-                'Tags':[{'Key': 'Name', 'Value': 'SpotFleet-SSCAD'}]
+                'Tags':[{'Key': 'Name', 'Value': 'SpotFleet-SSCAD-FVBR'}]
         }]
     }
 
   
-    
     response = ec2_client.create_fleet(**fleet_config)
+    process_fleet_response(response=response)
     instance_ids = [inst for fleet in response.get("Instances", []) for inst in fleet["InstanceIds"]]
+
     
     if instance_ids:
         logging.info(f"Fleet created with instances: {instance_ids}")
@@ -197,7 +227,7 @@ def run_via_ssh(cmd, instance, region):
         lifecycle = instance.instance_lifecycle if instance.instance_lifecycle else 'on-demand'
 
         instance_status, private_ip = get_status_ip(region=region, instance_id=instance.id)
-
+        
         wait_for_ssh(private_ip)
         c = paramiko.SSHClient()
         c.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -256,7 +286,7 @@ def run_benchmark_on_instance(instance, app, region, is_spot, market, allocation
         logging.info(f"Binding threads in cores, instance has {instance_core} cores")
         start_time = datetime.now()
         output, status = run_via_ssh(
-            cmd=f'export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS={instance_core};/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/{app}', 
+            cmd=f'export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS={instance_core};/u/fvbr/{app}', 
             instance=instance, 
             region=region)
     
@@ -295,12 +325,11 @@ def run_benchmark_on_instance(instance, app, region, is_spot, market, allocation
             "Allocation_Strategy": allocation_strategy,
             "Status": 'FAILED'
         }
-        #_terminate_instance(instance)
+        _terminate_instance(instance)
         with lock:
             save_row('', row, df, csv_file)
     finally:
-        return
-        #_terminate_instance(instance)
+        _terminate_instance(instance)
 
     return None
 
@@ -418,7 +447,7 @@ if __name__ == '__main__':
     parser.add_argument('region', type=str, help='AWS region')
     #parser.add_argument('json_file', type=str, help='Json file with instances configurations')
     parser.add_argument('strategy', type=str, default='lowest-price', choices=['lowest-price', 'diversified', 'capacity-optimized', 'capacity-optimized-prioritized', 'price-capacity-optimized'], help='Allocation Strategy')
-    parser.add_argument('benchmark', type=str,default='ep.D.x', choices=['bt.A.x','bt.E.x','bt.C.x', 'ua.D.x'])
+    parser.add_argument('benchmark', type=str,default='ep.D.x', choices=['bt.A.x','bt.E.x','bt.C.x','bt.D.x','ua.D.x'])
     #parser.add_argument('--repetitions', type=int, default=5, help='Number of repetitions')
     parser.add_argument('--nodes', type=int, default=1, help='Number of repetitions')
     parser.add_argument('--output_folder', type=str, default='.', help='Output folder')
@@ -440,8 +469,9 @@ if __name__ == '__main__':
         
     logging.info(f"Start execution in {args.region} Nodes={args.nodes} Benchmark={args.benchmark} Allocation Strategy={args.strategy}") 
     benchmark_par(args)
-
-    # benchmark_seq(args)
+    
+    #benchmark_seq(args)
+    
     # try:
     #     subprocess.run(f'python terminate_all.py {args.region}', shell=True, check=True)
     #     logging.info(f"All instances have been terminated.")

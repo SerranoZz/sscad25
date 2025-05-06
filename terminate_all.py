@@ -4,7 +4,7 @@ import subprocess
 import argparse
 
 def terminate_all(region):
-    command = f'aws ec2 describe-instances --filters "Name=tag:Name,Values=SpotFleet-SSCAD" "Name=instance-state-name,Values=running" --query "Reservations[*].Instances[*].InstanceId" --output text'
+    command = f'aws ec2 describe-instances --filters "Name=tag:Name,Values=SpotFleet-SSCAD-FVBR" "Name=instance-state-name,Values=running" --query "Reservations[*].Instances[*].InstanceId" --output text'
     session = boto3.Session(region_name=region)
     ec2_client = session.client("ec2")
 

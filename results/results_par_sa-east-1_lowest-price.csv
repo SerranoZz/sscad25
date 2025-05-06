@@ -1,21 +1,25 @@
 Start_Time,End_Time,Instance,InstanceID,Price,Market,Region,Zone,Algorithm_Name,Allocation_Strategy,Class,Time_in_Seconds,Total_Threads,Available_Threads,Mops_Total,Mops_per_Thread,Status
-2025-04-26 14:37:37.022979,2025-04-26 14:37:54.120486,c6a.24xlarge,i-08d42e78124f95def,,spot,sa-east-1,a,bt.C.x,lowest-price,,,,,,,FAILED:bash: /cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x: No such file or directory
-2025-04-26 14:37:47.033243,2025-04-26 14:38:25.724714,c6a.24xlarge,i-0e6cd1f63554a4a0c,,spot,sa-east-1,a,bt.C.x,lowest-price,C,17.15,48.0,48.0,167130.08,3481.88,SUCCESS
-2025-04-26 14:37:57.040831,2025-04-26 14:38:35.867477,m6a.24xlarge,i-027c7a5b974a709b5,,spot,sa-east-1,b,bt.C.x,lowest-price,C,17.46,48.0,48.0,164137.23,3419.53,SUCCESS
-2025-04-26 14:38:07.048885,2025-04-26 14:38:45.286083,m6a.24xlarge,i-019ff0d8f63e6c284,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.99,48.0,48.0,168718.83,3514.98,SUCCESS
-2025-04-26 14:38:17.059221,2025-04-26 14:38:55.530644,m6a.24xlarge,i-0d83eb31a9d2cca30,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.88,48.0,48.0,169825.33,3538.03,SUCCESS
-2025-04-26 14:38:27.069522,2025-04-26 14:39:07.624715,m6a.24xlarge,i-09a54da55ad030d02,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.94,48.0,48.0,169204.08,3525.09,SUCCESS
-2025-04-26 14:38:37.079847,2025-04-26 14:39:17.332858,m6a.24xlarge,i-006e868019b4f4058,,spot,sa-east-1,b,bt.C.x,lowest-price,C,17.03,48.0,48.0,168301.2,3506.27,SUCCESS
-2025-04-26 14:38:47.090139,2025-04-26 14:39:28.666958,m6a.24xlarge,i-093b041dcca839935,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.82,48.0,48.0,170360.59,3549.18,SUCCESS
-2025-04-26 14:38:57.100430,2025-04-26 14:39:36.645589,m6a.24xlarge,i-04ba4e7045e7bade2,,spot,sa-east-1,b,bt.C.x,lowest-price,C,16.75,48.0,48.0,171145.02,3565.52,SUCCESS
-2025-04-26 14:37:27.012542,2025-04-26 14:42:28.297341,c6a.24xlarge,i-08e64821b3ecced52,,spot,sa-east-1,a,bt.C.x,lowest-price,,,,,,,FAILED:SSH timeout: 10.128.66.26:22 not reachable after 300 seconds.
-2025-04-28 10:52:00.332047,2025-04-28 10:52:34.855479,m6a.24xlarge,i-083baeb46566a27e5,,spot,sa-east-1,a,bt.C.x,lowest-price,C,16.77,48,48,170900.67,3560.43,SUCCESS
-2025-04-28 10:52:10.340089,2025-04-28 10:52:45.048897,m6a.24xlarge,i-0ac25149fd7e6c08f,,spot,sa-east-1,a,bt.C.x,lowest-price,C,17.50,48,48,163790.45,3412.30,SUCCESS
-2025-04-28 10:52:20.345202,2025-04-28 10:53:12.768181,m5a.24xlarge,i-0c2ad4946fd1b69a4,,spot,sa-east-1,a,bt.C.x,lowest-price,C,34.67,48,48,82661.63,1722.12,SUCCESS
-2025-04-28 10:52:30.355538,2025-04-28 10:53:21.302147,m5a.24xlarge,i-07b991ed840427f88,,spot,sa-east-1,a,bt.C.x,lowest-price,C,33.65,48,48,85173.69,1774.45,SUCCESS
-2025-04-28 10:52:40.365864,2025-04-28 10:53:24.399126,m5a.24xlarge,i-0b2eeef05574b29b7,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.78,48,48,107049.07,2230.19,SUCCESS
-2025-04-28 10:52:50.376222,2025-04-28 10:53:37.255513,m5a.24xlarge,i-0bed9cd11299c8637,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.78,48,48,107018.57,2229.55,SUCCESS
-2025-04-28 10:53:00.376902,2025-04-28 10:53:47.696790,m5a.24xlarge,i-0b61efe1986b0f739,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.86,48,48,106710.48,2223.14,SUCCESS
-2025-04-28 10:53:20.393136,2025-04-28 10:54:07.744861,m5a.24xlarge,i-027509503859e1601,,spot,sa-east-1,a,bt.C.x,lowest-price,C,26.94,48,48,106408.15,2216.84,SUCCESS
-2025-04-28 10:53:30.398113,2025-04-28 10:54:08.728741,m6a.24xlarge,i-09238b74b4f7ca9d0,,spot,sa-east-1,b,bt.C.x,lowest-price,C,17.02,48,48,168427.68,3508.91,SUCCESS
-2025-04-28 10:53:10.382780,2025-04-28 10:58:11.588806,m5a.24xlarge,i-0046792f675931c7a,,spot,sa-east-1,a,bt.C.x,lowest-price,,,,,,,FAILED:SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-06 13:16:12.324024,2025-05-06 13:17:29.652579,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7724}",spot,sa-east-1,,NAS Benchmark,,,,,,,,InvalidFleetConfiguration
+2025-05-06 13:16:12.324024,2025-05-06 13:17:29.660433,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7724}",spot,sa-east-1,,NAS Benchmark,,,,,,,,InsufficientInstanceCapacity
+2025-05-06 13:16:12.324024,2025-05-06 13:17:29.665770,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7724}",spot,sa-east-1,,NAS Benchmark,,,,,,,,InsufficientInstanceCapacity
+2025-05-06 13:16:12.324024,2025-05-06 13:17:51.217909,['m6a.24xlarge'],,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,,NAS Benchmark,,,,,,,,InsufficientInstanceCapacity
+2025-05-06 13:17:51.246293,2025-05-06 13:19:00.315581,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,,A,0.95,48.0,48.0,176332.05,3673.58,SUCCESS
+2025-05-06 13:17:51.235532,2025-05-06 13:19:16.067797,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,,A,0.91,48.0,48.0,184400.78,3841.68,SUCCESS
+2025-05-06 13:17:51.256373,2025-05-06 13:19:31.796999,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,b,NAS Benchmark,,A,0.93,48.0,48.0,181263.62,3776.33,SUCCESS
+2025-05-06 13:17:51.266100,2025-05-06 13:20:08.606378,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,b,NAS Benchmark,,A,0.92,48.0,48.0,182672.12,3805.67,SUCCESS
+2025-05-06 13:17:51.225552,2025-05-06 13:20:29.740516,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,,A,0.91,48.0,48.0,185249.8,3859.37,SUCCESS
+2025-05-06 13:23:34.634580,2025-05-06 13:23:54.185457,m5a.24xlarge,i-004ef7eeee3525205,,spot,sa-east-1,a,bt.A.x,lowest-price,A,1.71,48.0,48.0,98384.63,2049.68,SUCCESS
+2025-05-06 13:23:44.642737,2025-05-06 13:24:03.920177,m5a.24xlarge,i-0331f20867afb6854,,spot,sa-east-1,a,bt.A.x,lowest-price,A,1.77,48.0,48.0,95030.92,1979.81,SUCCESS
+2025-05-06 13:23:54.653029,2025-05-06 13:24:14.588865,m5a.24xlarge,i-0cdc5d78aea327d20,,spot,sa-east-1,a,bt.A.x,lowest-price,A,1.75,48.0,48.0,96389.11,2008.11,SUCCESS
+2025-05-06 13:24:04.663394,2025-05-06 13:24:25.592154,m5a.24xlarge,i-0e2e11cc438fddea5,,spot,sa-east-1,a,bt.A.x,lowest-price,A,2.79,48.0,48.0,60330.87,1256.89,SUCCESS
+2025-05-06 13:24:14.666108,2025-05-06 13:24:34.072233,m6a.24xlarge,i-0e063d79507e5d833,,spot,sa-east-1,b,bt.A.x,lowest-price,A,0.83,48.0,48.0,202068.19,4209.75,SUCCESS
+2025-05-06 15:10:18.477481,2025-05-06 15:11:03.910614,m6a.24xlarge,,0.977900,spot,sa-east-1,b,bt.A.x,lowest-price,A,0.92,48.0,48.0,183601.74,3825.04,SUCCESS
+2025-05-06 15:20:40.708540,2025-05-06 15:21:59.617751,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7606}",spot,sa-east-1,,bt.A.x,lowest-price,,,,,,,InvalidFleetConfiguration
+2025-05-06 15:20:40.708540,2025-05-06 15:21:59.628877,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7606}",spot,sa-east-1,,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-05-06 15:20:40.708540,2025-05-06 15:21:59.634506,['c5ad.24xlarge'],,"{'sa-east-1a': 2.1612, 'sa-east-1b': 0.7606}",spot,sa-east-1,,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-05-06 15:20:40.708540,2025-05-06 15:22:21.332217,['m6a.24xlarge'],,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-05-06 15:22:21.349196,2025-05-06 15:24:40.567711,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,lowest-price,A,0.91,48,48,184385.47,3841.36,SUCCESS
+2025-05-06 15:22:21.359836,2025-05-06 15:24:40.793728,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,lowest-price,A,0.91,48,48,184839.89,3850.83,SUCCESS
+2025-05-06 15:22:21.381167,2025-05-06 15:26:36.556543,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,b,NAS Benchmark,lowest-price,A,0.95,48,48,177936.94,3707.02,SUCCESS
+2025-05-06 15:22:21.339305,2025-05-06 15:26:58.843086,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,a,NAS Benchmark,lowest-price,A,0.93,48,48,181586.40,3783.05,SUCCESS
+2025-05-06 15:22:21.369694,2025-05-06 15:27:04.627597,m6a.24xlarge,,"{'sa-east-1a': 1.6229, 'sa-east-1b': 0.9779, 'sa-east-1c': 1.8627}",spot,sa-east-1,b,NAS Benchmark,lowest-price,A,0.94,48,48,178890.85,3726.89,SUCCESS

@@ -1,0 +1,12 @@
+InstanceType,SubnetId,Status,InstanceIds,ErrorCode,ErrorMessage
+m5ad.24xlarge,subnet-009fcfba8494f260f,error,,InvalidFleetConfiguration,Your requested instance type (m5ad.24xlarge) is not supported in your requested Availability Zone (sa-east-1b).
+c6id.24xlarge,subnet-009fcfba8494f260f,error,,InvalidFleetConfiguration,Your requested instance type (c6id.24xlarge) is not supported in your requested Availability Zone (sa-east-1b).
+r5a.24xlarge,subnet-009fcfba8494f260f,error,,InvalidFleetConfiguration,Your requested instance type (r5a.24xlarge) is not supported in your requested Availability Zone (sa-east-1b).
+c5ad.24xlarge,subnet-0d8144caee75d637a,error,,InvalidFleetConfiguration,Your requested instance type (c5ad.24xlarge) is not supported in your requested Availability Zone (sa-east-1c).
+r5ad.24xlarge,subnet-009fcfba8494f260f,error,,InvalidFleetConfiguration,Your requested instance type (r5ad.24xlarge) is not supported in your requested Availability Zone (sa-east-1b).
+c5ad.24xlarge,subnet-009fcfba8494f260f,error,,InsufficientInstanceCapacity,We currently do not have sufficient c5ad.24xlarge capacity in the Availability Zone you requested (sa-east-1b). Our system will be working on provisioning additional capacity. You can currently get c5ad.24xlarge capacity by not specifying an Availability Zone in your request or choosing sa-east-1a.
+m6a.24xlarge,subnet-009fcfba8494f260f,error,,InsufficientInstanceCapacity,"We currently do not have sufficient m6a.24xlarge capacity in the Availability Zone you requested (sa-east-1b). Our system will be working on provisioning additional capacity. You can currently get m6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing sa-east-1a, sa-east-1c."
+r5n.24xlarge,subnet-009fcfba8494f260f,error,,InsufficientInstanceCapacity,"We currently do not have sufficient r5n.24xlarge capacity in the Availability Zone you requested (sa-east-1b). Our system will be working on provisioning additional capacity. You can currently get r5n.24xlarge capacity by not specifying an Availability Zone in your request or choosing sa-east-1a, sa-east-1c."
+c6a.24xlarge,subnet-06ab42c6dc587e683,error,,InsufficientInstanceCapacity,There is no Spot capacity available that matches your request.
+m6a.24xlarge,subnet-009fcfba8494f260f,success,,,
+m5a.24xlarge,subnet-06ab42c6dc587e683,success,,,

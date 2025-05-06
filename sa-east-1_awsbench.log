@@ -3155,7 +3155,7 @@
 2025-04-28 10:42:30 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
 2025-04-28 10:42:42 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
 2025-04-28 10:42:59 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
-2025-04-28 10:47:22 - ERROR - Error running command in instance i-0b93cff14cbf7eaf1: SSH timeout: 10.128.66.69:22 not reachable after 300 seconds.
+ 2025-04-28 10:47:22 - ERROR - Error running command in instance i-0b93cff14cbf7eaf1: SSH timeout: 10.128.66.69:22 not reachable after 300 seconds.
 2025-04-28 10:47:22 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
 2025-04-28 10:47:28 - INFO - All instances have been terminated.
 2025-04-28 10:50:23 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.C.x Allocation Strategy=lowest-price
@@ -3220,3 +3220,1249 @@
 2025-04-28 10:54:08 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
 2025-04-28 10:58:11 - ERROR - Error running command in instance i-0046792f675931c7a: SSH timeout: No Private IP:22 not reachable after 300 seconds.
 2025-04-28 10:58:11 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:21:53 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.C.x Allocation Strategy=lowest-price
+2025-04-29 10:21:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:21:57 - INFO - Fleet created with instances: ['i-0e134f5b7b99742b2', 'i-091e3eda11be83e3b', 'i-033bfa97c4fa1ffab', 'i-068af923f04276a71', 'i-03fccd9779106984f', 'i-081b4ef4021e5d921', 'i-05b3fbbfb559f6deb', 'i-0d50b4ac8b35f5890', 'i-0c0d508e15db6e8df', 'i-0c6e7330302b6bc6e']
+2025-04-29 10:23:15 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-068af923f04276a71'), ec2.Instance(id='i-081b4ef4021e5d921'), ec2.Instance(id='i-0e134f5b7b99742b2'), ec2.Instance(id='i-091e3eda11be83e3b'), ec2.Instance(id='i-033bfa97c4fa1ffab'), ec2.Instance(id='i-03fccd9779106984f'), ec2.Instance(id='i-05b3fbbfb559f6deb'), ec2.Instance(id='i-0d50b4ac8b35f5890'), ec2.Instance(id='i-0c0d508e15db6e8df'), ec2.Instance(id='i-0c6e7330302b6bc6e')]
+2025-04-29 10:23:25 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:23:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:23:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:23:35 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:23:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:23:35 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:23:39 - INFO - Authentication (publickey) successful!
+2025-04-29 10:23:39 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-068af923f04276a71 Region: sa-east-1 Market: spot
+2025-04-29 10:23:45 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:23:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:23:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:23:48 - INFO - Authentication (publickey) successful!
+2025-04-29 10:23:48 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-081b4ef4021e5d921 Region: sa-east-1 Market: spot
+2025-04-29 10:23:55 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:23:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:23:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:23:59 - INFO - Authentication (publickey) successful!
+2025-04-29 10:23:59 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0e134f5b7b99742b2 Region: sa-east-1 Market: spot
+2025-04-29 10:24:02 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:05 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:10 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:15 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:18 - INFO - Authentication (publickey) successful!
+2025-04-29 10:24:18 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-033bfa97c4fa1ffab Region: sa-east-1 Market: spot
+2025-04-29 10:24:20 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:25 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:26 - ERROR - Error running command in instance i-091e3eda11be83e3b: Authentication timeout.
+2025-04-29 10:24:26 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:29 - INFO - Authentication (publickey) successful!
+2025-04-29 10:24:29 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-03fccd9779106984f Region: sa-east-1 Market: spot
+2025-04-29 10:24:35 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:36 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:39 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:39 - INFO - Authentication (publickey) successful!
+2025-04-29 10:24:39 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-05b3fbbfb559f6deb Region: sa-east-1 Market: spot
+2025-04-29 10:24:45 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:49 - INFO - Authentication (publickey) successful!
+2025-04-29 10:24:49 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0d50b4ac8b35f5890 Region: sa-east-1 Market: spot
+2025-04-29 10:24:50 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:24:55 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:24:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:24:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:24:58 - INFO - Authentication (publickey) successful!
+2025-04-29 10:24:58 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0c0d508e15db6e8df Region: sa-east-1 Market: spot
+2025-04-29 10:25:01 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:25:04 - INFO - Authentication (publickey) failed.
+2025-04-29 10:25:09 - INFO - Authentication (publickey) successful!
+2025-04-29 10:25:09 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0c6e7330302b6bc6e Region: sa-east-1 Market: spot
+2025-04-29 10:25:11 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:25:20 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:25:30 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-04-29 10:30:53 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.C.x Allocation Strategy=lowest-price
+2025-04-29 10:30:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:30:56 - INFO - Fleet created with instances: ['i-0b92ea4dcb85a8332']
+2025-04-29 10:31:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:31:16 - INFO - Fleet created with instances: ['i-079956ac46f424029']
+2025-04-29 10:31:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:31:38 - INFO - Fleet created with instances: ['i-04bc3740979d0bc5c']
+2025-04-29 10:31:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:31:59 - INFO - Fleet created with instances: ['i-0717384d66134fe7d']
+2025-04-29 10:32:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:32:20 - INFO - Fleet created with instances: ['i-081ea8e09767e99ea']
+2025-04-29 10:32:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:32:40 - INFO - Fleet created with instances: ['i-012865b64f96836a1']
+2025-04-29 10:32:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:32:59 - INFO - Fleet created with instances: ['i-052d10107c4925dbf']
+2025-04-29 10:33:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:33:18 - INFO - Fleet created with instances: ['i-043798978350755bd']
+2025-04-29 10:33:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:33:37 - INFO - Fleet created with instances: ['i-0050075d41c8104ba']
+2025-04-29 10:33:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:33:56 - INFO - Fleet created with instances: ['i-0ab132f33acb5e9ca']
+2025-04-29 10:34:12 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0b92ea4dcb85a8332'), ec2.Instance(id='i-079956ac46f424029'), ec2.Instance(id='i-04bc3740979d0bc5c'), ec2.Instance(id='i-0717384d66134fe7d'), ec2.Instance(id='i-081ea8e09767e99ea'), ec2.Instance(id='i-012865b64f96836a1'), ec2.Instance(id='i-052d10107c4925dbf'), ec2.Instance(id='i-043798978350755bd'), ec2.Instance(id='i-0050075d41c8104ba'), ec2.Instance(id='i-0ab132f33acb5e9ca')]
+2025-04-29 10:34:22 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:34:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:34:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:34:32 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:34:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:34:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:34:38 - INFO - Authentication (publickey) successful!
+2025-04-29 10:34:38 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0b92ea4dcb85a8332 Region: sa-east-1 Market: spot
+2025-04-29 10:34:42 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:34:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:34:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:34:47 - INFO - Authentication (publickey) successful!
+2025-04-29 10:34:47 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-079956ac46f424029 Region: sa-east-1 Market: spot
+2025-04-29 10:34:52 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:34:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:34:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:34:56 - INFO - Authentication (publickey) successful!
+2025-04-29 10:34:56 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-04bc3740979d0bc5c Region: sa-east-1 Market: spot
+2025-04-29 10:35:00 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:02 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:05 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:05 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0717384d66134fe7d Region: sa-east-1 Market: spot
+2025-04-29 10:35:09 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:12 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:17 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:17 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-081ea8e09767e99ea Region: sa-east-1 Market: spot
+2025-04-29 10:35:22 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:25 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:25 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-012865b64f96836a1 Region: sa-east-1 Market: spot
+2025-04-29 10:35:32 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:34 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:35 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:35 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-052d10107c4925dbf Region: sa-east-1 Market: spot
+2025-04-29 10:35:37 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:42 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:46 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:46 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-043798978350755bd Region: sa-east-1 Market: spot
+2025-04-29 10:35:46 - INFO - Instance i-0b92ea4dcb85a8332 has been terminated.
+2025-04-29 10:35:48 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:51 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:35:52 - INFO - Binding threads in cores, instance has 48 cores
+2025-04-29 10:35:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 10:35:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 10:35:56 - INFO - Authentication (publickey) successful!
+2025-04-29 10:35:56 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0050075d41c8104ba Region: sa-east-1 Market: spot
+2025-04-29 10:35:57 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:36:06 - INFO - Authentication (publickey) successful!
+2025-04-29 10:36:06 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0ab132f33acb5e9ca Region: sa-east-1 Market: spot
+2025-04-29 10:36:08 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:36:18 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:36:19 - INFO - Instance i-012865b64f96836a1 has been terminated.
+2025-04-29 10:36:25 - INFO - Instance i-079956ac46f424029 has been terminated.
+2025-04-29 10:36:28 - INFO - Updating file: results/results_seq_sa-east-1_lowest-price.csv
+2025-04-29 10:37:30 - INFO - Instance i-0ab132f33acb5e9ca has been terminated.
+2025-04-29 10:37:35 - INFO - Instance i-0050075d41c8104ba has been terminated.
+2025-04-29 10:40:07 - INFO - Instance i-04bc3740979d0bc5c has been terminated.
+2025-04-29 10:40:31 - INFO - Instance i-052d10107c4925dbf has been terminated.
+2025-04-29 10:40:41 - INFO - Instance i-0717384d66134fe7d has been terminated.
+2025-04-29 10:40:55 - INFO - Instance i-081ea8e09767e99ea has been terminated.
+2025-04-29 10:41:11 - INFO - Instance i-043798978350755bd has been terminated.
+2025-04-29 11:03:54 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.C.x Allocation Strategy=capacity-optimized
+2025-04-29 11:03:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:03:56 - INFO - Fleet created with instances: ['i-0b649d9e77624581c']
+2025-04-29 11:04:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:04:15 - INFO - Fleet created with instances: ['i-096346826bd63e0b6']
+2025-04-29 11:04:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:04:34 - INFO - Fleet created with instances: ['i-0293ee0ba14da4c14']
+2025-04-29 11:04:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:04:52 - INFO - Fleet created with instances: ['i-0f74a4cc8ae9894ab']
+2025-04-29 11:05:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:05:11 - INFO - Fleet created with instances: ['i-0a80ac6076332ea68']
+2025-04-29 11:05:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:05:30 - INFO - Fleet created with instances: ['i-03e8a72b1bb3c662f']
+2025-04-29 11:05:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:05:48 - INFO - Fleet created with instances: ['i-0808351fe6aadac7d']
+2025-04-29 11:06:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:06:06 - INFO - Fleet created with instances: ['i-0d74e4d87a04551e6']
+2025-04-29 11:06:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:06:25 - INFO - Fleet created with instances: ['i-04285de3dae13a862']
+2025-04-29 11:06:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:06:44 - INFO - Fleet created with instances: ['i-02e82d3b09edd6e8e']
+2025-04-29 11:07:00 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0b649d9e77624581c'), ec2.Instance(id='i-096346826bd63e0b6'), ec2.Instance(id='i-0293ee0ba14da4c14'), ec2.Instance(id='i-0f74a4cc8ae9894ab'), ec2.Instance(id='i-0a80ac6076332ea68'), ec2.Instance(id='i-03e8a72b1bb3c662f'), ec2.Instance(id='i-0808351fe6aadac7d'), ec2.Instance(id='i-0d74e4d87a04551e6'), ec2.Instance(id='i-04285de3dae13a862'), ec2.Instance(id='i-02e82d3b09edd6e8e')]
+2025-04-29 11:07:10 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:07:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:07:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:07:20 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:07:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:07:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:07:24 - INFO - Authentication (publickey) successful!
+2025-04-29 11:07:24 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0b649d9e77624581c Region: sa-east-1 Market: spot
+2025-04-29 11:07:30 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:07:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:07:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:07:34 - INFO - Authentication (publickey) successful!
+2025-04-29 11:07:34 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-096346826bd63e0b6 Region: sa-east-1 Market: spot
+2025-04-29 11:07:38 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:07:40 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:07:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:07:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:07:44 - INFO - Authentication (publickey) successful!
+2025-04-29 11:07:44 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0293ee0ba14da4c14 Region: sa-east-1 Market: spot
+2025-04-29 11:07:48 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:07:50 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:07:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:07:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:07:54 - INFO - Authentication (publickey) successful!
+2025-04-29 11:07:54 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0f74a4cc8ae9894ab Region: sa-east-1 Market: spot
+2025-04-29 11:07:58 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:00 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:08:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:08:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:08:04 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:04 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0a80ac6076332ea68 Region: sa-east-1 Market: spot
+2025-04-29 11:08:10 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:08:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:08:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:08:11 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:14 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:14 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-03e8a72b1bb3c662f Region: sa-east-1 Market: spot
+2025-04-29 11:08:18 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:20 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:08:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:08:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:08:24 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:24 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0808351fe6aadac7d Region: sa-east-1 Market: spot
+2025-04-29 11:08:28 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:30 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:08:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:08:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:08:34 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:34 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0d74e4d87a04551e6 Region: sa-east-1 Market: spot
+2025-04-29 11:08:38 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:40 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:08:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:08:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:08:45 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:45 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-04285de3dae13a862 Region: sa-east-1 Market: spot
+2025-04-29 11:08:48 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:54 - INFO - Authentication (publickey) successful!
+2025-04-29 11:08:54 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-02e82d3b09edd6e8e Region: sa-east-1 Market: spot
+2025-04-29 11:08:59 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:08:59 - INFO - Instance i-03e8a72b1bb3c662f has been terminated.
+2025-04-29 11:09:07 - INFO - Updating file: results/results_seq_sa-east-1_capacity-optimized.csv
+2025-04-29 11:09:19 - INFO - Instance i-0d74e4d87a04551e6 has been terminated.
+2025-04-29 11:10:09 - INFO - Instance i-02e82d3b09edd6e8e has been terminated.
+2025-04-29 11:12:11 - INFO - Instance i-0b649d9e77624581c has been terminated.
+2025-04-29 11:12:21 - INFO - Instance i-096346826bd63e0b6 has been terminated.
+2025-04-29 11:12:31 - INFO - Instance i-0293ee0ba14da4c14 has been terminated.
+2025-04-29 11:13:00 - INFO - Instance i-0f74a4cc8ae9894ab has been terminated.
+2025-04-29 11:13:36 - INFO - Instance i-0a80ac6076332ea68 has been terminated.
+2025-04-29 11:13:57 - INFO - Instance i-0808351fe6aadac7d has been terminated.
+2025-04-29 11:14:02 - INFO - Instance i-04285de3dae13a862 has been terminated.
+2025-04-29 11:26:49 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.C.x Allocation Strategy=capacity-optimized
+2025-04-29 11:26:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:26:53 - INFO - Fleet created with instances: ['i-0908052722a685ea5', 'i-0502d812f02b4541d', 'i-0d2cef9505726ab70', 'i-0a4fda352eaf02d1f', 'i-030e5e9cec4bd1b78', 'i-0177cba88c8f130fe', 'i-08eb2c1798cc8b94a', 'i-0f3dfe2dbc7113beb', 'i-0c01996818a151ec6', 'i-095870e4f86e7c61a']
+2025-04-29 11:28:11 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0502d812f02b4541d'), ec2.Instance(id='i-0d2cef9505726ab70'), ec2.Instance(id='i-0a4fda352eaf02d1f'), ec2.Instance(id='i-030e5e9cec4bd1b78'), ec2.Instance(id='i-0908052722a685ea5'), ec2.Instance(id='i-095870e4f86e7c61a'), ec2.Instance(id='i-0c01996818a151ec6'), ec2.Instance(id='i-0f3dfe2dbc7113beb'), ec2.Instance(id='i-08eb2c1798cc8b94a'), ec2.Instance(id='i-0177cba88c8f130fe')]
+2025-04-29 11:28:21 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:28:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:28:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:28:31 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:28:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:28:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:28:39 - INFO - Authentication (publickey) successful!
+2025-04-29 11:28:39 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0502d812f02b4541d Region: sa-east-1 Market: spot
+2025-04-29 11:28:41 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:28:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:28:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:28:48 - INFO - Authentication (publickey) successful!
+2025-04-29 11:28:48 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0d2cef9505726ab70 Region: sa-east-1 Market: spot
+2025-04-29 11:28:51 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:28:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:28:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:28:55 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:28:58 - INFO - Authentication (publickey) successful!
+2025-04-29 11:28:58 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0a4fda352eaf02d1f Region: sa-east-1 Market: spot
+2025-04-29 11:29:01 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:02 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:03 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:11 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:11 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-030e5e9cec4bd1b78 Region: sa-east-1 Market: spot
+2025-04-29 11:29:11 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:13 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:19 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:19 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0908052722a685ea5 Region: sa-east-1 Market: spot
+2025-04-29 11:29:21 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:26 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:29 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:29 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-095870e4f86e7c61a Region: sa-east-1 Market: spot
+2025-04-29 11:29:31 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:34 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:39 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:39 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0c01996818a151ec6 Region: sa-east-1 Market: spot
+2025-04-29 11:29:41 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:44 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:49 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:49 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0f3dfe2dbc7113beb Region: sa-east-1 Market: spot
+2025-04-29 11:29:51 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 11:29:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 11:29:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 11:29:54 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:29:58 - INFO - Instance i-030e5e9cec4bd1b78 has been terminated.
+2025-04-29 11:29:58 - INFO - Authentication (publickey) successful!
+2025-04-29 11:29:58 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-08eb2c1798cc8b94a Region: sa-east-1 Market: spot
+2025-04-29 11:30:04 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:30:11 - INFO - Authentication (publickey) successful!
+2025-04-29 11:30:11 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.C.x in instance i-0177cba88c8f130fe Region: sa-east-1 Market: spot
+2025-04-29 11:30:13 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:30:20 - INFO - Instance i-0908052722a685ea5 has been terminated.
+2025-04-29 11:30:26 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 11:31:01 - INFO - Instance i-095870e4f86e7c61a has been terminated.
+2025-04-29 11:31:13 - INFO - Instance i-0177cba88c8f130fe has been terminated.
+2025-04-29 11:33:44 - INFO - Instance i-0502d812f02b4541d has been terminated.
+2025-04-29 11:33:51 - INFO - Instance i-0d2cef9505726ab70 has been terminated.
+2025-04-29 11:34:17 - INFO - Instance i-0a4fda352eaf02d1f has been terminated.
+2025-04-29 11:34:47 - INFO - Instance i-08eb2c1798cc8b94a has been terminated.
+2025-04-29 11:35:12 - INFO - Instance i-0c01996818a151ec6 has been terminated.
+2025-04-29 11:35:23 - INFO - Instance i-0f3dfe2dbc7113beb has been terminated.
+2025-04-29 22:18:30 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-04-29 22:18:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:18:34 - INFO - Fleet created with instances: ['i-0fd4dbe65aaed6870', 'i-01ff2c0fe3001d7ab', 'i-0e055dfdd27e81128', 'i-0dd9bf4eb94feaf55', 'i-010f0c6de0dbd1d23', 'i-08a60aca621d4d4ec', 'i-0ec63f6e2178c656c', 'i-0e670c0177b48d3ec', 'i-0d90d4636839b41a6', 'i-07cc9e34f3977961c']
+2025-04-29 22:19:53 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-08a60aca621d4d4ec'), ec2.Instance(id='i-0ec63f6e2178c656c'), ec2.Instance(id='i-0d90d4636839b41a6'), ec2.Instance(id='i-07cc9e34f3977961c'), ec2.Instance(id='i-0e670c0177b48d3ec'), ec2.Instance(id='i-0dd9bf4eb94feaf55'), ec2.Instance(id='i-010f0c6de0dbd1d23'), ec2.Instance(id='i-0fd4dbe65aaed6870'), ec2.Instance(id='i-0e055dfdd27e81128'), ec2.Instance(id='i-01ff2c0fe3001d7ab')]
+2025-04-29 22:20:03 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:04 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:13 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:13 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:19 - INFO - Authentication (publickey) successful!
+2025-04-29 22:20:19 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-08a60aca621d4d4ec Region: sa-east-1 Market: spot
+2025-04-29 22:20:23 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:27 - INFO - Authentication (publickey) successful!
+2025-04-29 22:20:27 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0ec63f6e2178c656c Region: sa-east-1 Market: spot
+2025-04-29 22:20:33 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:38 - INFO - Authentication (publickey) successful!
+2025-04-29 22:20:38 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0d90d4636839b41a6 Region: sa-east-1 Market: spot
+2025-04-29 22:20:43 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:47 - INFO - Authentication (publickey) successful!
+2025-04-29 22:20:47 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-07cc9e34f3977961c Region: sa-east-1 Market: spot
+2025-04-29 22:20:53 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:20:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:20:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:20:57 - INFO - Authentication (publickey) successful!
+2025-04-29 22:20:57 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0e670c0177b48d3ec Region: sa-east-1 Market: spot
+2025-04-29 22:21:03 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:21:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:21:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:21:07 - INFO - Authentication (publickey) successful!
+2025-04-29 22:21:07 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0dd9bf4eb94feaf55 Region: sa-east-1 Market: spot
+2025-04-29 22:21:13 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:21:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:21:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:21:17 - INFO - Authentication (publickey) successful!
+2025-04-29 22:21:17 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-010f0c6de0dbd1d23 Region: sa-east-1 Market: spot
+2025-04-29 22:21:23 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:21:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:21:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:21:27 - INFO - Authentication (publickey) successful!
+2025-04-29 22:21:27 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0fd4dbe65aaed6870 Region: sa-east-1 Market: spot
+2025-04-29 22:21:33 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-29 22:21:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-29 22:21:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-29 22:21:37 - INFO - Authentication (publickey) successful!
+2025-04-29 22:21:37 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0e055dfdd27e81128 Region: sa-east-1 Market: spot
+2025-04-29 22:21:47 - INFO - Authentication (publickey) successful!
+2025-04-29 22:21:47 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-01ff2c0fe3001d7ab Region: sa-east-1 Market: spot
+2025-04-29 22:23:47 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:23:55 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:03 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:15 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:24 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:32 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:34 - INFO - Instance i-08a60aca621d4d4ec has been terminated.
+2025-04-29 22:24:41 - INFO - Instance i-0ec63f6e2178c656c has been terminated.
+2025-04-29 22:24:42 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:54 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:24:55 - INFO - Instance i-0e670c0177b48d3ec has been terminated.
+2025-04-29 22:25:06 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:25:11 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-29 22:25:32 - INFO - Instance i-07cc9e34f3977961c has been terminated.
+2025-04-29 22:26:28 - INFO - Instance i-01ff2c0fe3001d7ab has been terminated.
+2025-04-29 22:29:05 - INFO - Instance i-0dd9bf4eb94feaf55 has been terminated.
+2025-04-29 22:29:07 - INFO - Instance i-0d90d4636839b41a6 has been terminated.
+2025-04-29 22:29:15 - INFO - Instance i-010f0c6de0dbd1d23 has been terminated.
+2025-04-29 22:29:54 - INFO - Instance i-0e055dfdd27e81128 has been terminated.
+2025-04-29 22:29:57 - INFO - Instance i-0fd4dbe65aaed6870 has been terminated.
+2025-04-30 10:33:25 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-04-30 10:33:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:33:29 - INFO - Fleet created with instances: ['i-052291d49d47fd0c8', 'i-0b9192e73b3a13d97', 'i-05731cbf3f788e059', 'i-0438dbf8c5c0101a8', 'i-0191ee400f6b31dbf', 'i-048b815e2106af1be', 'i-09e6667695b381ac6', 'i-0d3b47b19ac6facfe', 'i-0230042501409bb52', 'i-0e554f51796aa49b5']
+2025-04-30 10:34:48 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-048b815e2106af1be'), ec2.Instance(id='i-09e6667695b381ac6'), ec2.Instance(id='i-0d3b47b19ac6facfe'), ec2.Instance(id='i-0230042501409bb52'), ec2.Instance(id='i-0e554f51796aa49b5'), ec2.Instance(id='i-0b9192e73b3a13d97'), ec2.Instance(id='i-0438dbf8c5c0101a8'), ec2.Instance(id='i-052291d49d47fd0c8'), ec2.Instance(id='i-05731cbf3f788e059'), ec2.Instance(id='i-0191ee400f6b31dbf')]
+2025-04-30 10:34:58 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:34:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:34:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:08 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:12 - INFO - Authentication (publickey) successful!
+2025-04-30 10:35:12 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-048b815e2106af1be Region: sa-east-1 Market: spot
+2025-04-30 10:35:18 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:22 - INFO - Authentication (publickey) successful!
+2025-04-30 10:35:22 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-09e6667695b381ac6 Region: sa-east-1 Market: spot
+2025-04-30 10:35:28 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:31 - INFO - Authentication (publickey) successful!
+2025-04-30 10:35:31 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0d3b47b19ac6facfe Region: sa-east-1 Market: spot
+2025-04-30 10:35:38 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:40 - INFO - Authentication (publickey) successful!
+2025-04-30 10:35:40 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0230042501409bb52 Region: sa-east-1 Market: spot
+2025-04-30 10:35:48 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:35:51 - INFO - Authentication (publickey) successful!
+2025-04-30 10:35:51 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0e554f51796aa49b5 Region: sa-east-1 Market: spot
+2025-04-30 10:35:58 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:35:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:35:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:36:01 - INFO - Authentication (publickey) successful!
+2025-04-30 10:36:01 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0b9192e73b3a13d97 Region: sa-east-1 Market: spot
+2025-04-30 10:36:08 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:36:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:36:09 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:36:11 - INFO - Authentication (publickey) successful!
+2025-04-30 10:36:11 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0438dbf8c5c0101a8 Region: sa-east-1 Market: spot
+2025-04-30 10:36:18 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:36:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:36:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:36:22 - INFO - Authentication (publickey) successful!
+2025-04-30 10:36:22 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-052291d49d47fd0c8 Region: sa-east-1 Market: spot
+2025-04-30 10:36:28 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:36:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:36:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:36:31 - INFO - Authentication (publickey) successful!
+2025-04-30 10:36:31 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-05731cbf3f788e059 Region: sa-east-1 Market: spot
+2025-04-30 10:36:41 - INFO - Authentication (publickey) successful!
+2025-04-30 10:36:41 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0191ee400f6b31dbf Region: sa-east-1 Market: spot
+2025-04-30 10:38:38 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:38:47 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:38:58 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:05 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:09 - INFO - Instance i-048b815e2106af1be has been terminated.
+2025-04-30 10:39:18 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:27 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:36 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:47 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:39:57 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:40:06 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:40:15 - INFO - Instance i-0d3b47b19ac6facfe has been terminated.
+2025-04-30 10:40:33 - INFO - Instance i-052291d49d47fd0c8 has been terminated.
+2025-04-30 10:40:37 - INFO - Instance i-0438dbf8c5c0101a8 has been terminated.
+2025-04-30 10:43:20 - INFO - Instance i-09e6667695b381ac6 has been terminated.
+2025-04-30 10:44:00 - INFO - Instance i-0b9192e73b3a13d97 has been terminated.
+2025-04-30 10:44:24 - INFO - Instance i-0230042501409bb52 has been terminated.
+2025-04-30 10:44:30 - INFO - Instance i-05731cbf3f788e059 has been terminated.
+2025-04-30 10:44:37 - INFO - Instance i-0e554f51796aa49b5 has been terminated.
+2025-04-30 10:45:25 - INFO - Instance i-0191ee400f6b31dbf has been terminated.
+2025-04-30 10:55:35 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-04-30 10:55:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:55:39 - INFO - Fleet created with instances: ['i-0f6773cc6d1fed600', 'i-0836dcbb3e51ffbf6', 'i-03dd65731fd5bde33', 'i-0ce571137f13c6e9d', 'i-08439575c028494c2', 'i-0dac6637bf17366d1', 'i-06bcd26775097714a', 'i-083083111d28b7c11', 'i-03e4e1710c643858a', 'i-0445a939a6ce39bed']
+2025-04-30 10:56:57 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-06bcd26775097714a'), ec2.Instance(id='i-083083111d28b7c11'), ec2.Instance(id='i-03e4e1710c643858a'), ec2.Instance(id='i-0445a939a6ce39bed'), ec2.Instance(id='i-0dac6637bf17366d1'), ec2.Instance(id='i-0836dcbb3e51ffbf6'), ec2.Instance(id='i-03dd65731fd5bde33'), ec2.Instance(id='i-0ce571137f13c6e9d'), ec2.Instance(id='i-0f6773cc6d1fed600'), ec2.Instance(id='i-08439575c028494c2')]
+2025-04-30 10:57:07 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:57:17 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:57:24 - INFO - Authentication (publickey) successful!
+2025-04-30 10:57:24 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-06bcd26775097714a Region: sa-east-1 Market: spot
+2025-04-30 10:57:27 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:57:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:30 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:57:34 - INFO - Authentication (publickey) successful!
+2025-04-30 10:57:34 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-083083111d28b7c11 Region: sa-east-1 Market: spot
+2025-04-30 10:57:37 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:57:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:40 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:57:45 - INFO - Authentication (publickey) successful!
+2025-04-30 10:57:45 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-03e4e1710c643858a Region: sa-east-1 Market: spot
+2025-04-30 10:57:47 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:57:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:51 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:57:55 - INFO - Authentication (publickey) successful!
+2025-04-30 10:57:55 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0445a939a6ce39bed Region: sa-east-1 Market: spot
+2025-04-30 10:57:57 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:57:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:57:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:58:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:01 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:04 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:04 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0dac6637bf17366d1 Region: sa-east-1 Market: spot
+2025-04-30 10:58:07 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:58:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:58:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:11 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:15 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:15 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0836dcbb3e51ffbf6 Region: sa-east-1 Market: spot
+2025-04-30 10:58:16 - INFO - Instance i-06bcd26775097714a has been terminated.
+2025-04-30 10:58:17 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:58:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:58:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:21 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:26 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:26 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-03dd65731fd5bde33 Region: sa-east-1 Market: spot
+2025-04-30 10:58:27 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:58:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:58:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:33 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:36 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:36 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0ce571137f13c6e9d Region: sa-east-1 Market: spot
+2025-04-30 10:58:37 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 10:58:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 10:58:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:42 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:45 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:45 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-0f6773cc6d1fed600 Region: sa-east-1 Market: spot
+2025-04-30 10:58:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:58:52 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:58:55 - INFO - Authentication (publickey) successful!
+2025-04-30 10:58:55 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/cachetc/fvbr/NPB3.4.3/NPB3.4-OMP/bin/bt.D.x in instance i-08439575c028494c2 Region: sa-east-1 Market: spot
+2025-04-30 10:58:57 - INFO - Instance i-083083111d28b7c11 has been terminated.
+2025-04-30 10:59:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 10:59:01 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 10:59:17 - INFO - Instance i-0445a939a6ce39bed has been terminated.
+2025-04-30 10:59:38 - INFO - Instance i-0836dcbb3e51ffbf6 has been terminated.
+2025-04-30 11:00:58 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-04-30 11:00:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:01:02 - INFO - Fleet created with instances: ['i-0c2ed51f690842839', 'i-031e91e1986c7d43e', 'i-0658baad059036176', 'i-0f03cc1fcdd8c7fdd', 'i-00526d7ecad184281', 'i-0f322738a9304b107', 'i-0288691b54af91ac4', 'i-0224963036b7e3ed2', 'i-013b2054ddd125b37', 'i-02707be9c5efefee8']
+2025-04-30 11:02:20 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-00526d7ecad184281'), ec2.Instance(id='i-031e91e1986c7d43e'), ec2.Instance(id='i-0c2ed51f690842839'), ec2.Instance(id='i-0f03cc1fcdd8c7fdd'), ec2.Instance(id='i-0658baad059036176'), ec2.Instance(id='i-0f322738a9304b107'), ec2.Instance(id='i-0288691b54af91ac4'), ec2.Instance(id='i-02707be9c5efefee8'), ec2.Instance(id='i-0224963036b7e3ed2'), ec2.Instance(id='i-013b2054ddd125b37')]
+2025-04-30 11:02:30 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:02:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:02:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:02:40 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:02:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:02:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:02:48 - INFO - Authentication (publickey) successful!
+2025-04-30 11:02:48 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-00526d7ecad184281 Region: sa-east-1 Market: spot
+2025-04-30 11:02:50 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:02:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:02:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:02:57 - INFO - Authentication (publickey) successful!
+2025-04-30 11:02:57 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-031e91e1986c7d43e Region: sa-east-1 Market: spot
+2025-04-30 11:03:00 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:06 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:06 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0c2ed51f690842839 Region: sa-east-1 Market: spot
+2025-04-30 11:03:10 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:14 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:14 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0f03cc1fcdd8c7fdd Region: sa-east-1 Market: spot
+2025-04-30 11:03:20 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:24 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:24 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0658baad059036176 Region: sa-east-1 Market: spot
+2025-04-30 11:03:30 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:34 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:34 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0f322738a9304b107 Region: sa-east-1 Market: spot
+2025-04-30 11:03:40 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:44 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:44 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0288691b54af91ac4 Region: sa-east-1 Market: spot
+2025-04-30 11:03:50 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:03:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:03:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:03:54 - INFO - Authentication (publickey) successful!
+2025-04-30 11:03:54 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-02707be9c5efefee8 Region: sa-east-1 Market: spot
+2025-04-30 11:04:00 - INFO - Binding threads in cores, instance has 96 cores
+2025-04-30 11:04:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-30 11:04:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-04-30 11:04:03 - INFO - Authentication (publickey) successful!
+2025-04-30 11:04:03 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-0224963036b7e3ed2 Region: sa-east-1 Market: spot
+2025-04-30 11:04:13 - INFO - Authentication (publickey) successful!
+2025-04-30 11:04:13 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=96;/u/fvbr/bt.D.x in instance i-013b2054ddd125b37 Region: sa-east-1 Market: spot
+2025-04-30 11:06:10 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:06:18 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:06:28 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:06:37 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:06:46 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:06:56 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:07:05 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:07:19 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:07:26 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:07:30 - INFO - Instance i-0c2ed51f690842839 has been terminated.
+2025-04-30 11:07:36 - INFO - Updating file: results/results_par_sa-east-1_capacity-optimized.csv
+2025-04-30 11:07:48 - INFO - Instance i-0658baad059036176 has been terminated.
+2025-04-30 11:08:07 - INFO - Instance i-0288691b54af91ac4 has been terminated.
+2025-04-30 11:11:07 - INFO - Instance i-031e91e1986c7d43e has been terminated.
+2025-04-30 11:11:10 - INFO - Instance i-0f03cc1fcdd8c7fdd has been terminated.
+2025-04-30 11:11:14 - INFO - Instance i-00526d7ecad184281 has been terminated.
+2025-04-30 11:11:44 - INFO - Instance i-0f322738a9304b107 has been terminated.
+2025-04-30 11:12:09 - INFO - Instance i-013b2054ddd125b37 has been terminated.
+2025-04-30 11:12:30 - INFO - Instance i-0224963036b7e3ed2 has been terminated.
+2025-04-30 11:12:37 - INFO - Instance i-02707be9c5efefee8 has been terminated.
+2025-05-04 13:21:08 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:21:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:21:38 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:21:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:21:38 - ERROR - Error getting spot price: Parameter validation failed:
+Invalid type for parameter InstanceTypes[0], value: ['c5.24xlarge', 'c5a.24xlarge', 'c5ad.24xlarge', 'c5d.24xlarge', 'c6a.24xlarge', 'c6id.24xlarge', 'c6in.24xlarge', 'm5.24xlarge', 'm5a.24xlarge', 'm5ad.24xlarge', 'm5d.24xlarge', 'm6a.24xlarge', 'm6i.24xlarge', 'm7i.24xlarge', 'r5.24xlarge', 'r5a.24xlarge', 'r5ad.24xlarge', 'r5b.24xlarge', 'r5d.24xlarge', 'r5n.24xlarge', 'r6i.24xlarge', 'r7i.24xlarge', 'c6i.32xlarge', 'c7i.48xlarge'], type: <class 'list'>, valid types: <class 'str'>
+2025-05-04 13:22:11 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:22:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:22:11 - INFO - m6a.24xlarge - 1.009700 - sa-east-1b
+2025-05-04 13:24:22 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:24:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:24:23 - INFO - r5n.24xlarge - 8.002900 - sa-east-1a
+2025-05-04 13:26:55 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:26:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:26:55 - ERROR - Error getting spot price: Parameter validation failed:
+Invalid type for parameter InstanceTypes, value: c5.24xlarge-48, type: <class 'str'>, valid types: <class 'list'>, <class 'tuple'>
+2025-05-04 13:28:32 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:28:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:31:37 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:31:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:34:16 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:34:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:34:17 - ERROR - Error getting spot price: Object of type datetime is not JSON serializable
+2025-05-04 13:34:44 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:34:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:34:45 - ERROR - Error getting spot price: Object of type datetime is not JSON serializable
+2025-05-04 13:34:57 - INFO - Start execution in sa-east-1 Nodes=10 Benchmark=bt.D.x Allocation Strategy=capacity-optimized
+2025-05-04 13:34:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:35:50 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 13:35:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:35:55 - INFO - Fleet created with instances: ['i-019215310721d5532']
+2025-05-04 13:37:11 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-019215310721d5532')]
+2025-05-04 13:37:21 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:37:21 - ERROR - Erro ao executar benchmark na instância i-019215310721d5532: module 'datetime' has no attribute 'now'
+2025-05-04 13:37:52 - INFO - Instance i-019215310721d5532 has been terminated.
+2025-05-04 13:37:52 - ERROR - Erro durante execução paralela: local variable 'start_time' referenced before assignment
+2025-05-04 13:37:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:39:41 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 13:39:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:39:44 - INFO - Fleet created with instances: ['i-006415867b08a872d']
+2025-05-04 13:40:45 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 13:40:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:40:48 - INFO - Fleet created with instances: ['i-02a977a8b41382de4']
+2025-05-04 13:42:04 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-02a977a8b41382de4')]
+2025-05-04 13:42:14 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:42:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:42:15 - ERROR - Error running command in instance i-02a977a8b41382de4: too many values to unpack (expected 2)
+2025-05-04 13:42:15 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:42:16 - INFO - Instance i-02a977a8b41382de4 has been terminated.
+2025-05-04 13:42:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:42:16 - ERROR - Error getting spot price: type object 'datetime.datetime' has no attribute 'datetime'
+2025-05-04 13:44:11 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 13:44:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:44:14 - INFO - Fleet created with instances: ['i-0f0ade6f4374c2063']
+2025-05-04 13:45:30 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0f0ade6f4374c2063')]
+2025-05-04 13:45:40 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:45:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:50:41 - ERROR - Error running command in instance i-0f0ade6f4374c2063: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-04 13:50:41 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:50:42 - INFO - Instance i-0f0ade6f4374c2063 has been terminated.
+2025-05-04 13:50:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:51:58 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 13:51:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:52:04 - INFO - Fleet created with instances: ['i-041b9c5f6f383bb73', 'i-002fdccc130903bca', 'i-0dddb3c54485c34ff', 'i-03d8cac555865215e', 'i-0617225b3cc27f0fe']
+2025-05-04 13:53:20 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0617225b3cc27f0fe'), ec2.Instance(id='i-03d8cac555865215e'), ec2.Instance(id='i-002fdccc130903bca'), ec2.Instance(id='i-041b9c5f6f383bb73'), ec2.Instance(id='i-0dddb3c54485c34ff')]
+2025-05-04 13:53:30 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:53:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:53:40 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:53:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:53:50 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:53:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:54:00 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:54:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:54:10 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 13:54:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 13:58:32 - ERROR - Error running command in instance i-0617225b3cc27f0fe: SSH timeout: 10.128.66.126:22 not reachable after 300 seconds.
+2025-05-04 13:58:32 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:58:33 - INFO - Instance i-0617225b3cc27f0fe has been terminated.
+2025-05-04 13:58:41 - ERROR - Error running command in instance i-03d8cac555865215e: SSH timeout: 10.128.66.120:22 not reachable after 300 seconds.
+2025-05-04 13:58:41 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:58:42 - INFO - Instance i-03d8cac555865215e has been terminated.
+2025-05-04 13:58:51 - ERROR - Error running command in instance i-002fdccc130903bca: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-04 13:58:51 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:58:52 - INFO - Instance i-002fdccc130903bca has been terminated.
+2025-05-04 13:59:01 - ERROR - Error running command in instance i-041b9c5f6f383bb73: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-04 13:59:01 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:59:02 - INFO - Instance i-041b9c5f6f383bb73 has been terminated.
+2025-05-04 13:59:11 - ERROR - Error running command in instance i-0dddb3c54485c34ff: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-04 13:59:11 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-04 13:59:12 - INFO - Instance i-0dddb3c54485c34ff has been terminated.
+2025-05-04 13:59:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:16:18 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 14:16:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:16:23 - INFO - Fleet created with instances: ['i-0012fdd3d8f801986', 'i-08b817b4373be043d', 'i-01696859ab747b338', 'i-0136f2b464015379f', 'i-0e47c0c9b22386d67']
+2025-05-04 14:17:40 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0e47c0c9b22386d67'), ec2.Instance(id='i-08b817b4373be043d'), ec2.Instance(id='i-0012fdd3d8f801986'), ec2.Instance(id='i-0136f2b464015379f'), ec2.Instance(id='i-01696859ab747b338')]
+2025-05-04 14:17:50 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 14:17:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:18:00 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 14:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:18:10 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 14:18:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:18:20 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 14:18:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:18:30 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-04 14:18:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:20:15 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 14:20:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:20:18 - INFO - Fleet created with instances: ['i-079cbcca7eefee344']
+2025-05-04 14:27:47 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 14:27:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:28:13 - WARNING - No instances were launched.
+2025-05-04 14:29:16 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 14:29:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 14:29:16 - WARNING - No instances were launched.
+2025-05-04 15:36:54 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 15:36:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 15:36:59 - INFO - Fleet created with instances: ['i-01602a48c51f0ccfd']
+2025-05-04 15:38:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 15:39:03 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-04 15:39:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 15:39:06 - INFO - Fleet created with instances: ['i-03b508a3c782215d3']
+2025-05-04 15:40:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-04 15:40:23 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-03b508a3c782215d3')]
+2025-05-05 10:19:58 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 10:19:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 10:20:02 - INFO - Fleet created with instances: ['i-0fd2361fc524a9fad']
+2025-05-05 10:21:18 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0fd2361fc524a9fad')]
+2025-05-05 10:21:28 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 10:21:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 13:58:07 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 13:58:08 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5ad.24xlarge.
+2025-05-05 13:58:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 13:58:10 - WARNING - No instances were launched.
+2025-05-05 13:58:10 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:10 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:10 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:10 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 13:58:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 13:58:14 - WARNING - No instances were launched.
+2025-05-05 13:58:14 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:14 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:14 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:14 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 13:58:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 13:58:17 - INFO - Fleet created with instances: ['i-09bb8291d4361c411']
+2025-05-05 13:58:34 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:34 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:58:34 - INFO - Total de instâncias acumuladas: 1/1
+2025-05-05 13:58:34 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 13:58:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 13:58:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 13:59:08 - INFO - Authentication (publickey) successful!
+2025-05-05 13:59:08 - INFO - Running command in i-09bb8291d4361c411 (us-east-1, spot): ./u/fvbr/bt.A.x
+2025-05-05 13:59:09 - ERROR - Command failed in i-09bb8291d4361c411. Exit status: 127, Error: 
+2025-05-05 13:59:09 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 13:59:16 - INFO - All instances have been terminated.
+2025-05-05 14:00:51 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:00:51 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5ad.24xlarge.
+2025-05-05 14:00:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:00:53 - WARNING - No instances were launched.
+2025-05-05 14:00:53 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:53 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:53 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:53 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:00:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:00:57 - WARNING - No instances were launched.
+2025-05-05 14:00:57 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:57 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:57 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:00:57 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:00:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:01:00 - INFO - Fleet created with instances: ['i-09d0b24d65a6869c1']
+2025-05-05 14:01:17 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:01:17 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:01:17 - INFO - Total de instâncias acumuladas: 1/1
+2025-05-05 14:01:17 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 14:01:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:01:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:01:30 - INFO - Authentication (publickey) failed.
+2025-05-05 14:01:30 - WARNING - Attempt 1/5 failed for i-09d0b24d65a6869c1: Authentication failed.
+2025-05-05 14:01:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:01:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:01:56 - INFO - Authentication (publickey) successful!
+2025-05-05 14:01:56 - INFO - Running command in i-09d0b24d65a6869c1 (us-east-1, spot): ./u/fvbr/bt.A.x
+2025-05-05 14:01:57 - ERROR - Command failed in i-09d0b24d65a6869c1. Exit status: 127, Error: 
+2025-05-05 14:01:57 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:02:04 - INFO - All instances have been terminated.
+2025-05-05 14:13:13 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:13:13 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5ad.24xlarge.
+2025-05-05 14:13:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:13:15 - WARNING - No instances were launched.
+2025-05-05 14:13:15 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:15 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:15 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:16 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:13:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:13:19 - WARNING - No instances were launched.
+2025-05-05 14:13:19 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:19 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:19 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:19 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:13:19 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:13:23 - INFO - Fleet created with instances: ['i-0b82c1e5027eff817']
+2025-05-05 14:13:39 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:39 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:13:39 - INFO - Total de instâncias acumuladas: 1/1
+2025-05-05 14:13:39 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 14:13:39 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:13:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:13:54 - INFO - Authentication (publickey) failed.
+2025-05-05 14:13:54 - WARNING - Attempt 1/5 failed for i-0b82c1e5027eff817: Authentication failed.
+2025-05-05 14:14:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:14:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:14:21 - INFO - Authentication (publickey) successful!
+2025-05-05 14:14:21 - INFO - Running command in i-0b82c1e5027eff817 (us-east-1, spot): ./u/fvbr/bt.A.x
+2025-05-05 14:14:22 - ERROR - Command failed in i-0b82c1e5027eff817. Exit status: 127, Error: 
+2025-05-05 14:14:22 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:14:29 - INFO - All instances have been terminated.
+2025-05-05 14:22:43 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:23:57 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5ad.24xlarge.
+2025-05-05 14:23:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:23:59 - WARNING - No instances were launched.
+2025-05-05 14:23:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:23:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:23:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:04 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:24:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:24:07 - WARNING - No instances were launched.
+2025-05-05 14:24:07 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:07 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:07 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:08 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:24:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:24:11 - INFO - Fleet created with instances: ['i-07fca845120c9df19']
+2025-05-05 14:24:28 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:28 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:24:28 - INFO - Total de instâncias acumuladas: 1/1
+2025-05-05 14:24:28 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 14:24:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:24:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:24:41 - INFO - Authentication (publickey) failed.
+2025-05-05 14:24:41 - WARNING - Attempt 1/5 failed for i-07fca845120c9df19: Authentication failed.
+2025-05-05 14:24:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:24:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:25:09 - INFO - Authentication (publickey) successful!
+2025-05-05 14:25:09 - INFO - Running command in i-07fca845120c9df19 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-05 14:25:13 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:25:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:25:14 - INFO - Spot price data saved to ./results/spot_prices_sa-east-1.csv
+2025-05-05 14:25:21 - INFO - All instances have been terminated.
+2025-05-05 14:40:18 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:40:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:40:23 - INFO - Fleet created with instances: ['i-0e0cab09def40591f']
+2025-05-05 14:41:39 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-0e0cab09def40591f')]
+2025-05-05 14:41:49 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 14:41:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:57:40 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:57:41 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5ad.24xlarge.
+2025-05-05 14:57:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:57:43 - WARNING - No instances were launched.
+2025-05-05 14:57:43 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:43 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:43 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:43 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:57:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:57:47 - WARNING - No instances were launched.
+2025-05-05 14:57:47 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:47 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:47 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:57:47 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo m6a.24xlarge.
+2025-05-05 14:57:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:57:50 - INFO - Fleet created with instances: ['i-0a1c8c5ed039342d7']
+2025-05-05 14:58:07 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:58:07 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:58:07 - INFO - Total de instâncias acumuladas: 1/1
+2025-05-05 14:58:07 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 14:58:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:58:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:58:20 - INFO - Authentication (publickey) failed.
+2025-05-05 14:58:20 - WARNING - Attempt 1/5 failed for i-0a1c8c5ed039342d7: Authentication failed.
+2025-05-05 14:58:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:58:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 14:58:45 - INFO - Authentication (publickey) successful!
+2025-05-05 14:58:45 - INFO - Running command in i-0a1c8c5ed039342d7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-05 14:58:49 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 14:58:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:58:50 - INFO - Spot price data saved to ./results/spot_prices_sa-east-1.csv
+2025-05-05 14:58:57 - INFO - All instances have been terminated.
+2025-05-05 14:59:13 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 14:59:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 14:59:16 - INFO - Fleet created with instances: ['i-04182d029b6921be5']
+2025-05-05 15:00:32 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-04182d029b6921be5')]
+2025-05-05 15:00:42 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:00:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:05:43 - ERROR - Error running command in instance i-04182d029b6921be5: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:05:43 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:05:44 - INFO - Instance i-04182d029b6921be5 has been terminated.
+2025-05-05 15:15:10 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 15:15:20 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5ad.24xlarge.
+2025-05-05 15:15:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:23 - WARNING - No instances were launched.
+2025-05-05 15:15:23 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:24 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:24 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:24 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge.
+2025-05-05 15:15:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:28 - WARNING - No instances were launched.
+2025-05-05 15:15:28 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:28 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:28 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:28 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge.
+2025-05-05 15:15:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:33 - INFO - Fleet created with instances: ['i-0d1b2cab396b29618', 'i-0ac5c93ba636497e3', 'i-0de22c854536a0920', 'i-03f6aa30825710228', 'i-01afe0231909fde1c']
+2025-05-05 15:15:52 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:52 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:52 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:15:52 - INFO - Total de instâncias acumuladas: 5/5
+2025-05-05 15:15:52 - INFO - 5 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-05 15:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:15:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 15:16:05 - INFO - Authentication (publickey) failed.
+2025-05-05 15:16:05 - WARNING - Attempt 1/5 failed for i-0ac5c93ba636497e3: Authentication failed.
+2025-05-05 15:16:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 15:16:13 - INFO - Authentication (publickey) failed.
+2025-05-05 15:16:13 - WARNING - Attempt 1/5 failed for i-0d1b2cab396b29618: Authentication failed.
+2025-05-05 15:16:13 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 15:16:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:16:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:16:28 - INFO - Authentication (publickey) successful!
+2025-05-05 15:16:28 - INFO - Running command in i-03f6aa30825710228 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-05 15:16:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-05 15:16:30 - ERROR - Command failed in i-03f6aa30825710228. Exit status: -1, Error: 
+2025-05-05 15:16:30 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:16:44 - INFO - Authentication (publickey) successful!
+2025-05-05 15:16:44 - INFO - Running command in i-01afe0231909fde1c (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-05 15:16:48 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:17:14 - WARNING - Attempt 1/5 failed for i-0de22c854536a0920: timed out
+2025-05-05 15:17:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:17:44 - WARNING - Attempt 2/5 failed for i-0ac5c93ba636497e3: timed out
+2025-05-05 15:18:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:18:14 - WARNING - Attempt 2/5 failed for i-0d1b2cab396b29618: timed out
+2025-05-05 15:18:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:22:26 - WARNING - Attempt 2/5 failed for i-0de22c854536a0920: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:22:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:23:06 - WARNING - Attempt 3/5 failed for i-0ac5c93ba636497e3: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:23:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:23:36 - WARNING - Attempt 3/5 failed for i-0d1b2cab396b29618: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:24:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:27:48 - WARNING - Attempt 3/5 failed for i-0de22c854536a0920: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:28:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:28:40 - WARNING - Attempt 4/5 failed for i-0ac5c93ba636497e3: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:29:08 - WARNING - Attempt 4/5 failed for i-0d1b2cab396b29618: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:29:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:29:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:31:41 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-05 15:31:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:31:46 - INFO - Fleet created with instances: ['i-04574fd2a8f0706df', 'i-05c58b99906700e7f', 'i-076f086c695d8aebd', 'i-04fc3c2911b94143b', 'i-05793855fa64dba29']
+2025-05-05 15:33:03 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-05793855fa64dba29'), ec2.Instance(id='i-076f086c695d8aebd'), ec2.Instance(id='i-04fc3c2911b94143b'), ec2.Instance(id='i-05c58b99906700e7f'), ec2.Instance(id='i-04574fd2a8f0706df')]
+2025-05-05 15:33:13 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:33:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:33:20 - WARNING - Attempt 4/5 failed for i-0de22c854536a0920: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:33:23 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:33:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:33:33 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:33:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:33:43 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:33:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:33:53 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-05 15:33:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:34:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-05 15:34:22 - WARNING - Attempt 5/5 failed for i-0ac5c93ba636497e3: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:34:22 - ERROR - All attempts failed for i-0ac5c93ba636497e3. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:34:22 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:34:49 - WARNING - Attempt 5/5 failed for i-0d1b2cab396b29618: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:34:49 - ERROR - All attempts failed for i-0d1b2cab396b29618. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:34:49 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:14 - ERROR - Error running command in instance i-05793855fa64dba29: SSH timeout: 10.128.66.90:22 not reachable after 300 seconds.
+2025-05-05 15:38:14 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:15 - INFO - Instance i-05793855fa64dba29 has been terminated.
+2025-05-05 15:38:24 - ERROR - Error running command in instance i-076f086c695d8aebd: SSH timeout: 10.128.66.115:22 not reachable after 300 seconds.
+2025-05-05 15:38:24 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:25 - INFO - Instance i-076f086c695d8aebd has been terminated.
+2025-05-05 15:38:34 - ERROR - Error running command in instance i-04fc3c2911b94143b: SSH timeout: 10.128.66.46:22 not reachable after 300 seconds.
+2025-05-05 15:38:34 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:35 - INFO - Instance i-04fc3c2911b94143b has been terminated.
+2025-05-05 15:38:44 - ERROR - Error running command in instance i-05c58b99906700e7f: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:38:44 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:45 - INFO - Instance i-05c58b99906700e7f has been terminated.
+2025-05-05 15:38:54 - ERROR - Error running command in instance i-04574fd2a8f0706df: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-05 15:38:54 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-05 15:38:55 - INFO - Instance i-04574fd2a8f0706df has been terminated.
+2025-05-06 13:16:12 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 13:17:26 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5ad.24xlarge.
+2025-05-06 13:17:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:29 - WARNING - No instances were launched.
+2025-05-06 13:17:29 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:17:29 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:17:29 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:17:29 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge.
+2025-05-06 13:17:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:34 - INFO - Fleet created with instances: ['i-08fc5b6ee4ae89d53', 'i-004d97826e0b40d32', 'i-077bd6eb8d31c3f0f', 'i-00f7ea7fedbc54745', 'i-0a7be8a3503ae70c6']
+2025-05-06 13:17:51 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:17:51 - INFO - Total de instâncias acumuladas: 5/5
+2025-05-06 13:17:51 - INFO - 5 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-06 13:17:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:17:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:18:00 - INFO - Authentication (publickey) failed.
+2025-05-06 13:18:00 - WARNING - Attempt 1/5 failed for i-00f7ea7fedbc54745: Authentication failed.
+2025-05-06 13:18:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:18:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:18:11 - INFO - Authentication (publickey) failed.
+2025-05-06 13:18:11 - WARNING - Attempt 1/5 failed for i-004d97826e0b40d32: Authentication failed.
+2025-05-06 13:18:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:18:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:18:21 - INFO - Authentication (publickey) failed.
+2025-05-06 13:18:21 - WARNING - Attempt 1/5 failed for i-08fc5b6ee4ae89d53: Authentication failed.
+2025-05-06 13:18:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:18:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:18:31 - INFO - Authentication (publickey) failed.
+2025-05-06 13:18:31 - WARNING - Attempt 1/5 failed for i-0a7be8a3503ae70c6: Authentication failed.
+2025-05-06 13:18:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:18:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:18:58 - INFO - Authentication (publickey) successful!
+2025-05-06 13:18:58 - INFO - Running command in i-077bd6eb8d31c3f0f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 13:18:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:19:00 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:19:14 - INFO - Authentication (publickey) successful!
+2025-05-06 13:19:14 - INFO - Running command in i-00f7ea7fedbc54745 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 13:19:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:19:16 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:19:30 - INFO - Authentication (publickey) successful!
+2025-05-06 13:19:30 - INFO - Running command in i-004d97826e0b40d32 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 13:19:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:19:30 - INFO - Authentication (publickey) failed.
+2025-05-06 13:19:30 - WARNING - Attempt 2/5 failed for i-08fc5b6ee4ae89d53: Authentication failed.
+2025-05-06 13:19:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:19:30 - INFO - Authentication (publickey) failed.
+2025-05-06 13:19:30 - WARNING - Attempt 2/5 failed for i-0a7be8a3503ae70c6: Authentication failed.
+2025-05-06 13:19:31 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:19:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:19:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:19:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:20:06 - INFO - Authentication (publickey) successful!
+2025-05-06 13:20:06 - INFO - Running command in i-08fc5b6ee4ae89d53 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 13:20:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:20:08 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:20:28 - INFO - Authentication (publickey) successful!
+2025-05-06 13:20:28 - INFO - Running command in i-0a7be8a3503ae70c6 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 13:20:29 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:20:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:20:30 - INFO - Spot price data saved to ./results/spot_prices_sa-east-1.csv
+2025-05-06 13:20:38 - INFO - All instances have been terminated.
+2025-05-06 13:22:01 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 13:22:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:22:07 - INFO - Fleet created with instances: ['i-0e063d79507e5d833', 'i-0331f20867afb6854', 'i-0cdc5d78aea327d20', 'i-0e2e11cc438fddea5', 'i-004ef7eeee3525205']
+2025-05-06 13:23:24 - INFO - Instâncias iniciadas: [ec2.Instance(id='i-004ef7eeee3525205'), ec2.Instance(id='i-0331f20867afb6854'), ec2.Instance(id='i-0cdc5d78aea327d20'), ec2.Instance(id='i-0e2e11cc438fddea5'), ec2.Instance(id='i-0e063d79507e5d833')]
+2025-05-06 13:23:34 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-06 13:23:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:23:35 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:23:44 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-06 13:23:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:23:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:23:51 - INFO - Authentication (publickey) successful!
+2025-05-06 13:23:51 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/u/fvbr/bt.A.x in instance i-004ef7eeee3525205 Region: sa-east-1 Market: spot
+2025-05-06 13:23:54 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:23:54 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-06 13:23:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:23:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:24:01 - INFO - Authentication (publickey) successful!
+2025-05-06 13:24:01 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/u/fvbr/bt.A.x in instance i-0331f20867afb6854 Region: sa-east-1 Market: spot
+2025-05-06 13:24:03 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:24:04 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-06 13:24:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:24:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:24:12 - INFO - Authentication (publickey) successful!
+2025-05-06 13:24:12 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/u/fvbr/bt.A.x in instance i-0cdc5d78aea327d20 Region: sa-east-1 Market: spot
+2025-05-06 13:24:14 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:24:14 - INFO - Binding threads in cores, instance has 48 cores
+2025-05-06 13:24:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 13:24:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 13:24:22 - INFO - Authentication (publickey) successful!
+2025-05-06 13:24:22 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/u/fvbr/bt.A.x in instance i-0e2e11cc438fddea5 Region: sa-east-1 Market: spot
+2025-05-06 13:24:25 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:24:32 - INFO - Authentication (publickey) successful!
+2025-05-06 13:24:32 - INFO - Running command: export OMP_PLACES=cores;export OMP_PROC_BIND=spread;export OMP_NUM_THREADS=48;/u/fvbr/bt.A.x in instance i-0e063d79507e5d833 Region: sa-east-1 Market: spot
+2025-05-06 13:24:34 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 13:24:56 - INFO - Instance i-0e2e11cc438fddea5 has been terminated.
+2025-05-06 13:25:01 - INFO - Instance i-0cdc5d78aea327d20 has been terminated.
+2025-05-06 13:25:11 - INFO - Instance i-004ef7eeee3525205 has been terminated.
+2025-05-06 13:25:35 - INFO - Instance i-0331f20867afb6854 has been terminated.
+2025-05-06 13:29:22 - INFO - Instance i-0e063d79507e5d833 has been terminated.
+2025-05-06 15:06:23 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 15:08:03 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 15:08:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:08:07 - INFO - Fleet created with instances: ['i-086744061495b00a3']
+2025-05-06 15:08:23 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-06 15:08:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:08:34 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:08:34 - INFO - Authentication (publickey) failed.
+2025-05-06 15:08:34 - WARNING - Attempt 1/5 failed for i-086744061495b00a3: Authentication failed.
+2025-05-06 15:08:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:08:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:09:00 - INFO - Authentication (publickey) successful!
+2025-05-06 15:09:00 - INFO - Running command in i-086744061495b00a3 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:09:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:09:02 - ERROR - Error in worker: type object 'datetime.datetime' has no attribute 'datetime'
+2025-05-06 15:09:11 - INFO - All instances have been terminated.
+2025-05-06 15:09:59 - INFO - Start execution in sa-east-1 Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 15:09:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:10:02 - INFO - Fleet created with instances: ['i-041aa8db42d3c5bfa']
+2025-05-06 15:10:18 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-06 15:10:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:10:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:10:44 - INFO - Authentication (publickey) failed.
+2025-05-06 15:10:44 - WARNING - Attempt 1/5 failed for i-041aa8db42d3c5bfa: Authentication failed.
+2025-05-06 15:10:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:10:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:11:01 - INFO - Authentication (publickey) successful!
+2025-05-06 15:11:01 - INFO - Running command in i-041aa8db42d3c5bfa (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:11:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:11:03 - INFO - m6a.24xlarge - 0.977900 - sa-east-1b
+2025-05-06 15:11:03 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:11:12 - INFO - All instances have been terminated.
+2025-05-06 15:20:40 - INFO - Start execution in sa-east-1 Nodes=5 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-06 15:21:56 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5ad.24xlarge.
+2025-05-06 15:21:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:21:59 - WARNING - No instances were launched.
+2025-05-06 15:21:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:21:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:21:59 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:21:59 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge.
+2025-05-06 15:21:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:04 - INFO - Fleet created with instances: ['i-0617391a85734696b', 'i-0d56c2adcce4b5765', 'i-0f405436bf41a4bed', 'i-08806a41da22fa56b', 'i-0da219654cab0d02d']
+2025-05-06 15:22:21 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:22:21 - INFO - Total de instâncias acumuladas: 5/5
+2025-05-06 15:22:21 - INFO - 5 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-06 15:22:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:22:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:22:43 - INFO - Authentication (publickey) failed.
+2025-05-06 15:22:43 - WARNING - Attempt 1/5 failed for i-0d56c2adcce4b5765: Authentication failed.
+2025-05-06 15:22:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:22:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:23:13 - WARNING - Attempt 1/5 failed for i-0617391a85734696b: Authentication timeout.
+2025-05-06 15:23:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:23:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:23:44 - WARNING - Attempt 1/5 failed for i-0f405436bf41a4bed: Authentication timeout.
+2025-05-06 15:23:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:23:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:14 - WARNING - Attempt 1/5 failed for i-08806a41da22fa56b: Authentication timeout.
+2025-05-06 15:24:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:18 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:18 - WARNING - Attempt 1/5 failed for i-0da219654cab0d02d: Authentication failed.
+2025-05-06 15:24:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:18 - INFO - Authentication (publickey) successful!
+2025-05-06 15:24:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:38 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:38 - WARNING - Attempt 2/5 failed for i-0d56c2adcce4b5765: Authentication failed.
+2025-05-06 15:24:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:38 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:38 - WARNING - Attempt 2/5 failed for i-0617391a85734696b: Authentication failed.
+2025-05-06 15:24:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:38 - INFO - Authentication (publickey) successful!
+2025-05-06 15:24:38 - INFO - Running command in i-0f405436bf41a4bed (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:24:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:39 - INFO - Authentication (publickey) successful!
+2025-05-06 15:24:39 - INFO - Running command in i-08806a41da22fa56b (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:24:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:39 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:39 - WARNING - Attempt 2/5 failed for i-0da219654cab0d02d: Authentication failed.
+2025-05-06 15:24:40 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:24:40 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:24:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:59 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:59 - WARNING - Attempt 3/5 failed for i-0d56c2adcce4b5765: Authentication failed.
+2025-05-06 15:24:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:24:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:24:59 - INFO - Authentication (publickey) failed.
+2025-05-06 15:24:59 - WARNING - Attempt 3/5 failed for i-0617391a85734696b: Authentication failed.
+2025-05-06 15:25:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:25:00 - INFO - Authentication (publickey) failed.
+2025-05-06 15:25:00 - WARNING - Attempt 3/5 failed for i-0da219654cab0d02d: Authentication failed.
+2025-05-06 15:25:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:25:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:25:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:25:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:25:31 - INFO - Authentication (publickey) failed.
+2025-05-06 15:25:31 - WARNING - Attempt 4/5 failed for i-0d56c2adcce4b5765: Authentication failed.
+2025-05-06 15:25:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:26:01 - WARNING - Attempt 4/5 failed for i-0617391a85734696b: Authentication timeout.
+2025-05-06 15:26:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:26:01 - INFO - Authentication (publickey) failed.
+2025-05-06 15:26:01 - WARNING - Attempt 4/5 failed for i-0da219654cab0d02d: Authentication failed.
+2025-05-06 15:26:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:26:11 - INFO - Authentication (publickey) successful!
+2025-05-06 15:26:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:26:34 - INFO - Authentication (publickey) successful!
+2025-05-06 15:26:34 - INFO - Running command in i-0d56c2adcce4b5765 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:26:36 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:26:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:26:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-06 15:26:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:26:57 - INFO - Authentication (publickey) successful!
+2025-05-06 15:26:57 - INFO - Running command in i-0da219654cab0d02d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:26:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-06 15:26:58 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:27:02 - INFO - Authentication (publickey) successful!
+2025-05-06 15:27:02 - INFO - Running command in i-0617391a85734696b (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-06 15:27:04 - INFO - Updating file: results/results_par_sa-east-1_lowest-price.csv
+2025-05-06 15:27:12 - INFO - All instances have been terminated.
