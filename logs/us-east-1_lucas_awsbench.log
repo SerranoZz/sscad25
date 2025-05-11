@@ -1,0 +1,249 @@
+2025-05-08 10:20:45 - INFO - Start execution in us-east-1 Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-08 10:20:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:20:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:20:53 - INFO - m6a.24xlarge - 1.053800 - us-east-1f
+2025-05-08 10:20:53 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:20:53 - INFO - Fleet created with instances: ['i-0e16d482999a64af0', 'i-0df1ec5500116c889', 'i-0e0478b53cc0fb88b', 'i-00242483fa273b3e5', 'i-022ed9284409ce0ed', 'i-0f9de778a25ae1f65', 'i-05fb0c7b008336bf8', 'i-07006e8e64203689b', 'i-0f900cd4e1fe7f51f', 'i-0648bf3913de4db7f']
+2025-05-08 10:20:59 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 14.18274 segundos
+2025-05-08 10:20:59 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:21:26 - INFO - Authentication (publickey) failed.
+2025-05-08 10:21:26 - WARNING - Attempt 1/5 failed for i-022ed9284409ce0ed: Authentication failed.
+2025-05-08 10:21:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:21:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:21:47 - INFO - Authentication (publickey) failed.
+2025-05-08 10:21:47 - WARNING - Attempt 1/5 failed for i-07006e8e64203689b: Authentication failed.
+2025-05-08 10:21:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:21:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:22:08 - INFO - Authentication (publickey) failed.
+2025-05-08 10:22:08 - WARNING - Attempt 1/5 failed for i-0648bf3913de4db7f: Authentication failed.
+2025-05-08 10:22:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:22:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:22:39 - WARNING - Attempt 1/5 failed for i-00242483fa273b3e5: Authentication timeout.
+2025-05-08 10:22:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:22:39 - INFO - Authentication (publickey) failed.
+2025-05-08 10:22:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:23:10 - WARNING - Attempt 1/5 failed for i-0df1ec5500116c889: Authentication timeout.
+2025-05-08 10:23:10 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:23:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:23:37 - INFO - Authentication (publickey) successful!
+2025-05-08 10:23:37 - INFO - Running command in i-0e16d482999a64af0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:23:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:23:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:23:43 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:23:43 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:24:02 - INFO - Authentication (publickey) successful!
+2025-05-08 10:24:02 - INFO - Running command in i-0f9de778a25ae1f65 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:24:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:24:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:24:07 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:24:07 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:24:27 - INFO - Authentication (publickey) successful!
+2025-05-08 10:24:27 - INFO - Running command in i-05fb0c7b008336bf8 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:24:27 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:24:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:24:32 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:24:32 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:24:52 - INFO - Authentication (publickey) successful!
+2025-05-08 10:24:52 - INFO - Running command in i-0e0478b53cc0fb88b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:24:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:24:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:24:57 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:24:57 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:25:17 - INFO - Authentication (publickey) successful!
+2025-05-08 10:25:17 - INFO - Running command in i-0f900cd4e1fe7f51f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:25:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:25:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:25:23 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:25:23 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:25:43 - INFO - Authentication (publickey) successful!
+2025-05-08 10:25:43 - INFO - Running command in i-022ed9284409ce0ed (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:25:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:25:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:25:48 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:25:48 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:26:07 - INFO - Authentication (publickey) successful!
+2025-05-08 10:26:07 - INFO - Running command in i-07006e8e64203689b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:26:07 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:26:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:26:12 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:26:12 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:26:30 - INFO - Authentication (publickey) successful!
+2025-05-08 10:26:30 - INFO - Running command in i-0648bf3913de4db7f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:26:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:26:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:26:35 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:26:35 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:26:53 - INFO - Authentication (publickey) successful!
+2025-05-08 10:26:53 - INFO - Running command in i-00242483fa273b3e5 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:26:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-08 10:26:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:26:58 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:26:58 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:27:01 - INFO - Authentication (publickey) successful!
+2025-05-08 10:27:01 - INFO - Running command in i-0df1ec5500116c889 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-08 10:27:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:05 - INFO - c5.24xlarge - 1.102800 - us-east-1b
+2025-05-08 10:27:05 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-08 10:27:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:06 - INFO - Spot price data saved to ./results/spot_prices_us-east-1a.csv
+2025-05-08 10:27:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:08 - INFO - Spot price data saved to ./results/spot_prices_us-east-1b.csv
+2025-05-08 10:27:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:09 - INFO - Spot price data saved to ./results/spot_prices_us-east-1c.csv
+2025-05-08 10:27:09 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:10 - INFO - Spot price data saved to ./results/spot_prices_us-east-1d.csv
+2025-05-08 10:27:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:11 - WARNING - No spot price history found.
+2025-05-08 10:27:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-08 10:27:12 - INFO - Spot price data saved to ./results/spot_prices_us-east-1f.csv
+2025-05-08 10:27:18 - INFO - All instances have been terminated.
+2025-05-10 20:16:20 - INFO - Start execution in us-east-1 Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:16:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:25 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:16:25 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:16:25 - INFO - Fleet created with instances: ['i-07f29abbcfdf227f8', 'i-0926dc4b40d1aff36', 'i-06891ab871ec586b0', 'i-0b45aaa74bec5cd23', 'i-0a6818f9e4a0377d7', 'i-0dbdaced745dea883', 'i-0900a914365dda3ce', 'i-07d7bfe8c16a426b9', 'i-0006f47e5588c3576', 'i-0b15783bacf9353cd']
+2025-05-10 20:16:46 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 26.379497 segundos
+2025-05-10 20:16:46 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:16:50 - WARNING - Attempt 1/5 failed for i-07f29abbcfdf227f8: [Errno None] Unable to connect to port 22 on 10.108.65.25
+2025-05-10 20:16:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:17:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:17:00 - INFO - Authentication (publickey) failed.
+2025-05-10 20:17:00 - WARNING - Attempt 1/5 failed for i-0dbdaced745dea883: Authentication failed.
+2025-05-10 20:17:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:17:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:17:21 - INFO - Authentication (publickey) successful!
+2025-05-10 20:17:21 - INFO - Running command in i-0900a914365dda3ce (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:17:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:17:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:17:26 - INFO - c5.24xlarge - 1.080200 - us-east-1b
+2025-05-10 20:17:26 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:17:42 - INFO - Authentication (publickey) successful!
+2025-05-10 20:17:42 - INFO - Running command in i-0b15783bacf9353cd (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:17:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:17:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:17:46 - INFO - c5.24xlarge - 1.080200 - us-east-1b
+2025-05-10 20:17:46 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:35:13 - INFO - Start execution in us-east-1 Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:35:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:16 - INFO - Fleet created with instances: ['i-0ff55b35c76260bef', 'i-0fa7b451b8cca87f7', 'i-0b0611f3e3d1659e8', 'i-0d928eb2721c04b4f', 'i-03558732b3f81e5ac', 'i-08a4b2172d2289e9a', 'i-047ba480c5c91772b', 'i-02a87f3a82a479746', 'i-0d3a916f58690798d', 'i-04d323ffafa0a0fdc']
+2025-05-10 20:35:38 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 24.732604 segundos
+2025-05-10 20:35:38 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:35:46 - INFO - Authentication (publickey) failed.
+2025-05-10 20:35:46 - WARNING - Attempt 1/5 failed for i-0ff55b35c76260bef: Authentication failed.
+2025-05-10 20:35:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:35:52 - INFO - Authentication (publickey) failed.
+2025-05-10 20:35:52 - WARNING - Attempt 1/5 failed for i-04d323ffafa0a0fdc: Authentication failed.
+2025-05-10 20:35:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:35:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:36:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:36:15 - INFO - Authentication (publickey) successful!
+2025-05-10 20:36:15 - INFO - Running command in i-08a4b2172d2289e9a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:36:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:36:16 - INFO - Authentication (publickey) failed.
+2025-05-10 20:36:16 - WARNING - Attempt 1/5 failed for i-03558732b3f81e5ac: Authentication failed.
+2025-05-10 20:36:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:36:19 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:36:20 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:36:20 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:36:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:36:39 - INFO - Authentication (publickey) successful!
+2025-05-10 20:36:39 - INFO - Running command in i-0fa7b451b8cca87f7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:36:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:36:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:36:44 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:36:44 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:37:03 - INFO - Authentication (publickey) successful!
+2025-05-10 20:37:03 - INFO - Running command in i-0d928eb2721c04b4f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:37:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:37:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:37:08 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:37:08 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:37:28 - INFO - Authentication (publickey) successful!
+2025-05-10 20:37:28 - INFO - Running command in i-0d3a916f58690798d (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:37:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:37:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:37:33 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:37:33 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:37:55 - INFO - Authentication (publickey) successful!
+2025-05-10 20:37:55 - INFO - Running command in i-02a87f3a82a479746 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:37:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:37:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:38:00 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:38:00 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:38:21 - INFO - Authentication (publickey) successful!
+2025-05-10 20:38:21 - INFO - Running command in i-047ba480c5c91772b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:38:21 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:38:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:38:26 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:38:26 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:38:48 - INFO - Authentication (publickey) successful!
+2025-05-10 20:38:48 - INFO - Running command in i-0b0611f3e3d1659e8 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:38:49 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:38:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:38:53 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:38:53 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:39:18 - INFO - Authentication (publickey) successful!
+2025-05-10 20:39:18 - INFO - Running command in i-0ff55b35c76260bef (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:39:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:39:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:39:22 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:39:22 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:39:42 - INFO - Authentication (publickey) successful!
+2025-05-10 20:39:42 - INFO - Running command in i-04d323ffafa0a0fdc (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:39:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:39:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:39:47 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:39:47 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:40:07 - INFO - Authentication (publickey) successful!
+2025-05-10 20:40:07 - INFO - Running command in i-03558732b3f81e5ac (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-10 20:40:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:40:12 - INFO - m6a.24xlarge - 1.058500 - us-east-1f
+2025-05-10 20:40:12 - INFO - Updating file: results/results_lucas_us-east-1.csv
+2025-05-10 20:40:18 - INFO - All instances have been terminated.
+2025-05-10 20:53:59 - INFO - Start execution in us-east-1 Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:53:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:00 - INFO - Spot price data saved to ./results/spot_prices_us-east-1a.csv
+2025-05-10 20:54:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:01 - INFO - Spot price data saved to ./results/spot_prices_us-east-1b.csv
+2025-05-10 20:54:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:02 - INFO - Spot price data saved to ./results/spot_prices_us-east-1c.csv
+2025-05-10 20:54:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:04 - INFO - Spot price data saved to ./results/spot_prices_us-east-1d.csv
+2025-05-10 20:54:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:04 - WARNING - No spot price history found.
+2025-05-10 20:54:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:54:06 - INFO - Spot price data saved to ./results/spot_prices_us-east-1f.csv
+2025-05-10 20:54:10 - INFO - All instances have been terminated.

@@ -3,8 +3,9 @@ import boto3 # type: ignore
 import subprocess
 import argparse
 
-def terminate_all(region):
-    command = f'aws ec2 describe-instances --filters "Name=tag:Name,Values=SpotFleet-SSCAD-FVBR" "Name=instance-state-name,Values=running" --query "Reservations[*].Instances[*].InstanceId" --output text'
+def terminate_all(region, tag):
+    command = f'aws ec2 describe-instances --region {region} --filters "Name=tag:Name,Values={tag}" "Name=instance-state-name,Values=running" --query "Reservations[*].Instances[*].InstanceId" --output text'
+    print(f'Running command: {command}')
     session = boto3.Session(region_name=region)
     ec2_client = session.client("ec2")
 
@@ -31,9 +32,10 @@ def terminate_all(region):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Benchmark AWS')
     parser.add_argument('region', type=str, help='AWS region')
+    parser.add_argument('tag', type=str, help='Instance TAG')
 
     args = parser.parse_args()
 
-    terminate_all(args.region)
+    terminate_all(args.region, args.tag)
 
 

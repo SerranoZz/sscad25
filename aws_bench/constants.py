@@ -61,22 +61,22 @@ class AWSConfig:
     }
 
     SUBNET_IDS_BY_REGION = {
-        'us-east-1': [
-            "subnet-04947f6ee876adbee",
-            "subnet-0801c911a8382154c",
-            "subnet-05b8c880471ae8896",
-            "subnet-00b0c725891d75bf3",
-            "subnet-0d6e9e447317b1338",
-            "subnet-07058ff843053f6cb"
-        ],
-
-        'sa-east-1': [
-            "subnet-06ab42c6dc587e683", #sa-east-1a
-            "subnet-009fcfba8494f260f", #sa-east-1b
-            "subnet-0d8144caee75d637a" #sa-east-1c
-        ]
+        'us-east-1': {
+            'us-east-1a': "subnet-04947f6ee876adbee",
+            'us-east-1b': "subnet-0801c911a8382154c",
+            'us-east-1c':"subnet-05b8c880471ae8896",
+            'us-east-1d':"subnet-00b0c725891d75bf3",
+            'us-east-1e':"subnet-0d6e9e447317b1338",
+            'us-east-1f':"subnet-07058ff843053f6cb"
+            }
+        ,
+        'sa-east-1': {
+            'sa-east-1a':"subnet-06ab42c6dc587e683",
+            'sa-east-1b':"subnet-009fcfba8494f260f",
+            'sa-east-1c':"subnet-0d8144caee75d637a"
+        }
+        
     }
-    
 
 
 
@@ -87,7 +87,6 @@ class BenchmarkConfig:
         "End_Time",
         "Instance",
         "InstanceID",
-        #"InstanceStatus",
         "Price",
         "Market",        
         "Region",

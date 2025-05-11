@@ -1,0 +1,37 @@
+2025-05-10 20:31:18 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:33:34 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:34:29 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-10 20:34:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:34:31 - WARNING - No instances were launched.
+2025-05-10 20:34:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-10 20:34:31 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-10 20:34:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:34:34 - INFO - Fleet created with instances: ['i-016e4e23930235a74', 'i-0266c38b74494f5e9', 'i-067660d010d43385b', 'i-007c555ee3be9dc7f', 'i-0a5620ca5952c8da5', 'i-0e0590dc4b1601ac6', 'i-0f06f8d39852ec54e', 'i-0a072036912e300b4']
+2025-05-10 20:34:52 - INFO - Updating file: results/results_miguel.csv
+2025-05-10 20:34:52 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-10 20:34:53 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-10 20:34:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:34:54 - WARNING - No instances were launched.
+2025-05-10 20:34:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-10 20:34:54 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo m6a.24xlarge na região us-east-1f.
+2025-05-10 20:34:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:34:57 - INFO - Fleet created with instances: ['i-04f1154da785fff58', 'i-0dd8e56a8c0cb6048']
+2025-05-10 20:35:14 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-10 20:35:14 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 99.900809 segundos
+2025-05-10 20:35:14 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-10 20:35:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-10 20:35:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-10 20:54:53 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:56:36 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:56:43 - INFO - All instances have been terminated.
+2025-05-10 20:56:51 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-10 20:56:58 - INFO - All instances have been terminated.
