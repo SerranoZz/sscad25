@@ -35,3 +35,2045 @@
 2025-05-10 20:56:43 - INFO - All instances have been terminated.
 2025-05-10 20:56:51 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
 2025-05-10 20:56:58 - INFO - All instances have been terminated.
+2025-05-12 10:22:45 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-12 10:24:00 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 10:24:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:24:02 - INFO - Fleet created with instances: ['i-0ed08c33ad63514c9']
+2025-05-12 10:24:18 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-12 10:24:18 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 10:24:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:24:27 - WARNING - No instances were launched.
+2025-05-12 10:24:27 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:24:27 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-12 10:24:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:24:35 - WARNING - No instances were launched.
+2025-05-12 10:24:35 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:24:35 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região us-east-1f.
+2025-05-12 10:24:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:24:37 - WARNING - No instances were launched.
+2025-05-12 10:24:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:24:37 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:24:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:24:40 - INFO - Fleet created with instances: ['i-05c61bd4d7fe1cb78']
+2025-05-12 10:24:57 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-12 10:24:57 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:24:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:25:00 - INFO - Fleet created with instances: ['i-0db3e127b50386ded']
+2025-05-12 10:25:17 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-12 10:25:17 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:25:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:25:20 - INFO - Fleet created with instances: ['i-0fef0fae82a9b2baa']
+2025-05-12 10:25:36 - INFO - Total de instâncias acumuladas: 4/10
+2025-05-12 10:25:36 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:25:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:25:39 - INFO - Fleet created with instances: ['i-0b6437b22d4728bf0']
+2025-05-12 10:25:56 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-12 10:25:56 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:25:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:25:59 - INFO - Fleet created with instances: ['i-0df32aca5630acae5']
+2025-05-12 10:26:16 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-12 10:26:16 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:26:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:26:19 - INFO - Fleet created with instances: ['i-07b38e6ee832b5fd7']
+2025-05-12 10:26:35 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-12 10:26:35 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:26:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:26:38 - INFO - Fleet created with instances: ['i-00d14efe8c4ee17d0']
+2025-05-12 10:26:55 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-12 10:26:55 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:26:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:26:58 - INFO - Fleet created with instances: ['i-0f9d0a987c3a17c8a']
+2025-05-12 10:27:14 - INFO - Total de instâncias acumuladas: 9/10
+2025-05-12 10:27:15 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5.24xlarge na região us-east-1b.
+2025-05-12 10:27:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:18 - INFO - Fleet created with instances: ['i-01c6b2823979fae84']
+2025-05-12 10:27:35 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-12 10:27:35 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 289.817517 segundos
+2025-05-12 10:27:35 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 10:27:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:27:54 - INFO - Authentication (publickey) successful!
+2025-05-12 10:27:54 - INFO - Running command in i-0ed08c33ad63514c9 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:27:54 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:27:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:28:12 - INFO - Authentication (publickey) successful!
+2025-05-12 10:28:12 - INFO - Running command in i-0db3e127b50386ded (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:28:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:28:16 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:28:28 - INFO - Authentication (publickey) successful!
+2025-05-12 10:28:28 - INFO - Running command in i-0df32aca5630acae5 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:28:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:28:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:28:44 - INFO - Authentication (publickey) successful!
+2025-05-12 10:28:44 - INFO - Running command in i-00d14efe8c4ee17d0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:28:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:28:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:29:00 - INFO - Authentication (publickey) successful!
+2025-05-12 10:29:00 - INFO - Running command in i-0fef0fae82a9b2baa (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:29:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:29:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:29:16 - INFO - Authentication (publickey) successful!
+2025-05-12 10:29:16 - INFO - Running command in i-07b38e6ee832b5fd7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:29:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:29:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:29:33 - INFO - Authentication (publickey) successful!
+2025-05-12 10:29:33 - INFO - Running command in i-0f9d0a987c3a17c8a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:29:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:29:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:29:49 - INFO - Authentication (publickey) successful!
+2025-05-12 10:29:49 - INFO - Running command in i-05c61bd4d7fe1cb78 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:29:49 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:29:53 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:30:06 - INFO - Authentication (publickey) successful!
+2025-05-12 10:30:06 - INFO - Running command in i-0b6437b22d4728bf0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:30:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 10:30:09 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:30:22 - INFO - Authentication (publickey) successful!
+2025-05-12 10:30:22 - INFO - Running command in i-01c6b2823979fae84 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 10:30:26 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 10:30:36 - INFO - All instances have been terminated.
+2025-05-12 12:14:38 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-12 12:15:49 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:15:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:15:51 - INFO - Fleet created with instances: ['i-0a9be1705cf2fc935']
+2025-05-12 12:16:07 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-12 12:16:07 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:16:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:16:09 - INFO - Fleet created with instances: ['i-0f6ddaaa17402137e']
+2025-05-12 12:16:25 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-12 12:16:25 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:16:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:16:28 - INFO - Fleet created with instances: ['i-0d90dc48f35eb3cde']
+2025-05-12 12:16:44 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-12 12:16:44 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:16:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:16:47 - INFO - Fleet created with instances: ['i-0c0b77558909ea357']
+2025-05-12 12:17:03 - INFO - Total de instâncias acumuladas: 4/10
+2025-05-12 12:17:03 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:17:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:17:05 - INFO - Fleet created with instances: ['i-0ee7ab66242f01eb3']
+2025-05-12 12:17:21 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-12 12:17:21 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:17:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:17:24 - INFO - Fleet created with instances: ['i-01f37ec168f836842']
+2025-05-12 12:17:40 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-12 12:17:40 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:17:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:17:42 - INFO - Fleet created with instances: ['i-06554f6c9b7aa6172']
+2025-05-12 12:17:58 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-12 12:17:58 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 12:17:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:18:00 - WARNING - No instances were launched.
+2025-05-12 12:18:00 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:18:01 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-12 12:18:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:18:02 - WARNING - No instances were launched.
+2025-05-12 12:18:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:18:02 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 12:18:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:18:05 - INFO - Fleet created with instances: ['i-0f3c9aa04538c4d89']
+2025-05-12 12:18:22 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-12 12:18:22 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 12:18:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:18:25 - INFO - Fleet created with instances: ['i-0b70d833fc4bdda38']
+2025-05-12 12:18:42 - INFO - Total de instâncias acumuladas: 9/10
+2025-05-12 12:18:42 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 12:18:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:18:45 - INFO - Fleet created with instances: ['i-0884f00b3ee15572a']
+2025-05-12 12:19:02 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-12 12:19:02 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 263.758541 segundos
+2025-05-12 12:19:02 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:19:15 - INFO - Authentication (publickey) failed.
+2025-05-12 12:19:15 - WARNING - Attempt 1/5 failed for i-0d90dc48f35eb3cde: Authentication failed.
+2025-05-12 12:19:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:19:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:19:45 - WARNING - Attempt 1/5 failed for i-0f6ddaaa17402137e: Authentication timeout.
+2025-05-12 12:19:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:19:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:20:16 - WARNING - Attempt 1/5 failed for i-0ee7ab66242f01eb3: Authentication timeout.
+2025-05-12 12:20:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:20:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:20:46 - WARNING - Attempt 1/5 failed for i-0c0b77558909ea357: Authentication timeout.
+2025-05-12 12:20:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:20:46 - INFO - Authentication (publickey) failed.
+2025-05-12 12:20:46 - WARNING - Attempt 1/5 failed for i-01f37ec168f836842: Authentication failed.
+2025-05-12 12:20:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:20:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:20:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:21:16 - WARNING - Attempt 1/5 failed for i-0a9be1705cf2fc935: Authentication timeout.
+2025-05-12 12:21:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:21:18 - INFO - Authentication (publickey) failed.
+2025-05-12 12:21:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:21:47 - WARNING - Attempt 1/5 failed for i-06554f6c9b7aa6172: Authentication timeout.
+2025-05-12 12:21:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:21:54 - INFO - Authentication (publickey) failed.
+2025-05-12 12:21:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:22:03 - INFO - Authentication (publickey) successful!
+2025-05-12 12:22:03 - INFO - Running command in i-0b70d833fc4bdda38 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:22:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:22:07 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:22:20 - INFO - Authentication (publickey) successful!
+2025-05-12 12:22:20 - INFO - Running command in i-0f3c9aa04538c4d89 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:22:20 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:22:24 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:22:36 - INFO - Authentication (publickey) successful!
+2025-05-12 12:22:36 - INFO - Running command in i-0884f00b3ee15572a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:22:36 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:22:40 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:22:59 - INFO - Authentication (publickey) successful!
+2025-05-12 12:22:59 - INFO - Running command in i-0d90dc48f35eb3cde (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:22:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:23:00 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:23:07 - INFO - Authentication (publickey) successful!
+2025-05-12 12:23:07 - INFO - Running command in i-0f6ddaaa17402137e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:23:07 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:23:09 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:23:12 - INFO - Authentication (publickey) successful!
+2025-05-12 12:23:12 - INFO - Running command in i-0ee7ab66242f01eb3 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:23:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:23:14 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:23:17 - INFO - Authentication (publickey) successful!
+2025-05-12 12:23:17 - INFO - Running command in i-0c0b77558909ea357 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:23:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:23:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:23:48 - WARNING - Attempt 2/5 failed for i-01f37ec168f836842: Authentication timeout.
+2025-05-12 12:23:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:24:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:24:18 - WARNING - Attempt 2/5 failed for i-0a9be1705cf2fc935: Authentication timeout.
+2025-05-12 12:24:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:24:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:24:46 - INFO - Authentication (publickey) failed.
+2025-05-12 12:24:46 - WARNING - Attempt 2/5 failed for i-06554f6c9b7aa6172: Authentication failed.
+2025-05-12 12:24:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:25:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:25:16 - WARNING - Attempt 3/5 failed for i-01f37ec168f836842: Authentication timeout.
+2025-05-12 12:25:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:25:17 - INFO - Authentication (publickey) successful!
+2025-05-12 12:25:17 - INFO - Running command in i-0a9be1705cf2fc935 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:25:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:25:17 - INFO - Authentication (publickey) failed.
+2025-05-12 12:25:17 - WARNING - Attempt 3/5 failed for i-06554f6c9b7aa6172: Authentication failed.
+2025-05-12 12:25:18 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:25:22 - INFO - Authentication (publickey) successful!
+2025-05-12 12:25:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:25:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:25:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:25:48 - INFO - Authentication (publickey) failed.
+2025-05-12 12:25:48 - WARNING - Attempt 4/5 failed for i-06554f6c9b7aa6172: Authentication failed.
+2025-05-12 12:25:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:26:02 - INFO - Authentication (publickey) successful!
+2025-05-12 12:26:02 - INFO - Running command in i-01f37ec168f836842 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 12:26:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:26:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 12:26:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 12:26:29 - INFO - Authentication (publickey) failed.
+2025-05-12 12:26:29 - WARNING - Attempt 5/5 failed for i-06554f6c9b7aa6172: Authentication failed.
+2025-05-12 12:26:29 - ERROR - All attempts failed for i-06554f6c9b7aa6172. Last error: Authentication failed.
+2025-05-12 12:26:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 12:26:39 - INFO - All instances have been terminated.
+2025-05-12 15:10:57 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-12 15:12:12 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 15:12:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:15 - INFO - Fleet created with instances: ['i-000ebca4ae52f3a26', 'i-0601fe86161a6bab6', 'i-0b3b4299b9f59d779', 'i-0a922d67001feea90', 'i-02009c76396356c50', 'i-0e82c5e12395e11b2', 'i-0a6945dbd087b5a09', 'i-08874d940792df392']
+2025-05-12 15:12:33 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:12:33 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-12 15:12:33 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 15:12:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:35 - WARNING - No instances were launched.
+2025-05-12 15:12:35 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:12:35 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-12 15:12:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:37 - WARNING - No instances were launched.
+2025-05-12 15:12:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:12:37 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 15:12:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:40 - INFO - Fleet created with instances: ['i-080338d26ffdaa4bc', 'i-0a694cceae8cf25c0']
+2025-05-12 15:12:57 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-12 15:12:57 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 120.119075 segundos
+2025-05-12 15:12:57 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:12:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 15:13:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:13:14 - INFO - Authentication (publickey) successful!
+2025-05-12 15:13:14 - INFO - Running command in i-02009c76396356c50 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:13:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:13:16 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:13:30 - INFO - Authentication (publickey) successful!
+2025-05-12 15:13:30 - INFO - Running command in i-0601fe86161a6bab6 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:13:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:13:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:13:46 - INFO - Authentication (publickey) successful!
+2025-05-12 15:13:46 - INFO - Running command in i-08874d940792df392 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:13:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:13:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:14:01 - INFO - Authentication (publickey) successful!
+2025-05-12 15:14:01 - INFO - Running command in i-0e82c5e12395e11b2 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:14:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:14:03 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:14:15 - INFO - Authentication (publickey) successful!
+2025-05-12 15:14:15 - INFO - Running command in i-0a6945dbd087b5a09 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:14:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:14:17 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:14:28 - INFO - Authentication (publickey) successful!
+2025-05-12 15:14:28 - INFO - Running command in i-0b3b4299b9f59d779 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:14:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:14:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:14:43 - INFO - Authentication (publickey) successful!
+2025-05-12 15:14:43 - INFO - Running command in i-0a922d67001feea90 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:14:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:14:44 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:14:57 - INFO - Authentication (publickey) successful!
+2025-05-12 15:14:57 - INFO - Running command in i-000ebca4ae52f3a26 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:14:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:14:58 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:15:15 - INFO - Authentication (publickey) successful!
+2025-05-12 15:15:15 - INFO - Running command in i-0a694cceae8cf25c0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:15:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 15:15:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:15:32 - INFO - Authentication (publickey) successful!
+2025-05-12 15:15:32 - INFO - Running command in i-080338d26ffdaa4bc (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 15:15:36 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 15:15:46 - INFO - All instances have been terminated.
+2025-05-12 18:22:44 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-12 18:23:59 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 18:23:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:24:02 - INFO - Fleet created with instances: ['i-05c1ad634953e1542']
+2025-05-12 18:24:17 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-12 18:24:18 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-12 18:24:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:24:20 - WARNING - No instances were launched.
+2025-05-12 18:24:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:24:20 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-12 18:24:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:24:21 - WARNING - No instances were launched.
+2025-05-12 18:24:21 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:24:22 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:24:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:24:24 - INFO - Fleet created with instances: ['i-0ed0d6a74b1d7db6f']
+2025-05-12 18:24:41 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-12 18:24:41 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:24:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:24:44 - INFO - Fleet created with instances: ['i-08e1bc1e77bc73465']
+2025-05-12 18:25:00 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-12 18:25:01 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:25:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:25:04 - INFO - Fleet created with instances: ['i-0fce8924a5be3b77b']
+2025-05-12 18:25:20 - INFO - Total de instâncias acumuladas: 4/10
+2025-05-12 18:25:20 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:25:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:25:23 - INFO - Fleet created with instances: ['i-00b5755dd051609c3']
+2025-05-12 18:25:40 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-12 18:25:40 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:25:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:25:43 - INFO - Fleet created with instances: ['i-0467a1723900fe7ef']
+2025-05-12 18:26:00 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-12 18:26:00 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:26:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:26:04 - INFO - Fleet created with instances: ['i-0798545da59afc5e8']
+2025-05-12 18:26:20 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-12 18:26:20 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:26:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:26:23 - INFO - Fleet created with instances: ['i-048bd14c49253ce7f']
+2025-05-12 18:26:40 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-12 18:26:40 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:26:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:26:43 - INFO - Fleet created with instances: ['i-08519367f701c2b5f']
+2025-05-12 18:27:00 - INFO - Total de instâncias acumuladas: 9/10
+2025-05-12 18:27:00 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo c5d.24xlarge na região us-east-1b.
+2025-05-12 18:27:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:03 - INFO - Fleet created with instances: ['i-0ca4b942c410766ff']
+2025-05-12 18:27:20 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-12 18:27:20 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 276.051936 segundos
+2025-05-12 18:27:20 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-12 18:27:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:27:39 - INFO - Authentication (publickey) successful!
+2025-05-12 18:27:39 - INFO - Running command in i-05c1ad634953e1542 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:27:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:27:41 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:28:01 - INFO - Authentication (publickey) successful!
+2025-05-12 18:28:01 - INFO - Running command in i-08e1bc1e77bc73465 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:28:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:28:05 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:28:22 - INFO - Authentication (publickey) successful!
+2025-05-12 18:28:22 - INFO - Running command in i-048bd14c49253ce7f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:28:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:28:26 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:28:43 - INFO - Authentication (publickey) successful!
+2025-05-12 18:28:43 - INFO - Running command in i-0fce8924a5be3b77b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:28:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:28:46 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:29:03 - INFO - Authentication (publickey) successful!
+2025-05-12 18:29:03 - INFO - Running command in i-0798545da59afc5e8 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:29:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:29:06 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:29:23 - INFO - Authentication (publickey) successful!
+2025-05-12 18:29:23 - INFO - Running command in i-08519367f701c2b5f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:29:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:29:27 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:29:44 - INFO - Authentication (publickey) successful!
+2025-05-12 18:29:44 - INFO - Running command in i-0ed0d6a74b1d7db6f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:29:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:29:48 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:30:05 - INFO - Authentication (publickey) successful!
+2025-05-12 18:30:05 - INFO - Running command in i-0467a1723900fe7ef (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:30:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:30:08 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:30:25 - INFO - Authentication (publickey) successful!
+2025-05-12 18:30:25 - INFO - Running command in i-00b5755dd051609c3 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:30:25 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-12 18:30:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:30:46 - INFO - Authentication (publickey) successful!
+2025-05-12 18:30:46 - INFO - Running command in i-0ca4b942c410766ff (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-12 18:30:49 - INFO - Updating file: results/results_miguel.csv
+2025-05-12 18:31:00 - INFO - All instances have been terminated.
+2025-05-13 13:42:11 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-13 13:43:27 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-13 13:43:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:43:29 - INFO - Fleet created with instances: ['i-076756caada8500bc']
+2025-05-13 13:43:45 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-13 13:43:46 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-13 13:43:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:43:47 - WARNING - No instances were launched.
+2025-05-13 13:43:48 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:43:48 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-13 13:43:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:43:49 - WARNING - No instances were launched.
+2025-05-13 13:43:49 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:43:50 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:43:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:43:52 - INFO - Fleet created with instances: ['i-0148270974bb5a7be']
+2025-05-13 13:44:08 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-13 13:44:08 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:44:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:44:10 - INFO - Fleet created with instances: ['i-08f028cbf0a613ae4']
+2025-05-13 13:44:26 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-13 13:44:26 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:44:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:44:29 - INFO - Fleet created with instances: ['i-0f9d795aaa4e83a35']
+2025-05-13 13:44:44 - INFO - Total de instâncias acumuladas: 4/10
+2025-05-13 13:44:44 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:44:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:44:47 - INFO - Fleet created with instances: ['i-0e39ca84a149efbf4']
+2025-05-13 13:45:03 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-13 13:45:03 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:45:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:45:05 - INFO - Fleet created with instances: ['i-07c142ee2892ef81c']
+2025-05-13 13:45:21 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-13 13:45:22 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:45:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:45:24 - INFO - Fleet created with instances: ['i-0144084b573a47bc4']
+2025-05-13 13:45:40 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-13 13:45:40 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:45:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:45:42 - INFO - Fleet created with instances: ['i-02caf3a42842c1e66']
+2025-05-13 13:45:58 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-13 13:45:58 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:45:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:01 - INFO - Fleet created with instances: ['i-04578e9c6d5a655f0']
+2025-05-13 13:46:16 - INFO - Total de instâncias acumuladas: 9/10
+2025-05-13 13:46:17 - INFO - Faltam 1 instâncias. Tentando criar 1 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-13 13:46:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:19 - INFO - Fleet created with instances: ['i-077c99f07e5e87370']
+2025-05-13 13:46:35 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-13 13:46:35 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 263.391281 segundos
+2025-05-13 13:46:35 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-13 13:46:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:46:53 - INFO - Authentication (publickey) successful!
+2025-05-13 13:46:53 - INFO - Running command in i-0144084b573a47bc4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:46:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:46:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:47:07 - INFO - Authentication (publickey) successful!
+2025-05-13 13:47:07 - INFO - Running command in i-0148270974bb5a7be (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:47:07 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:47:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:47:22 - INFO - Authentication (publickey) successful!
+2025-05-13 13:47:22 - INFO - Running command in i-0e39ca84a149efbf4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:47:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:47:24 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:47:36 - INFO - Authentication (publickey) successful!
+2025-05-13 13:47:36 - INFO - Running command in i-08f028cbf0a613ae4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:47:36 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:47:39 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:47:52 - INFO - Authentication (publickey) successful!
+2025-05-13 13:47:52 - INFO - Running command in i-0f9d795aaa4e83a35 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:47:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:47:55 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:48:07 - INFO - Authentication (publickey) successful!
+2025-05-13 13:48:07 - INFO - Running command in i-07c142ee2892ef81c (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:48:07 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:48:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:48:22 - INFO - Authentication (publickey) successful!
+2025-05-13 13:48:22 - INFO - Running command in i-076756caada8500bc (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:48:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:48:24 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:48:37 - INFO - Authentication (publickey) successful!
+2025-05-13 13:48:37 - INFO - Running command in i-02caf3a42842c1e66 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:48:37 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:48:40 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:48:52 - INFO - Authentication (publickey) successful!
+2025-05-13 13:48:52 - INFO - Running command in i-04578e9c6d5a655f0 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:48:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-13 13:48:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:49:08 - INFO - Authentication (publickey) successful!
+2025-05-13 13:49:08 - INFO - Running command in i-077c99f07e5e87370 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-13 13:49:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-13 13:49:20 - INFO - All instances have been terminated.
+2025-05-15 17:01:06 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-15 17:09:25 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-15 17:10:40 - INFO - Tempo que levou para pegar preços do pricing_server: 75.087634 segundos
+2025-05-15 17:10:40 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-15 17:10:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:10:44 - INFO - Fleet created with instances: ['i-05650faf628d13d4d', 'i-030a7810cc15afe38', 'i-0ce51dd33f573c6f7', 'i-089607db41be3219f', 'i-0003f6132d99d2aa4']
+2025-05-15 17:11:01 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:11:01 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-15 17:11:01 - INFO - Tempo que levou para conseguir 5 instâncias: 21.166441 segundos
+2025-05-15 17:11:01 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-15 17:11:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:03 - WARNING - No instances were launched.
+2025-05-15 17:11:03 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:11:03 - INFO - Tempo que levou para conseguir 5 instâncias: 1.691793 segundos
+2025-05-15 17:11:03 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-15 17:11:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:05 - WARNING - No instances were launched.
+2025-05-15 17:11:05 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:11:05 - INFO - Tempo que levou para conseguir 5 instâncias: 1.701304 segundos
+2025-05-15 17:11:05 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-15 17:11:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:07 - INFO - Fleet created with instances: ['i-065cb816f4a412e61', 'i-0e5af06ab4332c771', 'i-0affe15ac2c386de5', 'i-0463ca96cd1d0813d', 'i-0da9e9e8a2ad50b0e']
+2025-05-15 17:11:24 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-15 17:11:24 - INFO - Tempo que levou para conseguir 10 instâncias: 19.360124 segundos
+2025-05-15 17:11:24 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 119.008632 segundos
+2025-05-15 17:11:24 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-15 17:11:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 17:11:27 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:11:53 - INFO - Authentication (publickey) successful!
+2025-05-15 17:11:53 - INFO - Running command in i-089607db41be3219f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:11:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:11:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:12:09 - INFO - Authentication (publickey) successful!
+2025-05-15 17:12:09 - INFO - Running command in i-0ce51dd33f573c6f7 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:12:09 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:12:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:12:26 - INFO - Authentication (publickey) successful!
+2025-05-15 17:12:26 - INFO - Running command in i-05650faf628d13d4d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:12:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:12:27 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:12:44 - INFO - Authentication (publickey) successful!
+2025-05-15 17:12:44 - INFO - Running command in i-0003f6132d99d2aa4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:12:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:12:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:13:00 - INFO - Authentication (publickey) successful!
+2025-05-15 17:13:00 - INFO - Running command in i-030a7810cc15afe38 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:13:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:13:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:13:17 - INFO - Authentication (publickey) successful!
+2025-05-15 17:13:17 - INFO - Running command in i-0da9e9e8a2ad50b0e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:13:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:13:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:13:34 - INFO - Authentication (publickey) successful!
+2025-05-15 17:13:34 - INFO - Running command in i-065cb816f4a412e61 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:13:34 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:13:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:13:51 - INFO - Authentication (publickey) successful!
+2025-05-15 17:13:51 - INFO - Running command in i-0affe15ac2c386de5 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:13:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:13:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:14:07 - INFO - Authentication (publickey) successful!
+2025-05-15 17:14:07 - INFO - Running command in i-0463ca96cd1d0813d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:14:07 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 17:14:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:14:23 - INFO - Authentication (publickey) successful!
+2025-05-15 17:14:23 - INFO - Running command in i-0e5af06ab4332c771 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 17:14:25 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 17:14:38 - INFO - All instances have been terminated.
+2025-05-15 18:49:41 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-15 18:49:42 - INFO - Tempo que levou para pegar preços do pricing_server: 0.184208 segundos
+2025-05-15 18:49:42 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-15 18:49:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:49:43 - WARNING - No instances were launched.
+2025-05-15 18:49:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:49:43 - INFO - Tempo que levou para conseguir 0 instâncias: 1.893062 segundos
+2025-05-15 18:49:43 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo c5ad.24xlarge na região sa-east-1b.
+2025-05-15 18:49:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:49:45 - WARNING - No instances were launched.
+2025-05-15 18:49:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:49:45 - INFO - Tempo que levou para conseguir 0 instâncias: 1.614336 segundos
+2025-05-15 18:49:45 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-15 18:49:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:49:48 - INFO - Fleet created with instances: ['i-026eda52a5af20b45']
+2025-05-15 18:50:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:50:04 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-15 18:50:04 - INFO - Tempo que levou para conseguir 1 instâncias: 19.159158 segundos
+2025-05-15 18:50:04 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-15 18:50:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:06 - WARNING - No instances were launched.
+2025-05-15 18:50:06 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:50:06 - INFO - Tempo que levou para conseguir 0 instâncias: 1.619086 segundos
+2025-05-15 18:50:06 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c5.24xlarge na região us-east-1b.
+2025-05-15 18:50:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:10 - INFO - Fleet created with instances: ['i-086d18188894b4479', 'i-0b98a120af1f3491b', 'i-0145a8d885713f2e7', 'i-0f0710a39792bc91d', 'i-0aa7021e0b92a4056', 'i-07025ff87cc4ee154', 'i-0375cf7757b384775', 'i-0878065ac9e311ff6', 'i-09c6839a41832cb3f']
+2025-05-15 18:50:30 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-15 18:50:30 - INFO - Tempo que levou para conseguir 9 instâncias: 24.572981 segundos
+2025-05-15 18:50:30 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 49.043912 segundos
+2025-05-15 18:50:30 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:34 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:50:34 - INFO - Authentication (publickey) failed.
+2025-05-15 18:50:34 - WARNING - Attempt 1/5 failed for i-026eda52a5af20b45: Authentication failed.
+2025-05-15 18:50:40 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:50:42 - INFO - Authentication (publickey) failed.
+2025-05-15 18:50:42 - WARNING - Attempt 1/5 failed for i-07025ff87cc4ee154: Authentication failed.
+2025-05-15 18:50:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:50:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:50:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-15 18:51:00 - INFO - Authentication (publickey) successful!
+2025-05-15 18:51:00 - INFO - Running command in i-0aa7021e0b92a4056 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:51:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:51:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:51:16 - INFO - Authentication (publickey) successful!
+2025-05-15 18:51:16 - INFO - Running command in i-09c6839a41832cb3f (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:51:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:51:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:51:34 - INFO - Authentication (publickey) successful!
+2025-05-15 18:51:34 - INFO - Running command in i-0145a8d885713f2e7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:51:34 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:51:38 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:51:51 - INFO - Authentication (publickey) successful!
+2025-05-15 18:51:51 - INFO - Running command in i-0878065ac9e311ff6 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:51:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:51:55 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:52:08 - INFO - Authentication (publickey) successful!
+2025-05-15 18:52:08 - INFO - Running command in i-0375cf7757b384775 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:52:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:52:12 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:52:24 - INFO - Authentication (publickey) successful!
+2025-05-15 18:52:24 - INFO - Running command in i-0f0710a39792bc91d (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:52:25 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:52:28 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:52:41 - INFO - Authentication (publickey) successful!
+2025-05-15 18:52:41 - INFO - Running command in i-0b98a120af1f3491b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:52:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:52:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:52:58 - INFO - Authentication (publickey) successful!
+2025-05-15 18:52:58 - INFO - Running command in i-086d18188894b4479 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:52:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:53:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:53:13 - INFO - Authentication (publickey) successful!
+2025-05-15 18:53:13 - INFO - Running command in i-026eda52a5af20b45 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:53:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-15 18:53:16 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:53:30 - INFO - Authentication (publickey) successful!
+2025-05-15 18:53:30 - INFO - Running command in i-07025ff87cc4ee154 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-15 18:53:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-15 18:53:45 - INFO - All instances have been terminated.
+2025-05-17 10:26:33 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-17 10:27:48 - INFO - Tempo que levou para pegar preços do pricing_server: 74.742399 segundos
+2025-05-17 10:27:48 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-17 10:27:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:27:53 - INFO - Fleet created with instances: ['i-068c2e14c92b3bb8d', 'i-02b7be765bf18c1e1', 'i-072086eab088bf029', 'i-045c81a8af043007e', 'i-03a9c289448dc635e']
+2025-05-17 10:28:09 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:28:09 - INFO - Total de instâncias acumuladas: 5/10
+2025-05-17 10:28:09 - INFO - Tempo que levou para conseguir 5 instâncias: 21.610967 segundos
+2025-05-17 10:28:09 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-17 10:28:09 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:11 - WARNING - No instances were launched.
+2025-05-17 10:28:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:28:11 - INFO - Tempo que levou para conseguir 0 instâncias: 1.034052 segundos
+2025-05-17 10:28:11 - INFO - Faltam 5 instâncias. Tentando criar 5 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-17 10:28:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:13 - INFO - Fleet created with instances: ['i-0f555a2867defe556', 'i-0475fff178ca3cef9', 'i-06b54ec79804ab99d', 'i-06dbc2d8d200474ca', 'i-060132ee60c603d09']
+2025-05-17 10:28:30 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-17 10:28:30 - INFO - Tempo que levou para conseguir 5 instâncias: 19.381365 segundos
+2025-05-17 10:28:30 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 116.769559 segundos
+2025-05-17 10:28:30 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 10:28:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:29:00 - INFO - Authentication (publickey) successful!
+2025-05-17 10:29:00 - INFO - Running command in i-03a9c289448dc635e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:29:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:29:01 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:29:16 - INFO - Authentication (publickey) successful!
+2025-05-17 10:29:16 - INFO - Running command in i-045c81a8af043007e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:29:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:29:17 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:29:31 - INFO - Authentication (publickey) successful!
+2025-05-17 10:29:31 - INFO - Running command in i-02b7be765bf18c1e1 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:29:32 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:29:33 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:29:47 - INFO - Authentication (publickey) successful!
+2025-05-17 10:29:47 - INFO - Running command in i-068c2e14c92b3bb8d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:29:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:29:49 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:30:11 - INFO - Authentication (publickey) successful!
+2025-05-17 10:30:11 - INFO - Running command in i-072086eab088bf029 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:30:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:30:12 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:30:31 - INFO - Authentication (publickey) successful!
+2025-05-17 10:30:31 - INFO - Running command in i-06dbc2d8d200474ca (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:30:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:30:35 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:30:47 - INFO - Authentication (publickey) successful!
+2025-05-17 10:30:47 - INFO - Running command in i-0475fff178ca3cef9 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:30:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:30:50 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:31:02 - INFO - Authentication (publickey) successful!
+2025-05-17 10:31:02 - INFO - Running command in i-0f555a2867defe556 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:31:02 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:31:05 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:31:18 - INFO - Authentication (publickey) successful!
+2025-05-17 10:31:18 - INFO - Running command in i-060132ee60c603d09 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:31:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 10:31:22 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:31:34 - INFO - Authentication (publickey) successful!
+2025-05-17 10:31:34 - INFO - Running command in i-06b54ec79804ab99d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 10:31:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 10:31:46 - INFO - All instances have been terminated.
+2025-05-17 12:07:24 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-17 12:08:39 - INFO - Tempo que levou para pegar preços do pricing_server: 74.979224 segundos
+2025-05-17 12:08:39 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-17 12:08:39 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:08:42 - INFO - Tempo que levou para receber response AWS: 2.957788 segundos
+2025-05-17 12:08:42 - INFO - Fleet created with instances: ['i-04a11965a046dead2', 'i-094b4915a63eec335', 'i-099cc8d04e22b461f', 'i-0e5c348b61d973b93', 'i-055f4d0632aee7e63', 'i-0a48b7b7a0339c690']
+2025-05-17 12:09:00 - INFO - Tempo que levou para as máquinas estarem running: 16.852623 segundos
+2025-05-17 12:09:00 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:09:00 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-17 12:09:00 - INFO - Tempo que levou para conseguir 6 instâncias: 20.839918 segundos
+2025-05-17 12:09:00 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-17 12:09:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:01 - INFO - Tempo que levou para receber response AWS: 0.438041 segundos
+2025-05-17 12:09:01 - WARNING - No instances were launched.
+2025-05-17 12:09:01 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:09:01 - INFO - Tempo que levou para conseguir 0 instâncias: 1.03899 segundos
+2025-05-17 12:09:01 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-17 12:09:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:02 - INFO - Tempo que levou para receber response AWS: 0.423829 segundos
+2025-05-17 12:09:02 - WARNING - No instances were launched.
+2025-05-17 12:09:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:09:02 - INFO - Tempo que levou para conseguir 0 instâncias: 1.032496 segundos
+2025-05-17 12:09:02 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-17 12:09:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:04 - INFO - Tempo que levou para receber response AWS: 2.033112 segundos
+2025-05-17 12:09:04 - INFO - Fleet created with instances: ['i-014d49ac6e7e90347', 'i-076027ae3c56dad38', 'i-09aa6093038935afc', 'i-06ba0ccb548c0d4d5']
+2025-05-17 12:09:21 - INFO - Tempo que levou para as máquinas estarem running: 16.23403 segundos
+2025-05-17 12:09:21 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-17 12:09:21 - INFO - Tempo que levou para conseguir 4 instâncias: 19.201736 segundos
+2025-05-17 12:09:21 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 117.093713 segundos
+2025-05-17 12:09:21 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-17 12:09:24 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:09:45 - INFO - Authentication (publickey) successful!
+2025-05-17 12:09:45 - INFO - Running command in i-0e5c348b61d973b93 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:09:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:09:46 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:10:06 - INFO - Authentication (publickey) successful!
+2025-05-17 12:10:06 - INFO - Running command in i-04a11965a046dead2 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:10:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:10:07 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:10:24 - INFO - Authentication (publickey) successful!
+2025-05-17 12:10:24 - INFO - Running command in i-0a48b7b7a0339c690 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:10:24 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:10:26 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:10:41 - INFO - Authentication (publickey) successful!
+2025-05-17 12:10:41 - INFO - Running command in i-099cc8d04e22b461f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:10:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:10:42 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:10:57 - INFO - Authentication (publickey) successful!
+2025-05-17 12:10:57 - INFO - Running command in i-055f4d0632aee7e63 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:10:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:10:58 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:11:13 - INFO - Authentication (publickey) successful!
+2025-05-17 12:11:13 - INFO - Running command in i-094b4915a63eec335 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:11:13 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:11:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:11:29 - INFO - Authentication (publickey) successful!
+2025-05-17 12:11:29 - INFO - Running command in i-09aa6093038935afc (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:11:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:11:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:11:45 - INFO - Authentication (publickey) successful!
+2025-05-17 12:11:45 - INFO - Running command in i-06ba0ccb548c0d4d5 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:11:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:11:49 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:12:00 - INFO - Authentication (publickey) successful!
+2025-05-17 12:12:00 - INFO - Running command in i-014d49ac6e7e90347 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:12:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-17 12:12:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:12:16 - INFO - Authentication (publickey) successful!
+2025-05-17 12:12:16 - INFO - Running command in i-076027ae3c56dad38 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-17 12:12:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-17 12:12:28 - INFO - All instances have been terminated.
+2025-05-19 18:21:51 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-19 18:23:06 - INFO - Tempo que levou para pegar preços do pricing_server: 75.072942 segundos
+2025-05-19 18:23:06 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-19 18:23:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:10 - INFO - Tempo que levou para receber response AWS: 2.713082 segundos
+2025-05-19 18:23:10 - INFO - Fleet created with instances: ['i-04d1c9f1d07a0e2b4']
+2025-05-19 18:23:26 - INFO - Tempo que levou para as máquinas estarem running: 15.487412 segundos
+2025-05-19 18:23:26 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:23:26 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-19 18:23:26 - INFO - Tempo que levou para conseguir 1 instâncias: 19.411381 segundos
+2025-05-19 18:23:26 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-19 18:23:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:28 - INFO - Tempo que levou para receber response AWS: 1.258593 segundos
+2025-05-19 18:23:28 - WARNING - No instances were launched.
+2025-05-19 18:23:28 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:23:28 - INFO - Tempo que levou para conseguir 0 instâncias: 2.129847 segundos
+2025-05-19 18:23:28 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-19 18:23:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:29 - INFO - Tempo que levou para receber response AWS: 0.385918 segundos
+2025-05-19 18:23:29 - WARNING - No instances were launched.
+2025-05-19 18:23:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:23:29 - INFO - Tempo que levou para conseguir 0 instâncias: 1.051312 segundos
+2025-05-19 18:23:29 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m5.24xlarge na região us-east-1f.
+2025-05-19 18:23:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:30 - INFO - Tempo que levou para receber response AWS: 0.822533 segundos
+2025-05-19 18:23:30 - WARNING - No instances were launched.
+2025-05-19 18:23:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:23:30 - INFO - Tempo que levou para conseguir 0 instâncias: 1.310307 segundos
+2025-05-19 18:23:30 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-19 18:23:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:33 - INFO - Tempo que levou para receber response AWS: 2.106025 segundos
+2025-05-19 18:23:33 - INFO - Fleet created with instances: ['i-0ba7e621ec8eb1556', 'i-0f868e003306fbf5a', 'i-007e47eb7eceb532c', 'i-07d9752ab4919d481', 'i-0e22b8e2250997f6a', 'i-0658d772f452b84bf', 'i-08813eb1563569098', 'i-0fddf449b5aba7565', 'i-05d1cf0f972e2b219']
+2025-05-19 18:23:50 - INFO - Tempo que levou para as máquinas estarem running: 17.184458 segundos
+2025-05-19 18:23:50 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-19 18:23:50 - INFO - Tempo que levou para conseguir 9 instâncias: 20.276153 segundos
+2025-05-19 18:23:50 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 119.253222 segundos
+2025-05-19 18:23:50 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:23:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:24:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:24:22 - INFO - Authentication (publickey) failed.
+2025-05-19 18:24:22 - WARNING - Attempt 1/5 failed for i-007e47eb7eceb532c: Authentication failed.
+2025-05-19 18:24:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:24:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:24:37 - INFO - Authentication (publickey) successful!
+2025-05-19 18:24:37 - INFO - Running command in i-05d1cf0f972e2b219 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:24:37 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:24:41 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:24:56 - INFO - Authentication (publickey) successful!
+2025-05-19 18:24:56 - INFO - Running command in i-0658d772f452b84bf (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:24:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:25:00 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:25:16 - INFO - Authentication (publickey) successful!
+2025-05-19 18:25:16 - INFO - Running command in i-0fddf449b5aba7565 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:25:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:25:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:25:33 - INFO - Authentication (publickey) successful!
+2025-05-19 18:25:33 - INFO - Running command in i-04d1c9f1d07a0e2b4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:25:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:25:35 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:25:50 - INFO - Authentication (publickey) successful!
+2025-05-19 18:25:50 - INFO - Running command in i-0e22b8e2250997f6a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:25:50 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:25:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:26:06 - INFO - Authentication (publickey) successful!
+2025-05-19 18:26:06 - INFO - Running command in i-0f868e003306fbf5a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:26:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:26:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:26:22 - INFO - Authentication (publickey) successful!
+2025-05-19 18:26:22 - INFO - Running command in i-08813eb1563569098 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:26:22 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:26:25 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:26:47 - INFO - Authentication (publickey) successful!
+2025-05-19 18:26:47 - INFO - Running command in i-0ba7e621ec8eb1556 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:26:47 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:26:51 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:27:04 - INFO - Authentication (publickey) successful!
+2025-05-19 18:27:04 - INFO - Running command in i-07d9752ab4919d481 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:27:04 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:27:07 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:27:16 - INFO - Authentication (publickey) successful!
+2025-05-19 18:27:16 - INFO - Running command in i-007e47eb7eceb532c (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:27:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:27:28 - INFO - All instances have been terminated.
+2025-05-19 18:38:57 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-19 18:40:12 - INFO - Tempo que levou para pegar preços do pricing_server: 74.564078 segundos
+2025-05-19 18:40:12 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-19 18:40:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:15 - INFO - Tempo que levou para receber response AWS: 2.744138 segundos
+2025-05-19 18:40:15 - INFO - Fleet created with instances: ['i-036fac45678203e4d', 'i-0645b7a77a4e39088']
+2025-05-19 18:40:31 - INFO - Tempo que levou para as máquinas estarem running: 15.848868 segundos
+2025-05-19 18:40:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:40:31 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-19 18:40:31 - INFO - Tempo que levou para conseguir 2 instâncias: 19.621829 segundos
+2025-05-19 18:40:31 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-19 18:40:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:32 - INFO - Tempo que levou para receber response AWS: 0.416088 segundos
+2025-05-19 18:40:32 - WARNING - No instances were launched.
+2025-05-19 18:40:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:40:32 - INFO - Tempo que levou para conseguir 0 instâncias: 1.001147 segundos
+2025-05-19 18:40:32 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-19 18:40:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:33 - INFO - Tempo que levou para receber response AWS: 0.404068 segundos
+2025-05-19 18:40:33 - WARNING - No instances were launched.
+2025-05-19 18:40:33 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:40:33 - INFO - Tempo que levou para conseguir 0 instâncias: 1.009891 segundos
+2025-05-19 18:40:33 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m5.24xlarge na região us-east-1f.
+2025-05-19 18:40:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:34 - INFO - Tempo que levou para receber response AWS: 0.813423 segundos
+2025-05-19 18:40:34 - WARNING - No instances were launched.
+2025-05-19 18:40:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:40:34 - INFO - Tempo que levou para conseguir 0 instâncias: 1.315701 segundos
+2025-05-19 18:40:34 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-19 18:40:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:37 - INFO - Tempo que levou para receber response AWS: 2.029961 segundos
+2025-05-19 18:40:37 - INFO - Fleet created with instances: ['i-0ba95d70f782a3c62', 'i-07543720d3347016c', 'i-016b2368ce80cccec', 'i-07caf7c34c55f6f5d', 'i-01b636c2718cd3986', 'i-096f0e2586d4bd72a', 'i-0dabff7585cafd717', 'i-06d411ec6bfc3e4ff']
+2025-05-19 18:40:55 - INFO - Tempo que levou para as máquinas estarem running: 17.051595 segundos
+2025-05-19 18:40:55 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-19 18:40:55 - INFO - Tempo que levou para conseguir 8 instâncias: 20.059416 segundos
+2025-05-19 18:40:55 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 117.573005 segundos
+2025-05-19 18:40:55 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 18:40:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:41:25 - INFO - Authentication (publickey) successful!
+2025-05-19 18:41:25 - INFO - Running command in i-0645b7a77a4e39088 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:41:25 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:41:26 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:41:42 - INFO - Authentication (publickey) successful!
+2025-05-19 18:41:42 - INFO - Running command in i-036fac45678203e4d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:41:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:41:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:41:58 - INFO - Authentication (publickey) successful!
+2025-05-19 18:41:58 - INFO - Running command in i-06d411ec6bfc3e4ff (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:41:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:42:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:42:19 - INFO - Authentication (publickey) successful!
+2025-05-19 18:42:19 - INFO - Running command in i-096f0e2586d4bd72a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:42:19 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:42:22 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:42:36 - INFO - Authentication (publickey) successful!
+2025-05-19 18:42:36 - INFO - Running command in i-0dabff7585cafd717 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:42:36 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:42:39 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:42:53 - INFO - Authentication (publickey) successful!
+2025-05-19 18:42:53 - INFO - Running command in i-016b2368ce80cccec (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:42:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:42:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:43:14 - INFO - Authentication (publickey) successful!
+2025-05-19 18:43:14 - INFO - Running command in i-07caf7c34c55f6f5d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:43:14 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:43:17 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:43:31 - INFO - Authentication (publickey) successful!
+2025-05-19 18:43:31 - INFO - Running command in i-07543720d3347016c (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:43:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:43:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:43:48 - INFO - Authentication (publickey) successful!
+2025-05-19 18:43:48 - INFO - Running command in i-0ba95d70f782a3c62 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:43:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-19 18:43:50 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:44:04 - INFO - Authentication (publickey) successful!
+2025-05-19 18:44:04 - INFO - Running command in i-01b636c2718cd3986 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-19 18:44:08 - INFO - Updating file: results/results_miguel.csv
+2025-05-19 18:44:17 - INFO - All instances have been terminated.
+2025-05-20 19:27:13 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-20 19:28:28 - INFO - Tempo que levou para pegar preços do pricing_server: 74.978304 segundos
+2025-05-20 19:28:28 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-20 19:28:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:28:31 - INFO - Tempo que levou para receber response AWS: 2.590995 segundos
+2025-05-20 19:28:31 - INFO - Fleet created with instances: ['i-0713f85cb88ae5fda']
+2025-05-20 19:28:47 - INFO - Tempo que levou para as máquinas estarem running: 15.467458 segundos
+2025-05-20 19:28:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:28:47 - INFO - Total de instâncias acumuladas: 1/10
+2025-05-20 19:28:47 - INFO - Tempo que levou para conseguir 1 instâncias: 18.96741 segundos
+2025-05-20 19:28:47 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-20 19:28:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:28:49 - INFO - Tempo que levou para receber response AWS: 1.362301 segundos
+2025-05-20 19:28:49 - WARNING - No instances were launched.
+2025-05-20 19:28:49 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:28:49 - INFO - Tempo que levou para conseguir 0 instâncias: 1.895695 segundos
+2025-05-20 19:28:49 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-20 19:28:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:28:50 - INFO - Tempo que levou para receber response AWS: 0.394803 segundos
+2025-05-20 19:28:50 - WARNING - No instances were launched.
+2025-05-20 19:28:50 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:28:50 - INFO - Tempo que levou para conseguir 0 instâncias: 0.994873 segundos
+2025-05-20 19:28:50 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m5.24xlarge na região us-east-1f.
+2025-05-20 19:28:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:28:51 - INFO - Tempo que levou para receber response AWS: 0.858552 segundos
+2025-05-20 19:28:51 - WARNING - No instances were launched.
+2025-05-20 19:28:51 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:28:51 - INFO - Tempo que levou para conseguir 0 instâncias: 1.333602 segundos
+2025-05-20 19:28:51 - INFO - Faltam 9 instâncias. Tentando criar 9 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-20 19:28:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:28:54 - INFO - Tempo que levou para receber response AWS: 2.756518 segundos
+2025-05-20 19:28:54 - INFO - Fleet created with instances: ['i-0246b01c0dcc77d8e']
+2025-05-20 19:29:10 - INFO - Tempo que levou para as máquinas estarem running: 15.446592 segundos
+2025-05-20 19:29:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:29:10 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-20 19:29:10 - INFO - Tempo que levou para conseguir 1 instâncias: 19.094256 segundos
+2025-05-20 19:29:10 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-20 19:29:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:11 - INFO - Tempo que levou para receber response AWS: 0.421309 segundos
+2025-05-20 19:29:11 - WARNING - No instances were launched.
+2025-05-20 19:29:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:29:11 - INFO - Tempo que levou para conseguir 0 instâncias: 0.996523 segundos
+2025-05-20 19:29:11 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-20 19:29:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:12 - INFO - Tempo que levou para receber response AWS: 0.473687 segundos
+2025-05-20 19:29:12 - WARNING - No instances were launched.
+2025-05-20 19:29:12 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:29:12 - INFO - Tempo que levou para conseguir 0 instâncias: 0.972177 segundos
+2025-05-20 19:29:12 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo c5.24xlarge na região us-east-1b.
+2025-05-20 19:29:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:15 - INFO - Tempo que levou para receber response AWS: 2.511305 segundos
+2025-05-20 19:29:15 - INFO - Fleet created with instances: ['i-0344fe6f7c11fb467', 'i-057af0c9e5e05afa2', 'i-0001ebd5f1e2c1e66', 'i-034c931f31323f322', 'i-0da09c1ded4b0546a', 'i-0861cc8a6ebeeba24', 'i-0bba28c2b2e4303d2', 'i-06e08f57ce3e9ace7']
+2025-05-20 19:29:36 - INFO - Tempo que levou para as máquinas estarem running: 19.133392 segundos
+2025-05-20 19:29:36 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-20 19:29:36 - INFO - Tempo que levou para conseguir 8 instâncias: 23.53074 segundos
+2025-05-20 19:29:36 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 142.765763 segundos
+2025-05-20 19:29:36 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:29:39 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:29:57 - INFO - Authentication (publickey) failed.
+2025-05-20 19:29:57 - WARNING - Attempt 1/5 failed for i-0246b01c0dcc77d8e: Authentication failed.
+2025-05-20 19:29:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:30:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:30:23 - INFO - Authentication (publickey) successful!
+2025-05-20 19:30:23 - INFO - Running command in i-0713f85cb88ae5fda (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:30:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:30:24 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:30:50 - INFO - Authentication (publickey) successful!
+2025-05-20 19:30:50 - INFO - Running command in i-0861cc8a6ebeeba24 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:30:50 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:30:53 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:31:18 - INFO - Authentication (publickey) successful!
+2025-05-20 19:31:18 - INFO - Running command in i-0da09c1ded4b0546a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:31:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:31:22 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:31:44 - INFO - Authentication (publickey) successful!
+2025-05-20 19:31:44 - INFO - Running command in i-0bba28c2b2e4303d2 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:31:44 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:31:48 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:32:06 - INFO - Authentication (publickey) successful!
+2025-05-20 19:32:06 - INFO - Running command in i-06e08f57ce3e9ace7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:32:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:32:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:32:28 - INFO - Authentication (publickey) successful!
+2025-05-20 19:32:28 - INFO - Running command in i-034c931f31323f322 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:32:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:32:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:32:50 - INFO - Authentication (publickey) successful!
+2025-05-20 19:32:50 - INFO - Running command in i-057af0c9e5e05afa2 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:32:50 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:32:53 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:33:12 - INFO - Authentication (publickey) successful!
+2025-05-20 19:33:12 - INFO - Running command in i-0344fe6f7c11fb467 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:33:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:33:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:33:33 - INFO - Authentication (publickey) successful!
+2025-05-20 19:33:33 - INFO - Running command in i-0001ebd5f1e2c1e66 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:33:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:33:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:33:41 - INFO - Authentication (publickey) successful!
+2025-05-20 19:33:41 - INFO - Running command in i-0246b01c0dcc77d8e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:33:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:33:55 - INFO - All instances have been terminated.
+2025-05-20 19:40:14 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=capacity-optimized
+2025-05-20 19:41:28 - INFO - Tempo que levou para pegar preços do pricing_server: 74.336554 segundos
+2025-05-20 19:41:28 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-20 19:41:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:41:31 - INFO - Tempo que levou para receber response AWS: 2.796331 segundos
+2025-05-20 19:41:31 - INFO - Fleet created with instances: ['i-04f605fbb876b27a7', 'i-0857e78191c64b684']
+2025-05-20 19:41:47 - INFO - Tempo que levou para as máquinas estarem running: 15.759513 segundos
+2025-05-20 19:41:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:41:47 - INFO - Total de instâncias acumuladas: 2/10
+2025-05-20 19:41:47 - INFO - Tempo que levou para conseguir 2 instâncias: 19.520149 segundos
+2025-05-20 19:41:47 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-20 19:41:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:41:48 - INFO - Tempo que levou para receber response AWS: 0.447437 segundos
+2025-05-20 19:41:48 - WARNING - No instances were launched.
+2025-05-20 19:41:48 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:41:48 - INFO - Tempo que levou para conseguir 0 instâncias: 0.996893 segundos
+2025-05-20 19:41:48 - INFO - Faltam 8 instâncias. Tentando criar 8 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-20 19:41:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:41:52 - INFO - Tempo que levou para receber response AWS: 2.791906 segundos
+2025-05-20 19:41:52 - INFO - Fleet created with instances: ['i-08bf5352c1916f1e5']
+2025-05-20 19:42:08 - INFO - Tempo que levou para as máquinas estarem running: 15.429954 segundos
+2025-05-20 19:42:08 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:08 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-20 19:42:08 - INFO - Tempo que levou para conseguir 1 instâncias: 19.187032 segundos
+2025-05-20 19:42:08 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-20 19:42:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:09 - INFO - Tempo que levou para receber response AWS: 1.204733 segundos
+2025-05-20 19:42:09 - WARNING - No instances were launched.
+2025-05-20 19:42:09 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:09 - INFO - Tempo que levou para conseguir 0 instâncias: 1.888148 segundos
+2025-05-20 19:42:09 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo m5.24xlarge na região us-east-1f.
+2025-05-20 19:42:09 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:11 - INFO - Tempo que levou para receber response AWS: 0.814605 segundos
+2025-05-20 19:42:11 - WARNING - No instances were launched.
+2025-05-20 19:42:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:11 - INFO - Tempo que levou para conseguir 0 instâncias: 1.418651 segundos
+2025-05-20 19:42:11 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-20 19:42:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:14 - INFO - Tempo que levou para receber response AWS: 2.724997 segundos
+2025-05-20 19:42:14 - INFO - Fleet created with instances: ['i-067dc855cb95aeb23']
+2025-05-20 19:42:30 - INFO - Tempo que levou para as máquinas estarem running: 15.495937 segundos
+2025-05-20 19:42:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:30 - INFO - Total de instâncias acumuladas: 4/10
+2025-05-20 19:42:30 - INFO - Tempo que levou para conseguir 1 instâncias: 19.192864 segundos
+2025-05-20 19:42:30 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-20 19:42:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:31 - INFO - Tempo que levou para receber response AWS: 0.396645 segundos
+2025-05-20 19:42:31 - WARNING - No instances were launched.
+2025-05-20 19:42:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:31 - INFO - Tempo que levou para conseguir 0 instâncias: 1.300517 segundos
+2025-05-20 19:42:31 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo r5ad.24xlarge na região sa-east-1c.
+2025-05-20 19:42:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:32 - INFO - Tempo que levou para receber response AWS: 0.382278 segundos
+2025-05-20 19:42:32 - WARNING - No instances were launched.
+2025-05-20 19:42:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:42:32 - INFO - Tempo que levou para conseguir 0 instâncias: 1.011817 segundos
+2025-05-20 19:42:32 - INFO - Faltam 6 instâncias. Tentando criar 6 do tipo c5.24xlarge na região us-east-1b.
+2025-05-20 19:42:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:35 - INFO - Tempo que levou para receber response AWS: 2.395446 segundos
+2025-05-20 19:42:35 - INFO - Fleet created with instances: ['i-051c44d522ca6d37c', 'i-0a7cb9bda016cb344', 'i-096c25578b4bea3c4', 'i-0af52d0c5a786dafe', 'i-0f7b6cf59a6d52c2c', 'i-0d896b78085475e0a']
+2025-05-20 19:42:55 - INFO - Tempo que levou para as máquinas estarem running: 18.157579 segundos
+2025-05-20 19:42:55 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-20 19:42:55 - INFO - Tempo que levou para conseguir 6 instâncias: 22.333787 segundos
+2025-05-20 19:42:55 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 161.188362 segundos
+2025-05-20 19:42:55 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:42:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:43:15 - INFO - Authentication (publickey) failed.
+2025-05-20 19:43:15 - WARNING - Attempt 1/5 failed for i-067dc855cb95aeb23: Authentication failed.
+2025-05-20 19:43:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:43:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:43:46 - WARNING - Attempt 1/5 failed for i-0857e78191c64b684: Authentication timeout.
+2025-05-20 19:43:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:43:49 - INFO - Authentication (publickey) successful!
+2025-05-20 19:43:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 19:44:09 - INFO - Authentication (publickey) successful!
+2025-05-20 19:44:09 - INFO - Running command in i-04f605fbb876b27a7 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:44:09 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:44:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:44:33 - INFO - Authentication (publickey) successful!
+2025-05-20 19:44:33 - INFO - Running command in i-08bf5352c1916f1e5 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:44:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:44:35 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:45:01 - INFO - Authentication (publickey) successful!
+2025-05-20 19:45:01 - INFO - Running command in i-051c44d522ca6d37c (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:45:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:45:05 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:45:26 - INFO - Authentication (publickey) successful!
+2025-05-20 19:45:26 - INFO - Running command in i-096c25578b4bea3c4 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:45:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:45:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:45:52 - INFO - Authentication (publickey) successful!
+2025-05-20 19:45:52 - INFO - Running command in i-0a7cb9bda016cb344 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:45:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:45:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:46:16 - INFO - Authentication (publickey) successful!
+2025-05-20 19:46:16 - INFO - Running command in i-0d896b78085475e0a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:46:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:46:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:46:41 - INFO - Authentication (publickey) successful!
+2025-05-20 19:46:41 - INFO - Running command in i-0af52d0c5a786dafe (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:46:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:46:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:47:05 - INFO - Authentication (publickey) successful!
+2025-05-20 19:47:05 - INFO - Running command in i-0f7b6cf59a6d52c2c (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:47:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:47:09 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:47:12 - INFO - Authentication (publickey) successful!
+2025-05-20 19:47:12 - INFO - Running command in i-067dc855cb95aeb23 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:47:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-20 19:47:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:47:20 - INFO - Authentication (publickey) successful!
+2025-05-20 19:47:20 - INFO - Running command in i-0857e78191c64b684 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-20 19:47:21 - INFO - Updating file: results/results_miguel.csv
+2025-05-20 19:47:31 - INFO - All instances have been terminated.
+2025-05-22 14:31:12 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-22 14:32:27 - INFO - Tempo que levou para pegar preços do pricing_server: 75.505678 segundos
+2025-05-22 14:32:27 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-22 14:32:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:29 - INFO - Tempo que levou para receber response AWS: 1.110346 segundos
+2025-05-22 14:32:29 - WARNING - No instances were launched.
+2025-05-22 14:32:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:32:29 - INFO - Tempo que levou para conseguir 0 instâncias: 1.636437 segundos
+2025-05-22 14:32:29 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-22 14:32:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:30 - INFO - Tempo que levou para receber response AWS: 1.040766 segundos
+2025-05-22 14:32:30 - WARNING - No instances were launched.
+2025-05-22 14:32:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:32:30 - INFO - Tempo que levou para conseguir 0 instâncias: 1.602831 segundos
+2025-05-22 14:32:30 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m5.24xlarge na região us-east-1f.
+2025-05-22 14:32:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:32 - INFO - Tempo que levou para receber response AWS: 1.438918 segundos
+2025-05-22 14:32:32 - WARNING - No instances were launched.
+2025-05-22 14:32:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:32:32 - INFO - Tempo que levou para conseguir 0 instâncias: 2.011216 segundos
+2025-05-22 14:32:32 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-22 14:32:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:35 - INFO - Tempo que levou para receber response AWS: 2.096045 segundos
+2025-05-22 14:32:35 - INFO - Fleet created with instances: ['i-0667382e916d9bd89', 'i-0da877c8071813528', 'i-000d28ffeeb135854', 'i-07165133ea411ef8f', 'i-0d851936544bebea7', 'i-00eb94379438e8bda', 'i-0b4230c4ae6234092', 'i-0e2f9afa82cb30e89', 'i-05cc161c9c1131ee4', 'i-0c561806ab358a4f2']
+2025-05-22 14:32:53 - INFO - Tempo que levou para as máquinas estarem running: 17.514692 segundos
+2025-05-22 14:32:53 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-22 14:32:53 - INFO - Tempo que levou para conseguir 10 instâncias: 20.546169 segundos
+2025-05-22 14:32:53 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 101.303136 segundos
+2025-05-22 14:32:53 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:32:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:33:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:33:24 - INFO - Authentication (publickey) failed.
+2025-05-22 14:33:24 - WARNING - Attempt 1/5 failed for i-00eb94379438e8bda: Authentication failed.
+2025-05-22 14:33:24 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:33:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 14:33:40 - INFO - Authentication (publickey) successful!
+2025-05-22 14:33:40 - INFO - Running command in i-0c561806ab358a4f2 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:33:40 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:33:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:33:57 - INFO - Authentication (publickey) successful!
+2025-05-22 14:33:57 - INFO - Running command in i-000d28ffeeb135854 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:33:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:34:01 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:34:12 - INFO - Authentication (publickey) successful!
+2025-05-22 14:34:12 - INFO - Running command in i-0e2f9afa82cb30e89 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:34:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:34:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:34:30 - INFO - Authentication (publickey) successful!
+2025-05-22 14:34:30 - INFO - Running command in i-07165133ea411ef8f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:34:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:34:33 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:34:45 - INFO - Authentication (publickey) successful!
+2025-05-22 14:34:45 - INFO - Running command in i-0b4230c4ae6234092 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:34:45 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:34:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:34:59 - INFO - Authentication (publickey) successful!
+2025-05-22 14:34:59 - INFO - Running command in i-0667382e916d9bd89 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:34:59 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:35:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:35:28 - INFO - Authentication (publickey) successful!
+2025-05-22 14:35:28 - INFO - Running command in i-0d851936544bebea7 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:35:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:35:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:35:43 - INFO - Authentication (publickey) successful!
+2025-05-22 14:35:43 - INFO - Running command in i-05cc161c9c1131ee4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:35:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:35:46 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:35:58 - INFO - Authentication (publickey) successful!
+2025-05-22 14:35:58 - INFO - Running command in i-0da877c8071813528 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:35:58 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 14:36:01 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:36:19 - INFO - Authentication (publickey) successful!
+2025-05-22 14:36:19 - INFO - Running command in i-00eb94379438e8bda (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 14:36:22 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 14:36:30 - INFO - All instances have been terminated.
+2025-05-22 16:03:13 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-22 16:04:29 - INFO - Tempo que levou para pegar preços do pricing_server: 76.31353 segundos
+2025-05-22 16:04:29 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-22 16:04:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:04:33 - INFO - Tempo que levou para receber response AWS: 2.902086 segundos
+2025-05-22 16:04:33 - INFO - Fleet created with instances: ['i-044816ce2869b99a4', 'i-0ec0bb0c378eab936', 'i-0f796780dc060268f', 'i-069dd5d51f7893b5a', 'i-02a3fe226e22e1861', 'i-0fdbc87e347011138']
+2025-05-22 16:04:50 - INFO - Tempo que levou para as máquinas estarem running: 16.61639 segundos
+2025-05-22 16:04:50 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:04:50 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-22 16:04:50 - INFO - Tempo que levou para conseguir 6 instâncias: 20.533425 segundos
+2025-05-22 16:04:50 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-22 16:04:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:04:52 - INFO - Tempo que levou para receber response AWS: 1.305128 segundos
+2025-05-22 16:04:52 - WARNING - No instances were launched.
+2025-05-22 16:04:52 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:04:52 - INFO - Tempo que levou para conseguir 0 instâncias: 1.923713 segundos
+2025-05-22 16:04:52 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-22 16:04:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:04:53 - INFO - Tempo que levou para receber response AWS: 0.418519 segundos
+2025-05-22 16:04:53 - WARNING - No instances were launched.
+2025-05-22 16:04:53 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:04:53 - INFO - Tempo que levou para conseguir 0 instâncias: 1.051614 segundos
+2025-05-22 16:04:53 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m5.24xlarge na região us-east-1f.
+2025-05-22 16:04:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:04:54 - INFO - Tempo que levou para receber response AWS: 0.827609 segundos
+2025-05-22 16:04:54 - WARNING - No instances were launched.
+2025-05-22 16:04:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:04:54 - INFO - Tempo que levou para conseguir 0 instâncias: 1.330968 segundos
+2025-05-22 16:04:54 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-22 16:04:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:04:57 - INFO - Tempo que levou para receber response AWS: 1.92578 segundos
+2025-05-22 16:04:57 - INFO - Fleet created with instances: ['i-07ce3fc1aacd758d1', 'i-0b0ebe7a58e6b6b7e', 'i-0b23def649d4580cc', 'i-0f811812a361474ca']
+2025-05-22 16:05:13 - INFO - Tempo que levou para as máquinas estarem running: 16.263201 segundos
+2025-05-22 16:05:13 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-22 16:05:13 - INFO - Tempo que levou para conseguir 4 instâncias: 19.197735 segundos
+2025-05-22 16:05:13 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 120.353057 segundos
+2025-05-22 16:05:13 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:05:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:05:40 - INFO - Authentication (publickey) successful!
+2025-05-22 16:05:40 - INFO - Running command in i-0fdbc87e347011138 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:05:40 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:05:42 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:05:56 - INFO - Authentication (publickey) successful!
+2025-05-22 16:05:56 - INFO - Running command in i-0ec0bb0c378eab936 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:05:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:05:58 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:06:12 - INFO - Authentication (publickey) successful!
+2025-05-22 16:06:12 - INFO - Running command in i-069dd5d51f7893b5a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:06:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:06:14 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:06:27 - INFO - Authentication (publickey) successful!
+2025-05-22 16:06:27 - INFO - Running command in i-0f796780dc060268f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:06:27 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:06:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:06:42 - INFO - Authentication (publickey) successful!
+2025-05-22 16:06:42 - INFO - Running command in i-02a3fe226e22e1861 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:06:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:06:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:06:57 - INFO - Authentication (publickey) successful!
+2025-05-22 16:06:57 - INFO - Running command in i-044816ce2869b99a4 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:06:57 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:06:58 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:07:11 - INFO - Authentication (publickey) successful!
+2025-05-22 16:07:11 - INFO - Running command in i-07ce3fc1aacd758d1 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:07:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:07:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:07:25 - INFO - Authentication (publickey) successful!
+2025-05-22 16:07:25 - INFO - Running command in i-0f811812a361474ca (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:07:25 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:07:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:07:41 - INFO - Authentication (publickey) successful!
+2025-05-22 16:07:41 - INFO - Running command in i-0b23def649d4580cc (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:07:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:07:44 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:07:57 - INFO - Authentication (publickey) successful!
+2025-05-22 16:07:57 - INFO - Running command in i-0b0ebe7a58e6b6b7e (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:08:00 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:08:09 - INFO - All instances have been terminated.
+2025-05-22 16:16:01 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-22 16:17:16 - INFO - Tempo que levou para pegar preços do pricing_server: 75.373032 segundos
+2025-05-22 16:17:16 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-22 16:17:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:17:19 - INFO - Tempo que levou para receber response AWS: 2.846533 segundos
+2025-05-22 16:17:19 - INFO - Fleet created with instances: ['i-06d396c453a3950f9', 'i-0eeab2d1397f33b4f', 'i-0691a4bb86bb366cb', 'i-0a5389de50a4f2529', 'i-02d09bd89e83675d3', 'i-0a95978adc1cecd0f']
+2025-05-22 16:17:36 - INFO - Tempo que levou para as máquinas estarem running: 16.708779 segundos
+2025-05-22 16:17:36 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:17:37 - INFO - Total de instâncias acumuladas: 6/10
+2025-05-22 16:17:37 - INFO - Tempo que levou para conseguir 6 instâncias: 20.574298 segundos
+2025-05-22 16:17:37 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-22 16:17:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:17:38 - INFO - Tempo que levou para receber response AWS: 1.3215 segundos
+2025-05-22 16:17:38 - WARNING - No instances were launched.
+2025-05-22 16:17:38 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:17:38 - INFO - Tempo que levou para conseguir 0 instâncias: 1.929603 segundos
+2025-05-22 16:17:38 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo c6a.24xlarge na região sa-east-1a.
+2025-05-22 16:17:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:17:40 - INFO - Tempo que levou para receber response AWS: 0.394549 segundos
+2025-05-22 16:17:40 - WARNING - No instances were launched.
+2025-05-22 16:17:40 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:17:40 - INFO - Tempo que levou para conseguir 0 instâncias: 1.120013 segundos
+2025-05-22 16:17:40 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m5.24xlarge na região us-east-1f.
+2025-05-22 16:17:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:17:41 - INFO - Tempo que levou para receber response AWS: 0.81099 segundos
+2025-05-22 16:17:41 - WARNING - No instances were launched.
+2025-05-22 16:17:41 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:17:41 - INFO - Tempo que levou para conseguir 0 instâncias: 1.360127 segundos
+2025-05-22 16:17:41 - INFO - Faltam 4 instâncias. Tentando criar 4 do tipo m5a.24xlarge na região sa-east-1a.
+2025-05-22 16:17:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:17:44 - INFO - Tempo que levou para receber response AWS: 2.127313 segundos
+2025-05-22 16:17:44 - INFO - Fleet created with instances: ['i-0eac647d99fdc7974', 'i-0c3f129a5966c11e1', 'i-05a9587bb0a3392ef', 'i-03d985b593d6f8872']
+2025-05-22 16:18:00 - INFO - Tempo que levou para as máquinas estarem running: 16.088364 segundos
+2025-05-22 16:18:00 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-22 16:18:00 - INFO - Tempo que levou para conseguir 4 instâncias: 19.230179 segundos
+2025-05-22 16:18:00 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 119.587882 segundos
+2025-05-22 16:18:00 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-22 16:18:03 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:18:23 - INFO - Authentication (publickey) successful!
+2025-05-22 16:18:23 - INFO - Running command in i-02d09bd89e83675d3 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:18:23 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:18:24 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:18:38 - INFO - Authentication (publickey) successful!
+2025-05-22 16:18:38 - INFO - Running command in i-06d396c453a3950f9 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:18:38 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:18:39 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:18:51 - INFO - Authentication (publickey) successful!
+2025-05-22 16:18:51 - INFO - Running command in i-0a5389de50a4f2529 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:18:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:18:53 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:19:05 - INFO - Authentication (publickey) successful!
+2025-05-22 16:19:05 - INFO - Running command in i-0eeab2d1397f33b4f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:19:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:19:06 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:19:18 - INFO - Authentication (publickey) successful!
+2025-05-22 16:19:18 - INFO - Running command in i-0a95978adc1cecd0f (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:19:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:19:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:19:31 - INFO - Authentication (publickey) successful!
+2025-05-22 16:19:31 - INFO - Running command in i-0691a4bb86bb366cb (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:19:31 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:19:33 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:19:46 - INFO - Authentication (publickey) successful!
+2025-05-22 16:19:46 - INFO - Running command in i-0c3f129a5966c11e1 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:19:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:19:50 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:20:00 - INFO - Authentication (publickey) successful!
+2025-05-22 16:20:00 - INFO - Running command in i-05a9587bb0a3392ef (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:20:00 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:20:03 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:20:16 - INFO - Authentication (publickey) successful!
+2025-05-22 16:20:16 - INFO - Running command in i-03d985b593d6f8872 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:20:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-22 16:20:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:20:31 - INFO - Authentication (publickey) successful!
+2025-05-22 16:20:31 - INFO - Running command in i-0eac647d99fdc7974 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-22 16:20:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-22 16:20:42 - INFO - All instances have been terminated.
+2025-05-24 12:13:55 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-24 12:15:10 - INFO - Tempo que levou para pegar preços do pricing_server: 74.79951 segundos
+2025-05-24 12:15:10 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 12:15:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:13 - INFO - Tempo que levou para receber response AWS: 2.977389 segundos
+2025-05-24 12:15:13 - INFO - Fleet created with instances: ['i-0e1b636efb7234bfd', 'i-0801bf48df4dfdb96', 'i-0458e49a84012b778', 'i-06d79fa4327458f75', 'i-0eb24ea5924494139', 'i-097ceb17de50fefd9', 'i-0254d09f326df7d1f', 'i-08db4c0254303d8c5']
+2025-05-24 12:15:31 - INFO - Tempo que levou para as máquinas estarem running: 17.130251 segundos
+2025-05-24 12:15:31 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:15:31 - INFO - Total de instâncias acumuladas: 8/10
+2025-05-24 12:15:31 - INFO - Tempo que levou para conseguir 8 instâncias: 21.121585 segundos
+2025-05-24 12:15:31 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 12:15:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:32 - INFO - Tempo que levou para receber response AWS: 0.41236 segundos
+2025-05-24 12:15:32 - WARNING - No instances were launched.
+2025-05-24 12:15:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:15:32 - INFO - Tempo que levou para conseguir 0 instâncias: 0.959046 segundos
+2025-05-24 12:15:32 - INFO - Faltam 2 instâncias. Tentando criar 2 do tipo m5.24xlarge na região us-east-1f.
+2025-05-24 12:15:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:35 - INFO - Tempo que levou para receber response AWS: 2.487825 segundos
+2025-05-24 12:15:35 - INFO - Fleet created with instances: ['i-0ce18cb779971fee1', 'i-0c5414b6e82e92303']
+2025-05-24 12:15:52 - INFO - Tempo que levou para as máquinas estarem running: 16.323868 segundos
+2025-05-24 12:15:52 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-24 12:15:52 - INFO - Tempo que levou para conseguir 2 instâncias: 20.277326 segundos
+2025-05-24 12:15:52 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 117.158865 segundos
+2025-05-24 12:15:52 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:15:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:15:55 - INFO - Authentication (publickey) failed.
+2025-05-24 12:15:55 - WARNING - Attempt 1/5 failed for i-06d79fa4327458f75: Authentication failed.
+2025-05-24 12:15:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:15:55 - INFO - Authentication (publickey) failed.
+2025-05-24 12:15:55 - WARNING - Attempt 1/5 failed for i-097ceb17de50fefd9: Authentication failed.
+2025-05-24 12:15:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:15:56 - INFO - Authentication (publickey) failed.
+2025-05-24 12:15:56 - WARNING - Attempt 1/5 failed for i-08db4c0254303d8c5: Authentication failed.
+2025-05-24 12:15:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:15:56 - INFO - Authentication (publickey) failed.
+2025-05-24 12:15:56 - WARNING - Attempt 1/5 failed for i-0801bf48df4dfdb96: Authentication failed.
+2025-05-24 12:15:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:15:56 - INFO - Authentication (publickey) failed.
+2025-05-24 12:15:56 - WARNING - Attempt 1/5 failed for i-0458e49a84012b778: Authentication failed.
+2025-05-24 12:15:56 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:16:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:16:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:16:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:16:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:16:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:16:23 - INFO - Authentication (publickey) successful!
+2025-05-24 12:16:23 - INFO - Running command in i-0eb24ea5924494139 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 12:16:25 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:16:53 - WARNING - Attempt 1/5 failed for i-0254d09f326df7d1f: timed out
+2025-05-24 12:16:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:17:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:17:18 - INFO - Authentication (publickey) successful!
+2025-05-24 12:17:18 - INFO - Running command in i-0e1b636efb7234bfd (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 12:17:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:17:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:17:48 - WARNING - Attempt 1/5 failed for i-0c5414b6e82e92303: Authentication timeout.
+2025-05-24 12:17:49 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:17:50 - INFO - Authentication (publickey) successful!
+2025-05-24 12:17:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:18:11 - INFO - Authentication (publickey) successful!
+2025-05-24 12:18:11 - INFO - Running command in i-0ce18cb779971fee1 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 12:18:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:18:41 - WARNING - Attempt 2/5 failed for i-06d79fa4327458f75: timed out
+2025-05-24 12:19:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:19:11 - WARNING - Attempt 2/5 failed for i-097ceb17de50fefd9: timed out
+2025-05-24 12:19:11 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 12:19:17 - INFO - Authentication (publickey) successful!
+2025-05-24 12:19:17 - INFO - Running command in i-0c5414b6e82e92303 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 12:19:21 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:19:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:21:12 - WARNING - Attempt 2/5 failed for i-08db4c0254303d8c5: SSH timeout: 10.128.66.176:22 not reachable after 300 seconds.
+2025-05-24 12:21:12 - WARNING - Attempt 2/5 failed for i-0801bf48df4dfdb96: SSH timeout: 10.128.66.150:22 not reachable after 300 seconds.
+2025-05-24 12:21:12 - WARNING - Attempt 2/5 failed for i-0458e49a84012b778: SSH timeout: 10.128.66.157:22 not reachable after 300 seconds.
+2025-05-24 12:21:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:21:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:21:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:22:04 - WARNING - Attempt 2/5 failed for i-0254d09f326df7d1f: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:22:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:24:02 - WARNING - Attempt 3/5 failed for i-06d79fa4327458f75: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:24:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:24:32 - WARNING - Attempt 3/5 failed for i-097ceb17de50fefd9: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:25:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:26:34 - WARNING - Attempt 3/5 failed for i-08db4c0254303d8c5: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:26:34 - WARNING - Attempt 3/5 failed for i-0458e49a84012b778: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:26:34 - WARNING - Attempt 3/5 failed for i-0801bf48df4dfdb96: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:27:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:27:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:27:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:27:25 - WARNING - Attempt 3/5 failed for i-0254d09f326df7d1f: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:27:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:29:33 - WARNING - Attempt 4/5 failed for i-06d79fa4327458f75: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:30:03 - WARNING - Attempt 4/5 failed for i-097ceb17de50fefd9: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:30:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:30:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:32:06 - WARNING - Attempt 4/5 failed for i-0458e49a84012b778: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:32:06 - WARNING - Attempt 4/5 failed for i-08db4c0254303d8c5: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:32:06 - WARNING - Attempt 4/5 failed for i-0801bf48df4dfdb96: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:32:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:32:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:32:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:32:56 - WARNING - Attempt 4/5 failed for i-0254d09f326df7d1f: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:33:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 12:35:15 - WARNING - Attempt 5/5 failed for i-06d79fa4327458f75: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:35:15 - ERROR - All attempts failed for i-06d79fa4327458f75. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:35:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:35:44 - WARNING - Attempt 5/5 failed for i-097ceb17de50fefd9: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:35:44 - ERROR - All attempts failed for i-097ceb17de50fefd9. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:35:44 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:37:47 - WARNING - Attempt 5/5 failed for i-08db4c0254303d8c5: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - ERROR - All attempts failed for i-08db4c0254303d8c5. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:37:47 - WARNING - Attempt 5/5 failed for i-0801bf48df4dfdb96: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - ERROR - All attempts failed for i-0801bf48df4dfdb96. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - WARNING - Attempt 5/5 failed for i-0458e49a84012b778: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - ERROR - All attempts failed for i-0458e49a84012b778. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:37:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:37:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:38:37 - WARNING - Attempt 5/5 failed for i-0254d09f326df7d1f: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:38:37 - ERROR - All attempts failed for i-0254d09f326df7d1f. Last error: SSH timeout: No Private IP:22 not reachable after 300 seconds.
+2025-05-24 12:38:37 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 12:38:45 - INFO - All instances have been terminated.
+2025-05-24 13:13:51 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-24 13:15:06 - INFO - Tempo que levou para pegar preços do pricing_server: 74.283549 segundos
+2025-05-24 13:15:06 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 13:15:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:09 - INFO - Tempo que levou para receber response AWS: 2.90594 segundos
+2025-05-24 13:15:09 - INFO - Fleet created with instances: ['i-0fcf6140daf9ba985', 'i-04f620a684fbf8405', 'i-0e6eac25858eb1640', 'i-04ef89c8740c0442a', 'i-03fd8b3233c44bfcb', 'i-0cc0488869edfec8a', 'i-0f27adc84edc3a38d']
+2025-05-24 13:15:27 - INFO - Tempo que levou para as máquinas estarem running: 16.91793 segundos
+2025-05-24 13:15:27 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:15:27 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-24 13:15:27 - INFO - Tempo que levou para conseguir 7 instâncias: 20.836722 segundos
+2025-05-24 13:15:27 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 13:15:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:27 - INFO - Tempo que levou para receber response AWS: 0.433537 segundos
+2025-05-24 13:15:27 - WARNING - No instances were launched.
+2025-05-24 13:15:27 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:15:27 - INFO - Tempo que levou para conseguir 0 instâncias: 0.961729 segundos
+2025-05-24 13:15:27 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo m5.24xlarge na região us-east-1f.
+2025-05-24 13:15:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:30 - INFO - Tempo que levou para receber response AWS: 2.083352 segundos
+2025-05-24 13:15:30 - INFO - Fleet created with instances: ['i-070f762cee5bc5fd7', 'i-0c2a980305d4bbc0b', 'i-09d0b76150cf56b9b']
+2025-05-24 13:15:48 - INFO - Tempo que levou para as máquinas estarem running: 16.781713 segundos
+2025-05-24 13:15:48 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-24 13:15:48 - INFO - Tempo que levou para conseguir 3 instâncias: 20.32251 segundos
+2025-05-24 13:15:48 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 116.405725 segundos
+2025-05-24 13:15:48 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 13:15:50 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:16:15 - INFO - Authentication (publickey) successful!
+2025-05-24 13:16:15 - INFO - Running command in i-04f620a684fbf8405 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:16:15 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:16:16 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:16:40 - INFO - Authentication (publickey) successful!
+2025-05-24 13:16:40 - INFO - Running command in i-04ef89c8740c0442a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:16:40 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:16:42 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:17:04 - INFO - Authentication (publickey) successful!
+2025-05-24 13:17:04 - INFO - Running command in i-0e6eac25858eb1640 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:17:04 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:17:06 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:17:28 - INFO - Authentication (publickey) successful!
+2025-05-24 13:17:28 - INFO - Running command in i-0cc0488869edfec8a (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:17:28 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:17:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:17:52 - INFO - Authentication (publickey) successful!
+2025-05-24 13:17:52 - INFO - Running command in i-0fcf6140daf9ba985 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:17:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:17:54 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:18:17 - INFO - Authentication (publickey) successful!
+2025-05-24 13:18:17 - INFO - Running command in i-0f27adc84edc3a38d (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:18:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:18:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:18:41 - INFO - Authentication (publickey) successful!
+2025-05-24 13:18:41 - INFO - Running command in i-03fd8b3233c44bfcb (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:18:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:18:42 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:19:04 - INFO - Authentication (publickey) successful!
+2025-05-24 13:19:04 - INFO - Running command in i-09d0b76150cf56b9b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:19:05 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:19:08 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:19:28 - INFO - Authentication (publickey) successful!
+2025-05-24 13:19:28 - INFO - Running command in i-0c2a980305d4bbc0b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:19:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 13:19:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:19:52 - INFO - Authentication (publickey) successful!
+2025-05-24 13:19:52 - INFO - Running command in i-070f762cee5bc5fd7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 13:19:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 13:20:05 - INFO - All instances have been terminated.
+2025-05-24 22:37:35 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-24 22:38:50 - INFO - Tempo que levou para pegar preços do pricing_server: 75.297789 segundos
+2025-05-24 22:38:50 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 22:38:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:38:54 - INFO - Tempo que levou para receber response AWS: 2.846309 segundos
+2025-05-24 22:38:54 - INFO - Fleet created with instances: ['i-0d82c00c30250ab85', 'i-0c3fc5e3147a4ed35', 'i-078d37b00bd6b99e8', 'i-0dcd13387f6c1e1fb', 'i-0498e0c01596023dc', 'i-0640804c7719d30b8', 'i-0fc6d502ac490b58c']
+2025-05-24 22:39:11 - INFO - Tempo que levou para as máquinas estarem running: 16.835983 segundos
+2025-05-24 22:39:11 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:39:11 - INFO - Total de instâncias acumuladas: 7/10
+2025-05-24 22:39:11 - INFO - Tempo que levou para conseguir 7 instâncias: 20.868984 segundos
+2025-05-24 22:39:11 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 22:39:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:12 - INFO - Tempo que levou para receber response AWS: 0.408308 segundos
+2025-05-24 22:39:12 - WARNING - No instances were launched.
+2025-05-24 22:39:12 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:39:12 - INFO - Tempo que levou para conseguir 0 instâncias: 0.958742 segundos
+2025-05-24 22:39:12 - INFO - Faltam 3 instâncias. Tentando criar 3 do tipo m5.24xlarge na região us-east-1f.
+2025-05-24 22:39:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:15 - INFO - Tempo que levou para receber response AWS: 2.209875 segundos
+2025-05-24 22:39:15 - INFO - Fleet created with instances: ['i-005d448ce2527c1d0', 'i-0d13686ed3ee646d5', 'i-008eab92a615ffb72']
+2025-05-24 22:39:32 - INFO - Tempo que levou para as máquinas estarem running: 16.832172 segundos
+2025-05-24 22:39:32 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-24 22:39:32 - INFO - Tempo que levou para conseguir 3 instâncias: 20.536785 segundos
+2025-05-24 22:39:32 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 117.663046 segundos
+2025-05-24 22:39:32 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:39:35 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:40:04 - INFO - Authentication (publickey) successful!
+2025-05-24 22:40:04 - INFO - Running command in i-0d82c00c30250ab85 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:40:04 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:40:06 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:40:30 - INFO - Authentication (publickey) successful!
+2025-05-24 22:40:30 - INFO - Running command in i-0498e0c01596023dc (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:40:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:40:32 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:40:54 - INFO - Authentication (publickey) successful!
+2025-05-24 22:40:54 - INFO - Running command in i-078d37b00bd6b99e8 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:40:54 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:40:55 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:41:18 - INFO - Authentication (publickey) successful!
+2025-05-24 22:41:18 - INFO - Running command in i-0c3fc5e3147a4ed35 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:41:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:41:19 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:41:42 - INFO - Authentication (publickey) successful!
+2025-05-24 22:41:42 - INFO - Running command in i-0640804c7719d30b8 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:41:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:41:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:42:06 - INFO - Authentication (publickey) successful!
+2025-05-24 22:42:06 - INFO - Running command in i-0fc6d502ac490b58c (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:42:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:42:07 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:42:28 - INFO - Authentication (publickey) successful!
+2025-05-24 22:42:28 - INFO - Running command in i-0dcd13387f6c1e1fb (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:42:29 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:42:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:42:54 - INFO - Authentication (publickey) successful!
+2025-05-24 22:42:54 - INFO - Running command in i-005d448ce2527c1d0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:42:54 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:42:57 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:43:17 - INFO - Authentication (publickey) successful!
+2025-05-24 22:43:17 - INFO - Running command in i-008eab92a615ffb72 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:43:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:43:21 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:43:38 - INFO - Authentication (publickey) successful!
+2025-05-24 22:43:38 - INFO - Running command in i-0d13686ed3ee646d5 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:43:42 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:43:51 - INFO - All instances have been terminated.
+2025-05-24 22:47:09 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=price-capacity-optimized
+2025-05-24 22:48:24 - INFO - Tempo que levou para pegar preços do pricing_server: 74.498671 segundos
+2025-05-24 22:48:24 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 22:48:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:48:27 - INFO - Tempo que levou para receber response AWS: 2.786871 segundos
+2025-05-24 22:48:27 - INFO - Fleet created with instances: ['i-0877603f83b55f532', 'i-0799116bd6d158566', 'i-0967a58292d2c9e0c']
+2025-05-24 22:48:43 - INFO - Tempo que levou para as máquinas estarem running: 16.044801 segundos
+2025-05-24 22:48:43 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:48:43 - INFO - Total de instâncias acumuladas: 3/10
+2025-05-24 22:48:43 - INFO - Tempo que levou para conseguir 3 instâncias: 19.77484 segundos
+2025-05-24 22:48:43 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 22:48:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:48:45 - INFO - Tempo que levou para receber response AWS: 1.193514 segundos
+2025-05-24 22:48:45 - WARNING - No instances were launched.
+2025-05-24 22:48:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:48:45 - INFO - Tempo que levou para conseguir 0 instâncias: 1.708255 segundos
+2025-05-24 22:48:45 - INFO - Faltam 7 instâncias. Tentando criar 7 do tipo m5.24xlarge na região us-east-1f.
+2025-05-24 22:48:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:48:48 - INFO - Tempo que levou para receber response AWS: 2.294733 segundos
+2025-05-24 22:48:48 - INFO - Fleet created with instances: ['i-0d0423f25ac98747a', 'i-02d9a2ed75e1a7adc', 'i-0926f52e832211b13', 'i-063c230ba4d95144d', 'i-0903f2068650c5a7e', 'i-022da58a5d2737e52', 'i-0f25565c51d594161']
+2025-05-24 22:49:08 - INFO - Tempo que levou para as máquinas estarem running: 18.533585 segundos
+2025-05-24 22:49:08 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-24 22:49:08 - INFO - Tempo que levou para conseguir 7 instâncias: 22.39908 segundos
+2025-05-24 22:49:08 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 118.382331 segundos
+2025-05-24 22:49:08 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:49:10 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:49:33 - INFO - Authentication (publickey) successful!
+2025-05-24 22:49:33 - INFO - Running command in i-0967a58292d2c9e0c (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:49:33 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:49:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:49:55 - INFO - Authentication (publickey) successful!
+2025-05-24 22:49:55 - INFO - Running command in i-0877603f83b55f532 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:49:55 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:49:57 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:50:25 - WARNING - Attempt 1/5 failed for i-0799116bd6d158566: Authentication timeout.
+2025-05-24 22:50:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:50:29 - INFO - Authentication (publickey) successful!
+2025-05-24 22:50:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 22:50:51 - INFO - Authentication (publickey) successful!
+2025-05-24 22:50:51 - INFO - Running command in i-063c230ba4d95144d (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:50:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:50:55 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:51:16 - INFO - Authentication (publickey) successful!
+2025-05-24 22:51:16 - INFO - Running command in i-022da58a5d2737e52 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:51:17 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:51:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:51:41 - INFO - Authentication (publickey) successful!
+2025-05-24 22:51:41 - INFO - Running command in i-0926f52e832211b13 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:51:42 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:51:45 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:52:06 - INFO - Authentication (publickey) successful!
+2025-05-24 22:52:06 - INFO - Running command in i-0903f2068650c5a7e (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:52:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:52:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:52:30 - INFO - Authentication (publickey) successful!
+2025-05-24 22:52:30 - INFO - Running command in i-0d0423f25ac98747a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:52:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:52:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:52:53 - INFO - Authentication (publickey) successful!
+2025-05-24 22:52:53 - INFO - Running command in i-0f25565c51d594161 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:52:53 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:52:57 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:53:16 - INFO - Authentication (publickey) successful!
+2025-05-24 22:53:16 - INFO - Running command in i-02d9a2ed75e1a7adc (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:53:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 22:53:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:53:24 - INFO - Authentication (publickey) successful!
+2025-05-24 22:53:24 - INFO - Running command in i-0799116bd6d158566 (sa-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 22:53:25 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 22:53:35 - INFO - All instances have been terminated.
+2025-05-24 23:02:46 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-24 23:04:00 - INFO - Tempo que levou para pegar preços do pricing_server: 74.268703 segundos
+2025-05-24 23:04:00 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-24 23:04:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:02 - INFO - Tempo que levou para receber response AWS: 1.160606 segundos
+2025-05-24 23:04:02 - WARNING - No instances were launched.
+2025-05-24 23:04:02 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:04:02 - INFO - Tempo que levou para conseguir 0 instâncias: 1.669419 segundos
+2025-05-24 23:04:02 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m5.24xlarge na região us-east-1f.
+2025-05-24 23:04:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:05 - INFO - Tempo que levou para receber response AWS: 2.396663 segundos
+2025-05-24 23:04:05 - INFO - Fleet created with instances: ['i-0eb1f5f669550708d', 'i-0587c6c5815fb1032', 'i-00a04281bdeb232d0', 'i-0ef50f4f5de768b93', 'i-0155a02455b09345e', 'i-05477a6ee35a0f401', 'i-04e52d9c6bbe6b39c', 'i-0d1b7bc38ec53387e', 'i-0ad69a35998e58ec3', 'i-0e70a5a76b86487f7']
+2025-05-24 23:04:26 - INFO - Tempo que levou para as máquinas estarem running: 19.816896 segundos
+2025-05-24 23:04:26 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-24 23:04:26 - INFO - Tempo que levou para conseguir 10 instâncias: 24.091296 segundos
+2025-05-24 23:04:26 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 100.030165 segundos
+2025-05-24 23:04:26 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:04:36 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:04:46 - INFO - Authentication (publickey) failed.
+2025-05-24 23:04:46 - WARNING - Attempt 1/5 failed for i-0e70a5a76b86487f7: Authentication failed.
+2025-05-24 23:04:46 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:04:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-24 23:05:11 - INFO - Authentication (publickey) successful!
+2025-05-24 23:05:11 - INFO - Running command in i-0eb1f5f669550708d (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:05:12 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:05:15 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:05:36 - INFO - Authentication (publickey) successful!
+2025-05-24 23:05:36 - INFO - Running command in i-0587c6c5815fb1032 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:05:37 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:05:41 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:06:01 - INFO - Authentication (publickey) successful!
+2025-05-24 23:06:01 - INFO - Running command in i-0d1b7bc38ec53387e (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:06:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:06:05 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:06:26 - INFO - Authentication (publickey) successful!
+2025-05-24 23:06:26 - INFO - Running command in i-04e52d9c6bbe6b39c (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:06:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:06:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:06:51 - INFO - Authentication (publickey) successful!
+2025-05-24 23:06:51 - INFO - Running command in i-0155a02455b09345e (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:06:51 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:06:55 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:07:15 - INFO - Authentication (publickey) successful!
+2025-05-24 23:07:15 - INFO - Running command in i-0ef50f4f5de768b93 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:07:16 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:07:20 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:07:40 - INFO - Authentication (publickey) successful!
+2025-05-24 23:07:40 - INFO - Running command in i-05477a6ee35a0f401 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:07:41 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:07:44 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:08:06 - INFO - Authentication (publickey) successful!
+2025-05-24 23:08:06 - INFO - Running command in i-00a04281bdeb232d0 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:08:06 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:08:10 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:08:30 - INFO - Authentication (publickey) successful!
+2025-05-24 23:08:30 - INFO - Running command in i-0ad69a35998e58ec3 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:08:30 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-24 23:08:34 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:08:53 - INFO - Authentication (publickey) successful!
+2025-05-24 23:08:53 - INFO - Running command in i-0e70a5a76b86487f7 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-24 23:08:57 - INFO - Updating file: results/results_miguel.csv
+2025-05-24 23:09:07 - INFO - All instances have been terminated.
+2025-05-25 10:47:47 - INFO - Start execution Nodes=10 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-05-25 10:49:01 - INFO - Tempo que levou para pegar preços do pricing_server: 74.069364 segundos
+2025-05-25 10:49:01 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m6a.24xlarge na região sa-east-1b.
+2025-05-25 10:49:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:03 - INFO - Tempo que levou para receber response AWS: 1.073296 segundos
+2025-05-25 10:49:03 - WARNING - No instances were launched.
+2025-05-25 10:49:03 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:49:03 - INFO - Tempo que levou para conseguir 0 instâncias: 1.607364 segundos
+2025-05-25 10:49:03 - INFO - Faltam 10 instâncias. Tentando criar 10 do tipo m5.24xlarge na região us-east-1f.
+2025-05-25 10:49:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:06 - INFO - Tempo que levou para receber response AWS: 2.488674 segundos
+2025-05-25 10:49:06 - INFO - Fleet created with instances: ['i-01b7e836da3b9a650', 'i-083528dc815577e5b', 'i-01e0b035880ee1e4d', 'i-06c6663ceaa823611', 'i-0213223bf0cc1f1b1', 'i-0022e3ed36473b137', 'i-0763a81046d438e8a', 'i-034f513577ab3e7f3', 'i-0b4e19afad0538752', 'i-07dd0c1a927c383af']
+2025-05-25 10:49:27 - INFO - Tempo que levou para as máquinas estarem running: 19.914328 segundos
+2025-05-25 10:49:27 - INFO - Total de instâncias acumuladas: 10/10
+2025-05-25 10:49:27 - INFO - Tempo que levou para conseguir 10 instâncias: 24.206609 segundos
+2025-05-25 10:49:27 - INFO - Tempo que levou para criar o Fleet com 10 instâncias: 99.884372 segundos
+2025-05-25 10:49:27 - INFO - 10 instâncias no total. Iniciando benchmark em paralelo...
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:37 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:49:47 - INFO - Authentication (publickey) failed.
+2025-05-25 10:49:47 - WARNING - Attempt 1/5 failed for i-0213223bf0cc1f1b1: Authentication failed.
+2025-05-25 10:49:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:49:48 - INFO - Authentication (publickey) failed.
+2025-05-25 10:49:48 - WARNING - Attempt 1/5 failed for i-083528dc815577e5b: Authentication failed.
+2025-05-25 10:49:48 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:49:49 - INFO - Authentication (publickey) failed.
+2025-05-25 10:49:49 - WARNING - Attempt 1/5 failed for i-0763a81046d438e8a: Authentication failed.
+2025-05-25 10:49:49 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:49:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:49:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-25 10:50:07 - INFO - Authentication (publickey) successful!
+2025-05-25 10:50:07 - INFO - Running command in i-0022e3ed36473b137 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:50:08 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:50:12 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:50:25 - INFO - Authentication (publickey) successful!
+2025-05-25 10:50:25 - INFO - Running command in i-01b7e836da3b9a650 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:50:25 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:50:29 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:50:43 - INFO - Authentication (publickey) successful!
+2025-05-25 10:50:43 - INFO - Running command in i-034f513577ab3e7f3 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:50:43 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:50:46 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:51:00 - INFO - Authentication (publickey) successful!
+2025-05-25 10:51:00 - INFO - Running command in i-06c6663ceaa823611 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:51:01 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:51:04 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:51:17 - INFO - Authentication (publickey) successful!
+2025-05-25 10:51:17 - INFO - Running command in i-07dd0c1a927c383af (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:51:18 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:51:22 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:51:34 - INFO - Authentication (publickey) successful!
+2025-05-25 10:51:34 - INFO - Running command in i-01e0b035880ee1e4d (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:51:35 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:51:38 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:51:52 - INFO - Authentication (publickey) successful!
+2025-05-25 10:51:52 - INFO - Running command in i-0b4e19afad0538752 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:51:52 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:51:56 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:52:09 - INFO - Authentication (publickey) successful!
+2025-05-25 10:52:09 - INFO - Running command in i-0213223bf0cc1f1b1 (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:52:09 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:52:13 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:52:26 - INFO - Authentication (publickey) successful!
+2025-05-25 10:52:26 - INFO - Running command in i-083528dc815577e5b (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:52:26 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2025-05-25 10:52:30 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:52:43 - INFO - Authentication (publickey) successful!
+2025-05-25 10:52:43 - INFO - Running command in i-0763a81046d438e8a (us-east-1, spot): /u/fvbr/bt.A.x
+2025-05-25 10:52:47 - INFO - Updating file: results/results_miguel.csv
+2025-05-25 10:52:56 - INFO - All instances have been terminated.

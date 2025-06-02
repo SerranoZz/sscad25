@@ -229,7 +229,7 @@ def heuristic(region=None):
     if not instance_price:
         return None  
 
-    print(instance_price)
+    #print(instance_price)
     sorted_instances = sorted(instance_price.items(), key=lambda item: item[1])
 
 
@@ -295,9 +295,11 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
     }
 
   
-    
+    start_time_fleet = datetime.now()
     response = ec2_client.create_fleet(**fleet_config)
-    
+    end_time_fleet = datetime.now()
+    elapsed_time_fleet = end_time_fleet - start_time_fleet
+    logging.info(f"Tempo que levou para receber response AWS: {elapsed_time_fleet.total_seconds()} segundos")
 
     instance_ids = [inst for fleet in response.get("Instances", []) for inst in fleet["InstanceIds"]]
 
@@ -311,10 +313,15 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
         return [],errors
 
     instances = list(ec2_resource.instances.filter(InstanceIds=instance_ids))
+    start_time_running = datetime.now()
     for instance in instances:
         instance.wait_until_running()
         instance.reload()
+    end_time_running = datetime.now()
+    elapsed_time_running = end_time_running - start_time_running
 
+    logging.info(f"Tempo que levou para as máquinas estarem running: {elapsed_time_running.total_seconds()} segundos")
+    
     return instances, errors
    
 
@@ -409,7 +416,7 @@ def run_via_ssh(cmd, instance, region, max_retries=5, delay=10, command_timeout=
             # Leitura robusta do output
             output = read_ssh_output(stdout, stderr, read_timeout=command_timeout)
             
-            print(output)
+            #print(output)
 
             # Verifica o status de saída e erros
             exit_status = stdout.channel.recv_exit_status()
@@ -467,21 +474,19 @@ def benchmark_parallel(args):
     index = 0
 
     start_create_fleet = datetime.now()
+    
+    instaces_sorted_by_price = heuristic()
+    
+    end_get_price_time = datetime.now()
+    elapsed_get_price_time = end_get_price_time - start_create_fleet
+    
+    logging.info(f"Tempo que levou para pegar preços do pricing_server: {elapsed_get_price_time.total_seconds()} segundos")
+
     while len(instances) < nodes:
-
-        instaces_sorted_by_price = heuristic()
-       
-        #print(instaces_sorted_by_price[:5])
-
+        start_get_instances_time = datetime.now()
         instance_type,region,az = instaces_sorted_by_price[index][0].split('-')
         
-        
         price = instaces_sorted_by_price[index][1]
-
-        # print(instance_type)
-        # print(region)
-        # print(az)
-        # print(price)
 
         if region == 'sa':
             region = f'sa-east-1'
@@ -536,6 +541,10 @@ def benchmark_parallel(args):
 
         else:
             index += 1  # Se não conseguiu nada, tenta próximo tipo
+        end_get_instances_time = datetime.now()
+        elapsed_get_instances_time = end_get_instances_time - start_get_instances_time
+
+        logging.info(f"Tempo que levou para conseguir {len(new_instances)} instâncias: {elapsed_get_instances_time.total_seconds()} segundos")
 
     end_create_fleet = datetime.now()
     elapsed_time = end_create_fleet - start_create_fleet
@@ -548,7 +557,143 @@ def benchmark_parallel(args):
         instance_start_time = datetime.now()
         output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=instance.region)
 
-        print(output)
+        #print(output)
+        
+        if output is None:
+            status = 'FAIL'
+        else:
+            if 'SUCCESSFUL' in output:
+                status = 'SUCCESS'
+            else:
+                status = 'REVOCATION'
+        row = {
+            "Start_Time": instance_start_time,
+            "End_Time": datetime.now(),
+            "Instance": instance.instance_type,
+            "InstanceID": instance.id,
+            "Market": market,
+            "Price": instance.price,
+            "Region": instance.region,
+            "Zone": instance.placement['AvailabilityZone'][-1:],
+            "Algorithm_Name": app,
+            "Allocation_Strategy": allocation_strategy,
+            "Status": status
+        }
+        with lock:
+            save_row(output or '', row, df, csv_file)
+
+    with ThreadPoolExecutor(max_workers=nodes) as executor:
+        futures = [executor.submit(worker, instance) for instance in instances]
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                logging.error(f"Error in worker: {e}")
+
+
+def benchmark_seq(args):
+    app = args.benchmark
+    allocation_strategy = args.strategy
+    nodes = int(args.nodes)
+    
+    benchmark_config = BenchmarkConfig()
+    market = 'spot'
+    csv_file = Path(args.output_folder, f"./results/results_miguel.csv")
+
+    if csv_file.exists():
+        df = pd.read_csv(csv_file)
+    else:
+        df = pd.DataFrame(columns=benchmark_config.columns)
+
+    lock = threading.Lock()
+
+    start_time = datetime.now()
+    instances = []
+    index = 0
+
+    start_create_fleet = datetime.now()
+    while len(instances) < nodes:
+
+        instaces_sorted_by_price = heuristic()
+       
+        #print(instaces_sorted_by_price[:5])
+
+        instance_type,region,az = instaces_sorted_by_price[index][0].split('-')
+        
+        
+        price = instaces_sorted_by_price[index][1]
+
+        # print(instance_type)
+        # print(region)
+        # print(az)
+        # print(price)
+
+        if region == 'sa':
+            region = f'sa-east-1'
+        else:
+            region = f'us-east-1' 
+        
+        region_az = region + az
+        overrides =  {'InstanceType': instance_type, 'SubnetId': AWSConfig.SUBNET_IDS_BY_REGION[region][region_az]}
+
+        #print(overrides)
+    
+        #instance_type = [instaces_sorted_by_price[index][0]]
+        #price = instaces_sorted_by_price[index][1][1]
+
+        needed = nodes - len(instances)  
+        logging.info(f"Faltam {needed} instâncias. Tentando criar {needed} do tipo {instance_type} na região {region_az}.")
+
+        new_instances, errors = create_fleet(
+            overrides=[overrides],
+            region=region,
+            cluster_size=1,
+            allocation_strategy=allocation_strategy,
+            target_capacity=1
+        )
+    
+
+        print(f'Number of instances launched now: {len(new_instances)}')
+
+        for error in errors:
+            row = {
+                "Start_Time": start_time,
+                "End_Time": datetime.now(),
+                "Instance": instance_type,
+                "InstanceID": None,
+                "Market": market,
+                "Price": price,
+                "Region": region,
+                "Zone": az,
+                "Algorithm_Name": app,
+                "Allocation_Strategy": allocation_strategy,
+                "Status": error
+            }
+            with lock:
+                df = save_row('', row, df, csv_file)
+
+        if new_instances:
+            for inst in new_instances:
+                inst.region = region  # associa a região correta à instância
+                inst.price = price
+            instances.extend(new_instances)
+            logging.info(f"Total de instâncias acumuladas: {len(instances)}/{nodes}")
+
+        else:
+            index += 1  # Se não conseguiu nada, tenta próximo tipo
+
+    end_create_fleet = datetime.now()
+    elapsed_time = end_create_fleet - start_create_fleet
+
+    logging.info(f"Tempo que levou para criar o Fleet com {len(instances)} instâncias: {elapsed_time.total_seconds()} segundos")
+
+    logging.info(f"{len(instances)} instâncias no total. Iniciando benchmark em paralelo...")
+
+    def worker(instance):
+        instance_start_time = datetime.now()
+        output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=instance.region)
+
+        #print(output)
         
         if output is None:
             status = 'FAIL'
@@ -611,6 +756,8 @@ if __name__ == '__main__':
     
     
     benchmark_parallel(args)
+
+    #benchmark_seq(args)
 
     try:
         subprocess.run(f'python terminate_all.py sa-east-1 SpotFleet-SSCAD-FVBR-1', shell=True, check=True)
