@@ -20,7 +20,23 @@ import threading
 import socket
 import subprocess
 from threading import Lock
+import os
+import json
 
+def salvar_json(dados, nome_arquivo_base):
+    contador = 1
+    nome_arquivo = f"{nome_arquivo_base}.json"
+
+    while os.path.exists(nome_arquivo):
+        nome_arquivo = f"./logs/{nome_arquivo_base}_{contador}.json"
+        contador += 1
+
+    try:
+        with open(f'./logs/{nome_arquivo}', "w") as f:
+            json.dump(dados, f, indent=4)
+        print(f"Dados salvos com sucesso em {nome_arquivo}")
+    except Exception as e:
+        print(f"Erro ao salvar o arquivo: {e}")
 
 def process_fleet_response(response, region, allocation_strategy, df, csv_file):
     start_time = datetime.now()
@@ -69,7 +85,7 @@ def get_price_spot(region, instance, zone):
         
         if response['SpotPriceHistory']:
             latest_price = response['SpotPriceHistory'][0]
-            logging.info(f'{latest_price["InstanceType"]} - {latest_price["SpotPrice"]} - {latest_price["AvailabilityZone"]}')
+            #logging.info(f'{latest_price["InstanceType"]} - {latest_price["SpotPrice"]} - {latest_price["AvailabilityZone"]}')
             return latest_price["SpotPrice"]
         else:
             logging.warning("No spot price history found.")
@@ -294,13 +310,12 @@ def create_fleet_aws(region, cluster_size, allocation_strategy, target_capacity,
     start_time_fleet = datetime.now()
     response = ec2_client.create_fleet(**fleet_config)
     end_time_fleet = datetime.now()
+    salvar_json(response, f'response_{region}')
     elapsed_time_fleet = end_time_fleet - start_time_fleet
     logging.info(f"Tempo que levou para receber response AWS: {elapsed_time_fleet.total_seconds()} segundos")
 
-    process_fleet_response(response=response, region=region, allocation_strategy=allocation_strategy, df=df, csv_file=csv_file)
     instance_ids = [inst for fleet in response.get("Instances", []) for inst in fleet["InstanceIds"]]
 
-    
     if instance_ids:
         logging.info(f"Fleet created with instances: {instance_ids}")
     else:
@@ -315,8 +330,11 @@ def create_fleet_aws(region, cluster_size, allocation_strategy, target_capacity,
     end_time_running = datetime.now()
     elapsed_time_running = end_time_running - start_time_running
 
+    total = elapsed_time_running + elapsed_time_fleet
     logging.info(f"Tempo que levou para as máquinas estarem running: {elapsed_time_running.total_seconds()} segundos")
+    logging.info(f"Tempo total gasto: {total.total_seconds()} segundos")
 
+    process_fleet_response(response=response, region=region, allocation_strategy=allocation_strategy, df=df, csv_file=csv_file)
     return instances
 
 
@@ -456,7 +474,7 @@ def benchmark_parallel_aws(args):
 
     benchmark_config = BenchmarkConfig()
     market = 'spot'
-    csv_file = Path(args.output_folder, f"./results/results_lucas_{region}.csv")
+    csv_file = Path(args.output_folder, f"./results/results_lucas_{region}_{nodes}.csv")
 
     if csv_file.exists():
         df = pd.read_csv(csv_file)
@@ -465,20 +483,17 @@ def benchmark_parallel_aws(args):
 
     lock = threading.Lock()
 
-    start_create_fleet = datetime.now()
+    instances = []
+
     instances = create_fleet_aws(region, cluster_size=nodes, allocation_strategy=allocation_strategy, target_capacity=nodes, df=df, csv_file=csv_file)
-    end_create_fleet = datetime.now()
-    elapsed_time = end_create_fleet - start_create_fleet
-
-    logging.info(f"Tempo que levou para criar o Fleet com {len(instances)} instâncias: {elapsed_time.total_seconds()} segundos")
-
+        
     logging.info(f"{len(instances)} instâncias no total. Iniciando benchmark em paralelo...")
 
     def worker(instance):
 
         instance_start_time = datetime.now()
-        output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=region)
-
+        #output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=region)
+        output = 'ok'
         print(output)
         
         if output is None:

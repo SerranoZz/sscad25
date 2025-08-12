@@ -1,0 +1,1206 @@
+{
+    "FleetId": "fleet-d30e9226-519f-411c-8cb2-8e2a2fd47cdb",
+    "Errors": [
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m6i.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5dn.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5dn.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r7a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r7a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6idn.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r6idn.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6i.32xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c6i.32xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c7i.48xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c7i.48xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c6a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5n.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5n.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5ad.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5ad.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5d.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5d.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r7i.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r7i.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6in.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r6in.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5ad.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5ad.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6i.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r6i.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5ad.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c5ad.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6id.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c6id.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5dn.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5dn.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m7i.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m7i.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5d.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5d.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c5a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5n.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5n.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r6a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m5a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5b.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5b.24xlarge) is not supported in your requested Availability Zone (us-east-1f)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6id.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r6id.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6in.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c6in.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c7a.48xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c7a.48xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6in.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m6in.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c5d.24xlarge) is not supported in your requested Availability Zone (us-east-1c)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m6a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c5d.24xlarge) is not supported in your requested Availability Zone (us-east-1f)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5b.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (r5b.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m7a.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (m7a.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-0d6e9e447317b1338"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InvalidFleetConfiguration",
+            "ErrorMessage": "Your requested instance type (c5d.24xlarge) is not supported in your requested Availability Zone (us-east-1e)."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5.24xlarge capacity in the Availability Zone you requested (us-east-1f). Our system will be working on provisioning additional capacity. You can currently get m5.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1d."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m7i.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m7i.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get m7i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6i.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r6i.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get r6i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6a.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r6a.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get r6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r5.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get r5.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r7i.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r7i.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get r7i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6a.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "There is no Spot capacity available that matches your request."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r7a.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r7a.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get r7a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6a.24xlarge",
+                    "SubnetId": "subnet-04947f6ee876adbee"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r6a.24xlarge capacity in the Availability Zone you requested (us-east-1a). Our system will be working on provisioning additional capacity. You can currently get r6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1b, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6i.32xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient c6i.32xlarge capacity in the Availability Zone you requested (us-east-1f). Our system will be working on provisioning additional capacity. You can currently get c6i.32xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1d."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6i.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get m6i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6a.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6a.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get m6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r5n.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r5n.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get r5n.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5a.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5a.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get m5a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get m5.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-04947f6ee876adbee"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6i.24xlarge capacity in the Availability Zone you requested (us-east-1a). Our system will be working on provisioning additional capacity. You can currently get m6i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1b, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient c5d.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get c5d.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6a.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r6a.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get r6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient c5d.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get c5d.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1d."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6i.32xlarge",
+                    "SubnetId": "subnet-04947f6ee876adbee"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "There is no Spot capacity available that matches your request."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m7i.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m7i.24xlarge capacity in the Availability Zone you requested (us-east-1f). Our system will be working on provisioning additional capacity. You can currently get m7i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1d."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6i.24xlarge capacity in the Availability Zone you requested (us-east-1f). Our system will be working on provisioning additional capacity. You can currently get m6i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1d."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6i.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get m6i.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get m5.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5ad.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "There is no Spot capacity available that matches your request."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6a.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6a.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get m6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "r6in.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient r6in.24xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get r6in.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6i.32xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient c6i.32xlarge capacity in the Availability Zone you requested (us-east-1b). Our system will be working on provisioning additional capacity. You can currently get c6i.32xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1c, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get m5.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6a.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m6a.24xlarge capacity in the Availability Zone you requested (us-east-1d). Our system will be working on provisioning additional capacity. You can currently get m6a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1c, us-east-1f."
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m5a.24xlarge",
+                    "SubnetId": "subnet-05b8c880471ae8896"
+                }
+            },
+            "Lifecycle": "spot",
+            "ErrorCode": "InsufficientInstanceCapacity",
+            "ErrorMessage": "We currently do not have sufficient m5a.24xlarge capacity in the Availability Zone you requested (us-east-1c). Our system will be working on provisioning additional capacity. You can currently get m5a.24xlarge capacity by not specifying an Availability Zone in your request or choosing us-east-1a, us-east-1b, us-east-1d, us-east-1f."
+        }
+    ],
+    "Instances": [
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6i.32xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "InstanceIds": [
+                "i-02630c7d9be16ed44",
+                "i-02bc2f348d55dbbb6",
+                "i-02d16b9c32e012b5d",
+                "i-02721950d95771694",
+                "i-0f49798addb423303",
+                "i-02675283741715ce8"
+            ],
+            "InstanceType": "c6i.32xlarge"
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c5d.24xlarge",
+                    "SubnetId": "subnet-0801c911a8382154c"
+                }
+            },
+            "Lifecycle": "spot",
+            "InstanceIds": [
+                "i-0b717ecbe394bbc68",
+                "i-03aa78212c9eb7af6",
+                "i-05141412e68e2d779",
+                "i-07a929f55b2dd32bc",
+                "i-06200be307cc8f5e0",
+                "i-05295c7a54057062b",
+                "i-0aeea3562efa4e6f2",
+                "i-07f05f1dae6f9ea22",
+                "i-01b8cd3c24d452194",
+                "i-036ac840221ef814d",
+                "i-07c4ba4fb37171555",
+                "i-052671a7a1035d395",
+                "i-037845f2f722484cc",
+                "i-00d173eb0ba8978e6",
+                "i-0969ebf2a406a9b20",
+                "i-0f40143808bc922eb",
+                "i-0729b6c6647875fef",
+                "i-0cc73c0f8bbd3a7e4",
+                "i-0be9cd9e75ced7267",
+                "i-0bfefc9d2cf86cd5e",
+                "i-091a28b9b8511b45a",
+                "i-095840b747181fe1c",
+                "i-04f10bdaac8036e82",
+                "i-05bd439682e0d9631",
+                "i-0a3b8801fc881b8e2",
+                "i-01a29118f26a2931e",
+                "i-0b550eea53298c906",
+                "i-0d6d627432d5922b3",
+                "i-0ee38bc95a763b8aa",
+                "i-02c66c409e6b20b4b",
+                "i-0c1675ddc29187745",
+                "i-0fc950d177a7b0b4b",
+                "i-05f08b9df8deb8940",
+                "i-0c70e1b5f801e5644",
+                "i-0781cf7f94bc16bd3",
+                "i-0975c74f9c3eaf9b4",
+                "i-0fdac8fb41b14557a",
+                "i-08d94c6c4bfcb109f",
+                "i-0bcaf290718f8c86a",
+                "i-0301f0fcc4bf51f62",
+                "i-0616176474e335011",
+                "i-00a4178c929b0379d",
+                "i-0895e29421a83e63f",
+                "i-0571e360aa13adf5a",
+                "i-0d66e4adc9c18f58a",
+                "i-0afc9cb691b2dcb87",
+                "i-0d55c8d067dc28531",
+                "i-0bdab50647c5f1920",
+                "i-003b4c110586993e5",
+                "i-0326ca01819bc1bfe",
+                "i-027f372843f719a26",
+                "i-01a7c52c0a5273220",
+                "i-055ce8e649503a4df",
+                "i-08b488ffe50dac148",
+                "i-02910f2dd0ce06447",
+                "i-0310630e15dbc43f7",
+                "i-06861f46b73db7841",
+                "i-0da4231e1d8ec59d5",
+                "i-038b5b54e933a4edd",
+                "i-075219fcb227f1050",
+                "i-06e003db982d7c00f",
+                "i-022b4a729d2a3c20b",
+                "i-0c4f28445158e4093",
+                "i-07b94d33e6b0b4f21"
+            ],
+            "InstanceType": "c5d.24xlarge"
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "m6i.24xlarge",
+                    "SubnetId": "subnet-00b0c725891d75bf3"
+                }
+            },
+            "Lifecycle": "spot",
+            "InstanceIds": [
+                "i-0a3db74335c433de9",
+                "i-0cf7f418263c6771d",
+                "i-00e1ac8da9de1f70c",
+                "i-0b15fa554f5faeb17",
+                "i-01e8173c59619f97f",
+                "i-0371d5e1f34a8ca18",
+                "i-0c3a4cf217003db71",
+                "i-076cf6716b1970d21",
+                "i-093b64ac3d30f83d2",
+                "i-06c0f9c5135f19a5d",
+                "i-06ad350cdaef33b0f",
+                "i-076e68025535e58ac",
+                "i-0fb049eb5c3c7ac9f",
+                "i-0b33fe9e46536a7b1",
+                "i-0aa049bb9fba7a29c",
+                "i-0a9748684e4751cc4",
+                "i-071e3b24b13660291",
+                "i-0e85eba70fbab39e6",
+                "i-0a9b971308a8d6ad7",
+                "i-06ee1cbdd4ed7c06d",
+                "i-0114fa1c60ecc6960",
+                "i-0a040f4f53b96cc0b",
+                "i-0797a28157b6e31b3",
+                "i-050e88c3c3536aa47",
+                "i-089a9d923099bfdf0",
+                "i-04ce3dcbddb5cd4d8",
+                "i-0f900f8ad3a518907"
+            ],
+            "InstanceType": "m6i.24xlarge"
+        },
+        {
+            "LaunchTemplateAndOverrides": {
+                "LaunchTemplateSpecification": {
+                    "LaunchTemplateId": "lt-0945f6bb43181f10a",
+                    "Version": "19"
+                },
+                "Overrides": {
+                    "InstanceType": "c6a.24xlarge",
+                    "SubnetId": "subnet-07058ff843053f6cb"
+                }
+            },
+            "Lifecycle": "spot",
+            "InstanceIds": [
+                "i-0f50af3975c5355b6",
+                "i-04832b07cf918212a",
+                "i-0159d19f8793e7148"
+            ],
+            "InstanceType": "c6a.24xlarge"
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "a451f1a6-73b2-402f-bcfc-95e2092e3e9b",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "a451f1a6-73b2-402f-bcfc-95e2092e3e9b",
+            "cache-control": "no-cache, no-store",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "vary": "accept-encoding",
+            "content-type": "text/xml;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "date": "Wed, 02 Jul 2025 15:22:33 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}

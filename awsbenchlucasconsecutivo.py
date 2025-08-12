@@ -20,42 +20,55 @@ import threading
 import socket
 import subprocess
 from threading import Lock
+import os
+import json
 
-from multi_cloud.factory import CloudProviderFactory
+def salvar_json(dados, nome_arquivo_base):
+    contador = 1
+    nome_arquivo = f"{nome_arquivo_base}.json"
 
-response_aws_time = 0
-instances_running_time = 0
+    while os.path.exists(nome_arquivo):
+        nome_arquivo = f"./logs/{nome_arquivo_base}_{contador}.json"
+        contador += 1
 
-def process_fleet_response(response, filename="./results/fleet_attempts.csv"):
-    attempts = []
+    try:
+        with open(f'./logs/{nome_arquivo}', "w") as f:
+            json.dump(dados, f, indent=4)
+        print(f"Dados salvos com sucesso em {nome_arquivo}")
+    except Exception as e:
+        print(f"Erro ao salvar o arquivo: {e}")
 
+def process_fleet_response(response, region, allocation_strategy, df, csv_file):
+    start_time = datetime.now()
     for error in response.get("Errors", []):
+        #if error.get("ErrorCode") == "InsufficientInstanceCapacity":
         overrides = error["LaunchTemplateAndOverrides"]["Overrides"]
-        attempts.append({
-            "InstanceType": overrides.get("InstanceType", ""),
-            "SubnetId": overrides.get("SubnetId", ""),
-            "Status": "error",
-            "ErrorCode": error.get("ErrorCode", ""),
-            "ErrorMessage": error.get("ErrorMessage", "")
-        })
+        instance_type = overrides.get("InstanceType", ""),
+        subnet_id = overrides.get("SubnetId", ""),
+        status = error.get("ErrorCode", ""),
 
-    for success in response.get("Instances", []):
-        overrides = success["LaunchTemplateAndOverrides"]["Overrides"]
-        attempts.append({
-            "InstanceType": overrides.get("InstanceType", ""),
-            "SubnetId": overrides.get("SubnetId", ""),
-            "Status": "success",
-            "ErrorCode": "",
-            "ErrorMessage": ""
-        })
+        region_subnets = AWSConfig.SUBNET_IDS_BY_REGION.get(region, {})
+        for az, sid in region_subnets.items():
+            if subnet_id[0] == sid:
+                zone = az  
 
-    # Escreve no CSV, na ordem em que vieram no JSON
-    with open(filename, mode="w", newline="") as csvfile:
-        fieldnames = ["InstanceType", "SubnetId", "Status", "InstanceIds", "ErrorCode", "ErrorMessage"]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(attempts)
+        price = get_price_spot(region, instance_type[0], zone)
 
+        row = {
+                "Start_Time": start_time,
+                "End_Time": datetime.now(),
+                "Instance": instance_type[0],
+                "InstanceID": None,
+                "Market": 'spot',
+                "Price": price,
+                "Region": region,
+                "Zone": zone,
+                "Algorithm_Name": None,
+                "Allocation_Strategy": allocation_strategy,
+                "Status": status[0]
+            }
+
+        df = save_row('', row, df, csv_file)
 
 def get_price_spot(region, instance, zone):
     session = boto3.Session(region_name=region)
@@ -72,7 +85,7 @@ def get_price_spot(region, instance, zone):
         
         if response['SpotPriceHistory']:
             latest_price = response['SpotPriceHistory'][0]
-            logging.info(f'{latest_price["InstanceType"]} - {latest_price["SpotPrice"]} - {latest_price["AvailabilityZone"]}')
+            #logging.info(f'{latest_price["InstanceType"]} - {latest_price["SpotPrice"]} - {latest_price["AvailabilityZone"]}')
             return latest_price["SpotPrice"]
         else:
             logging.warning("No spot price history found.")
@@ -203,7 +216,7 @@ def wait_for_ssh(ip, port=22, timeout=300):
     raise TimeoutError(f"SSH timeout: {ip}:{port} not reachable after {timeout} seconds.")
 
 
-def heuristic(region=None):
+def heuristic(region):
     instance_price = {}
     instances_sa = AWSConfig.INSTANCES_BY_REGION['sa-east-1']
     instances_us = AWSConfig.INSTANCES_BY_REGION['us-east-1']
@@ -233,7 +246,7 @@ def heuristic(region=None):
     if not instance_price:
         return None  
 
-    #print(instance_price)
+    print(instance_price)
     sorted_instances = sorted(instance_price.items(), key=lambda item: item[1])
 
 
@@ -256,10 +269,12 @@ def is_available(region, instance_type):
         return False
 
 
-def create_fleet(overrides, region, cluster_size, allocation_strategy, target_capacity):
-    global response_aws_time
-    global instances_running_time
-    
+def create_fleet_aws(region, cluster_size, allocation_strategy, target_capacity, df, csv_file):
+    instances = []
+    for instance in AWSConfig.INSTANCES_BY_REGION[region]:
+        for subnet in AWSConfig.SUBNET_IDS_BY_REGION[region].values():
+            instances.append({'InstanceType': instance.split("-")[0], 'SubnetId': subnet})
+
     session = boto3.Session(region_name=region)
     
     ec2_client = session.client("ec2")
@@ -271,7 +286,7 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
                 "LaunchTemplateName": "TCLaunchTemplate",
                 "Version": "$Default"
             },
-            "Overrides": overrides  
+            "Overrides": instances  
         }
     ]
 
@@ -288,27 +303,24 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
         "Type": "instant",
         "TagSpecifications" : [{
                 'ResourceType': 'instance',
-                'Tags':[{'Key': 'Name', 'Value': 'SpotFleet-SSCAD-FVBR-1'}]
+                'Tags':[{'Key': 'Name', 'Value': 'SpotFleet-SSCAD-FVBR-2'}]
         }]
     }
 
-  
     start_time_fleet = datetime.now()
     response = ec2_client.create_fleet(**fleet_config)
     end_time_fleet = datetime.now()
+    salvar_json(response, f'response_{region}')
     elapsed_time_fleet = end_time_fleet - start_time_fleet
-    response_aws_time += elapsed_time_fleet.total_seconds()
+    logging.info(f"Tempo que levou para receber response AWS: {elapsed_time_fleet.total_seconds()} segundos")
 
     instance_ids = [inst for fleet in response.get("Instances", []) for inst in fleet["InstanceIds"]]
 
-    errors = [error['ErrorCode'] for error in response.get('Errors', [])]
- 
-            
     if instance_ids:
         logging.info(f"Fleet created with instances: {instance_ids}")
     else:
         logging.warning("No instances were launched.")
-        return [],errors
+        return []
 
     instances = list(ec2_resource.instances.filter(InstanceIds=instance_ids))
     start_time_running = datetime.now()
@@ -318,10 +330,13 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
     end_time_running = datetime.now()
     elapsed_time_running = end_time_running - start_time_running
 
-    instances_running_time += elapsed_time_running.total_seconds()
+    total = elapsed_time_running + elapsed_time_fleet
+    logging.info(f"Tempo que levou para as máquinas estarem running: {elapsed_time_running.total_seconds()} segundos")
+    logging.info(f"Tempo total gasto: {total.total_seconds()} segundos")
 
-    return instances, errors
-   
+    process_fleet_response(response=response, region=region, allocation_strategy=allocation_strategy, df=df, csv_file=csv_file)
+    return instances
+
 
 ssh_lock = Lock()
 
@@ -451,14 +466,15 @@ def run_via_ssh(cmd, instance, region, max_retries=5, delay=10, command_timeout=
     return None
 
 
-def benchmark_parallel(args):
+def benchmark_parallel_aws(args):
+    region = args.region
     app = args.benchmark
     allocation_strategy = args.strategy
     nodes = int(args.nodes)
-    
+
     benchmark_config = BenchmarkConfig()
     market = 'spot'
-    csv_file = Path(args.output_folder, f"./results/results_miguel_{nodes}.csv")
+    csv_file = Path(args.output_folder, f"./results/results_lucas_consecutivo_{region}_{nodes}.csv")
 
     if csv_file.exists():
         df = pd.read_csv(csv_file)
@@ -467,70 +483,25 @@ def benchmark_parallel(args):
 
     lock = threading.Lock()
 
-    start_time = datetime.now()
     instances = []
-    index = 0
-
-    instaces_sorted_by_price = heuristic()
-
-    provider = CloudProviderFactory.get_provider("aws")
 
     while len(instances) < nodes:
-        instance_type,region,az = instaces_sorted_by_price[index][0].split('-')
-
-        price = instaces_sorted_by_price[index][1]
-
-        if region == 'sa':
-            region = f'sa-east-1'
-        else:
-            region = f'us-east-1' 
-
-        needed = nodes - len(instances)  
-        logging.info(f"Faltam {needed} instâncias.")
-
-        new_instances, errors = provider.create_fleet(region, instaces_sorted_by_price[index][0], allocation_strategy, needed, 'SpotFleet-SSCAD-FVBR-1')
-    
-        print(f'Number of instances launched now: {len(new_instances)}')
-
-        for error in errors:
-            row = {
-                "Start_Time": start_time,
-                "End_Time": datetime.now(),
-                "Instance": instance_type,
-                "InstanceID": None,
-                "Market": market,
-                "Price": price,
-                "Region": region,
-                "Zone": az,
-                "Algorithm_Name": app,
-                "Allocation_Strategy": allocation_strategy,
-                "Status": error
-            }
-            with lock:
-                df = save_row('', row, df, csv_file)
-
+        needed = nodes - len(instances) 
+        new_instances = create_fleet_aws(region, cluster_size=needed, allocation_strategy=allocation_strategy, target_capacity=needed, df=df, csv_file=csv_file)
+        print(f'Novas instâncias: {len(new_instances)}')
         if new_instances:
-            for inst in new_instances:
-                inst.region = region  # associa a região correta à instância
-                inst.price = price
             instances.extend(new_instances)
             logging.info(f"Total de instâncias acumuladas: {len(instances)}/{nodes}")
-
-        else:
-            index += 1  # Se não conseguiu nada, tenta próximo tipo
-    
-    global response_aws_time
-    global instances_running_time
-    logging.info(f"Tempo gasto para receber respostas de {index+2} pedidos da AWS: {response_aws_time}")
-    logging.info(f"Tempo gasto para {len(instances)} ficarem running: {instances_running_time}")
-    logging.info(f"Tempo total: {response_aws_time+instances_running_time}")
+        print(f'Total: {len(instances)}/{nodes}')
+        
     logging.info(f"{len(instances)} instâncias no total. Iniciando benchmark em paralelo...")
 
     def worker(instance):
+
         instance_start_time = datetime.now()
-        #output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=instance.region)
+        #output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=region)
         output = 'ok'
-        #print(output)
+        print(output)
         
         if output is None:
             status = 'FAIL'
@@ -539,14 +510,18 @@ def benchmark_parallel(args):
                 status = 'SUCCESS'
             else:
                 status = 'REVOCATION'
+
+        zone = region + instance.placement['AvailabilityZone'][-1:]
+        price = get_price_spot(region=region,instance=instance.instance_type ,zone=zone)
+        
         row = {
             "Start_Time": instance_start_time,
             "End_Time": datetime.now(),
             "Instance": instance.instance_type,
             "InstanceID": instance.id,
             "Market": market,
-            "Price": instance.price,
-            "Region": instance.region,
+            "Price": price,
+            "Region": region,
             "Zone": instance.placement['AvailabilityZone'][-1:],
             "Algorithm_Name": app,
             "Allocation_Strategy": allocation_strategy,
@@ -564,14 +539,15 @@ def benchmark_parallel(args):
                 logging.error(f"Error in worker: {e}")
 
 
-def benchmark_seq(args):
+def benchmark_seq_aws(args):
+    region = args.region
     app = args.benchmark
     allocation_strategy = args.strategy
     nodes = int(args.nodes)
-    
+
     benchmark_config = BenchmarkConfig()
     market = 'spot'
-    csv_file = Path(args.output_folder, f"./results/results_miguel.csv")
+    csv_file = Path(args.output_folder, f"./results/results_lucas_{region}.csv")
 
     if csv_file.exists():
         df = pd.read_csv(csv_file)
@@ -580,81 +556,13 @@ def benchmark_seq(args):
 
     lock = threading.Lock()
 
-    start_time = datetime.now()
-    instances = []
-    index = 0
-
     start_create_fleet = datetime.now()
-    while len(instances) < nodes:
 
-        instaces_sorted_by_price = heuristic()
-       
-        #print(instaces_sorted_by_price[:5])
-
-        instance_type,region,az = instaces_sorted_by_price[index][0].split('-')
-        
-        
-        price = instaces_sorted_by_price[index][1]
-
-        # print(instance_type)
-        # print(region)
-        # print(az)
-        # print(price)
-
-        if region == 'sa':
-            region = f'sa-east-1'
-        else:
-            region = f'us-east-1' 
-        
-        region_az = region + az
-        overrides =  {'InstanceType': instance_type, 'SubnetId': AWSConfig.SUBNET_IDS_BY_REGION[region][region_az]}
-
-        #print(overrides)
+    instances = []
+    for i in range(nodes):
+        instance = create_fleet_aws(region, cluster_size=1, allocation_strategy=allocation_strategy, target_capacity=1, df=df, csv_file=csv_file)
+        instances.append(instance[0])
     
-        #instance_type = [instaces_sorted_by_price[index][0]]
-        #price = instaces_sorted_by_price[index][1][1]
-
-        needed = nodes - len(instances)  
-        logging.info(f"Faltam {needed} instâncias. Tentando criar {needed} do tipo {instance_type} na região {region_az}.")
-
-        new_instances, errors = create_fleet(
-            overrides=[overrides],
-            region=region,
-            cluster_size=1,
-            allocation_strategy=allocation_strategy,
-            target_capacity=1
-        )
-    
-
-        print(f'Number of instances launched now: {len(new_instances)}')
-
-        for error in errors:
-            row = {
-                "Start_Time": start_time,
-                "End_Time": datetime.now(),
-                "Instance": instance_type,
-                "InstanceID": None,
-                "Market": market,
-                "Price": price,
-                "Region": region,
-                "Zone": az,
-                "Algorithm_Name": app,
-                "Allocation_Strategy": allocation_strategy,
-                "Status": error
-            }
-            with lock:
-                df = save_row('', row, df, csv_file)
-
-        if new_instances:
-            for inst in new_instances:
-                inst.region = region  # associa a região correta à instância
-                inst.price = price
-            instances.extend(new_instances)
-            logging.info(f"Total de instâncias acumuladas: {len(instances)}/{nodes}")
-
-        else:
-            index += 1  # Se não conseguiu nada, tenta próximo tipo
-
     end_create_fleet = datetime.now()
     elapsed_time = end_create_fleet - start_create_fleet
 
@@ -663,8 +571,9 @@ def benchmark_seq(args):
     logging.info(f"{len(instances)} instâncias no total. Iniciando benchmark em paralelo...")
 
     def worker(instance):
+
         instance_start_time = datetime.now()
-        output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=instance.region)
+        output = run_via_ssh(cmd=f'/u/fvbr/{app}', instance=instance, region=region)
 
         #print(output)
         
@@ -675,14 +584,18 @@ def benchmark_seq(args):
                 status = 'SUCCESS'
             else:
                 status = 'REVOCATION'
+
+        zone = region + instance.placement['AvailabilityZone'][-1:]
+        price = get_price_spot(region=region,instance=instance.instance_type ,zone=zone)
+        
         row = {
             "Start_Time": instance_start_time,
             "End_Time": datetime.now(),
             "Instance": instance.instance_type,
             "InstanceID": instance.id,
             "Market": market,
-            "Price": instance.price,
-            "Region": instance.region,
+            "Price": price,
+            "Region": region,
             "Zone": instance.placement['AvailabilityZone'][-1:],
             "Algorithm_Name": app,
             "Allocation_Strategy": allocation_strategy,
@@ -702,7 +615,7 @@ def benchmark_seq(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Benchmark AWS')
-    #parser.add_argument('region', type=str, help='AWS region')
+    parser.add_argument('region', type=str, help='AWS region')
     #parser.add_argument('json_file', type=str, help='Json file with instances configurations')
     parser.add_argument('strategy', type=str, default='lowest-price', choices=['lowest-price', 'diversified', 'capacity-optimized', 'capacity-optimized-prioritized', 'price-capacity-optimized'], help='Allocation Strategy')
     parser.add_argument('benchmark', type=str,default='ep.D.x', choices=['bt.A.x','bt.E.x','bt.C.x', 'bt.D.x'])
@@ -720,21 +633,23 @@ if __name__ == '__main__':
                             format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
                             datefmt='%Y-%m-%d %H:%M:%S')
     else:
-        logging.basicConfig(filename=f'{args.output_folder}/logs/miguel_awsbench_normal.log',  # Name of the log file
+        logging.basicConfig(filename=f'{args.output_folder}/logs/{args.region}_lucas_awsbench_consecutivo.log',  # Name of the log file
                             level=logging.INFO,  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
                             format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
                             datefmt='%Y-%m-%d %H:%M:%S')
         
-    logging.info(f"Start execution Nodes={args.nodes} Benchmark={args.benchmark} Allocation Strategy={args.strategy}") 
+    logging.info(f"Start execution in {args.region} Nodes={args.nodes} Benchmark={args.benchmark} Allocation Strategy={args.strategy}") 
     
     
-    benchmark_parallel(args)
+    benchmark_parallel_aws(args)
 
-    #benchmark_seq(args)
+    #benchmark_seq_aws(args)
+
+    # for az in AWSConfig.SUBNET_IDS_BY_REGION[args.region]:
+    #    get_price_aws(args.region,az)
 
     try:
-        subprocess.run(f'python terminate_all.py sa-east-1 SpotFleet-SSCAD-FVBR-1', shell=True, check=True)
-        subprocess.run(f'python terminate_all.py us-east-1 SpotFleet-SSCAD-FVBR-1', shell=True, check=True)
+        subprocess.run(f'python terminate_all.py {args.region} SpotFleet-SSCAD-FVBR-2', shell=True, check=True)
         logging.info(f"All instances have been terminated.")
         print("Terminated_all executed successfully.")
     except subprocess.CalledProcessError as e:

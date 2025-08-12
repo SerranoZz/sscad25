@@ -1,0 +1,10 @@
+Start_Time,End_Time,Instance,InstanceID,Price,Market,Region,Zone,Algorithm_Name,Allocation_Strategy,Class,Time_in_Seconds,Total_Threads,Available_Threads,Mops_Total,Mops_per_Thread,Status
+2025-06-26 11:18:04.387554,2025-06-26 11:19:23.290066,m5.24xlarge,,0.5619,spot,us-east-1,f,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-06-26 14:32:56.969740,2025-06-26 14:32:59.017173,m5.24xlarge,,0.5616,spot,us-east-1,f,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-06-26 14:33:18.548232,2025-06-26 14:33:18.548235,c5.24xlarge,,0.5655,spot,us-east-1,b,bt.A.x,lowest-price,,,,,,,REVOCATION
+2025-08-11 21:50:30.638430,2025-08-11 21:51:43.204262,c6id.24xlarge,,0.8121,spot,sa-east-1,b,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-08-11 21:52:01.767287,2025-08-11 21:52:01.767290,r5ad.24xlarge,,0.9984,spot,sa-east-1,a,bt.A.x,lowest-price,,,,,,,REVOCATION
+2025-08-11 22:03:35.612874,2025-08-11 22:04:48.409320,c6id.24xlarge,,0.8121,spot,sa-east-1,b,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-08-11 22:05:06.465589,2025-08-11 22:05:06.465592,r5ad.24xlarge,,0.9984,spot,sa-east-1,a,bt.A.x,lowest-price,,,,,,,REVOCATION
+2025-08-11 23:04:38.863965,2025-08-11 23:05:51.879327,c6id.24xlarge,,0.8121,spot,sa-east-1,b,bt.A.x,lowest-price,,,,,,,InsufficientInstanceCapacity
+2025-08-11 23:06:10.139447,2025-08-11 23:06:10.139451,r5ad.24xlarge,,0.9984,spot,sa-east-1,a,bt.A.x,lowest-price,,,,,,,REVOCATION

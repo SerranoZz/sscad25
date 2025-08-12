@@ -21,8 +21,6 @@ import socket
 import subprocess
 from threading import Lock
 
-from multi_cloud.factory import CloudProviderFactory
-
 response_aws_time = 0
 instances_running_time = 0
 
@@ -257,9 +255,15 @@ def is_available(region, instance_type):
 
 
 def create_fleet(overrides, region, cluster_size, allocation_strategy, target_capacity):
-    global response_aws_time
-    global instances_running_time
-    
+    """
+    Cria uma frota de instâncias EC2 usando `create_fleet`.
+
+    :param region: Região AWS onde a frota será criada
+    :param cluster_size: Número de instâncias a serem lançadas
+    :param allocation_strategy: Estratégia de alocação (ex: 'lowest-price', 'capacity-optimized')
+    :param target_capacity: Capacidade alvo da frota
+    :return: Lista de instâncias iniciadas
+    """
     session = boto3.Session(region_name=region)
     
     ec2_client = session.client("ec2")
@@ -297,6 +301,7 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
     response = ec2_client.create_fleet(**fleet_config)
     end_time_fleet = datetime.now()
     elapsed_time_fleet = end_time_fleet - start_time_fleet
+    global response_aws_time
     response_aws_time += elapsed_time_fleet.total_seconds()
 
     instance_ids = [inst for fleet in response.get("Instances", []) for inst in fleet["InstanceIds"]]
@@ -318,7 +323,9 @@ def create_fleet(overrides, region, cluster_size, allocation_strategy, target_ca
     end_time_running = datetime.now()
     elapsed_time_running = end_time_running - start_time_running
 
+    global instances_running_time
     instances_running_time += elapsed_time_running.total_seconds()
+
 
     return instances, errors
    
@@ -451,6 +458,46 @@ def run_via_ssh(cmd, instance, region, max_retries=5, delay=10, command_timeout=
     return None
 
 
+def group_by_price(instances_sorted):
+    MAX_REL_DIFF = 0.15
+    groups = []
+    current_group = []
+    current_region = None
+
+    for inst in instances_sorted:
+        name, price = inst
+        region = inst[0].split('-')[1]
+
+        if not current_group:
+            # primeiro elemento no grupo
+            current_group.append(inst)
+            current_region = region
+            min_price = price
+        else:
+            # Se região diferente, fecha grupo e inicia novo
+            if region != current_region:
+                groups.append(current_group)
+                current_group = [inst]
+                current_region = region
+                min_price = price
+            else:
+                # mesma região, verifica diferença percentual entre menor e atual
+                if (price - min_price) / min_price <= MAX_REL_DIFF:
+                    current_group.append(inst)
+                    max_price = price
+                else:
+                    # preço muito diferente, fecha grupo e inicia novo
+                    groups.append(current_group)
+                    current_group = [inst]
+                    min_price = price
+
+    # Adiciona último grupo
+    if current_group:
+        groups.append(current_group)  
+
+    return groups   
+
+
 def benchmark_parallel(args):
     app = args.benchmark
     allocation_strategy = args.strategy
@@ -473,23 +520,46 @@ def benchmark_parallel(args):
 
     instaces_sorted_by_price = heuristic()
 
-    provider = CloudProviderFactory.get_provider("aws")
+    instaces_group_by_price = group_by_price(instances_sorted=instaces_sorted_by_price)
+    # i=0
+    # for group in instaces_group_by_price:
+    #     print(f'Grupo{i}: {group}')
+    #     i += 1
 
     while len(instances) < nodes:
-        instance_type,region,az = instaces_sorted_by_price[index][0].split('-')
+        overrides = []
+        current_group = instaces_group_by_price[index]
+        
+        for inst in current_group:
+            instance_type,region,az = inst[0].split('-')
+            price = inst[1]
+    
+            if region == 'sa':
+                region = f'sa-east-1'
+            else:
+                region = f'us-east-1' 
+            
+            region_az = region + az
+            overrides_line =  {'InstanceType': instance_type, 'SubnetId': AWSConfig.SUBNET_IDS_BY_REGION[region][region_az]}
+            overrides.append(overrides_line)
 
-        price = instaces_sorted_by_price[index][1]
+        print(overrides)
 
-        if region == 'sa':
-            region = f'sa-east-1'
-        else:
-            region = f'us-east-1' 
+        #instance_type = [instaces_sorted_by_price[index][0]]
+        #price = instaces_sorted_by_price[index][1][1]
 
         needed = nodes - len(instances)  
-        logging.info(f"Faltam {needed} instâncias.")
+        logging.info(f"Faltam {needed} instâncias. Tentando criar {needed} do tipo {instance_type} na região {region_az}.")
 
-        new_instances, errors = provider.create_fleet(region, instaces_sorted_by_price[index][0], allocation_strategy, needed, 'SpotFleet-SSCAD-FVBR-1')
+        new_instances, errors = create_fleet(
+            overrides=overrides,
+            region=region,
+            cluster_size=needed,
+            allocation_strategy=allocation_strategy,
+            target_capacity=needed
+        )
     
+
         print(f'Number of instances launched now: {len(new_instances)}')
 
         for error in errors:
@@ -518,7 +588,7 @@ def benchmark_parallel(args):
 
         else:
             index += 1  # Se não conseguiu nada, tenta próximo tipo
-    
+
     global response_aws_time
     global instances_running_time
     logging.info(f"Tempo gasto para receber respostas de {index+2} pedidos da AWS: {response_aws_time}")
@@ -720,7 +790,7 @@ if __name__ == '__main__':
                             format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
                             datefmt='%Y-%m-%d %H:%M:%S')
     else:
-        logging.basicConfig(filename=f'{args.output_folder}/logs/miguel_awsbench_normal.log',  # Name of the log file
+        logging.basicConfig(filename=f'{args.output_folder}/logs/miguel_awsbench_group.log',  # Name of the log file
                             level=logging.INFO,  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
                             format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
                             datefmt='%Y-%m-%d %H:%M:%S')

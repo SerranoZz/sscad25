@@ -1,0 +1,1144 @@
+2025-06-26 20:47:11 - INFO - Start execution Nodes=300 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-06-26 20:48:26 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:28 - WARNING - No instances were launched.
+2025-06-26 20:48:28 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:28 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:31 - WARNING - No instances were launched.
+2025-06-26 20:48:31 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:31 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:33 - WARNING - No instances were launched.
+2025-06-26 20:48:33 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:33 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:34 - WARNING - No instances were launched.
+2025-06-26 20:48:34 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:35 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:36 - WARNING - No instances were launched.
+2025-06-26 20:48:36 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:36 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:38 - WARNING - No instances were launched.
+2025-06-26 20:48:38 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:38 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:40 - WARNING - No instances were launched.
+2025-06-26 20:48:40 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:40 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:42 - WARNING - No instances were launched.
+2025-06-26 20:48:42 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:42 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:44 - WARNING - No instances were launched.
+2025-06-26 20:48:44 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:44 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:46 - WARNING - No instances were launched.
+2025-06-26 20:48:46 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:46 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:48 - WARNING - No instances were launched.
+2025-06-26 20:48:48 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:48 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:50 - WARNING - No instances were launched.
+2025-06-26 20:48:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:50 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:52 - WARNING - No instances were launched.
+2025-06-26 20:48:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:52 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:54 - WARNING - No instances were launched.
+2025-06-26 20:48:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:48:54 - INFO - Faltam 300 instâncias.
+2025-06-26 20:48:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:48:59 - INFO - Fleet created with instances: ['i-05c970c6a8b6fb7b8', 'i-099c4a3c0b3c5f08d', 'i-05de2bd97204310f5', 'i-0888e7820336a632c', 'i-054f17c78e3c0f88b', 'i-0f31065e5231776e3', 'i-0218bb1d91c1ccbd6', 'i-0eb981e4b46bd9c32', 'i-067ef41c4cba32667', 'i-0434626aeabd455d6', 'i-08a4f2e5fbfd2c97e', 'i-00210a0ce6e5960ad', 'i-0d569726091b8f7d1', 'i-05aa844bed5917ae7', 'i-068cf813f8fb6fa1a', 'i-09a7bd581049b1d76', 'i-00a983c77fea4ff64', 'i-0cbbfebfeb70f98eb', 'i-027020204f384efff', 'i-0508ee351756470ce', 'i-086de22775e34c719', 'i-04e9b0a3af9774541', 'i-06c7784b5befef27b', 'i-0e46d599b1240a4dd', 'i-0e0557116f0091311', 'i-0107232c136b0db18', 'i-0e5b3009be738b2e4', 'i-0fc58b487e62a9811', 'i-0ce46c0c93b56ab4f', 'i-06cf96826c8d5ff3e', 'i-03fa3d2cfe3b24a0d', 'i-05e7b06ff0d490ac2', 'i-0437fc1c625aa22dc', 'i-05f6baa14ac49eadf', 'i-0661ee2897af9a32c', 'i-01b78baa3b4c212bf', 'i-0db977491eaa913f8', 'i-0a2622f21fed65da6', 'i-0a0f3b30b1842b55d', 'i-0d53adf9b1f6ca7ab', 'i-0e6f253d07bc30002', 'i-040e105622bd07696', 'i-064d987723545371a', 'i-0e5dd49dc1de054c8', 'i-0606624e262849484', 'i-0472e82446b28edcd', 'i-04a3d4c6ec333810c', 'i-0977870d3039b7be0']
+2025-06-26 20:49:37 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:37 - INFO - Total de instâncias acumuladas: 48/300
+2025-06-26 20:49:37 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:40 - WARNING - No instances were launched.
+2025-06-26 20:49:40 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:40 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:41 - WARNING - No instances were launched.
+2025-06-26 20:49:41 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:41 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:44 - WARNING - No instances were launched.
+2025-06-26 20:49:44 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:44 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:46 - WARNING - No instances were launched.
+2025-06-26 20:49:46 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:46 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:47 - WARNING - No instances were launched.
+2025-06-26 20:49:47 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:47 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:50 - WARNING - No instances were launched.
+2025-06-26 20:49:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:49:50 - INFO - Faltam 252 instâncias.
+2025-06-26 20:49:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:49:53 - INFO - Fleet created with instances: ['i-0fc90a78fced11d63', 'i-0a15bad852bc51d89']
+2025-06-26 20:50:10 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:50:10 - INFO - Total de instâncias acumuladas: 50/300
+2025-06-26 20:50:10 - INFO - Faltam 250 instâncias.
+2025-06-26 20:50:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:50:12 - WARNING - No instances were launched.
+2025-06-26 20:50:12 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:50:12 - INFO - Faltam 250 instâncias.
+2025-06-26 20:50:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:50:14 - WARNING - No instances were launched.
+2025-06-26 20:50:14 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-26 20:50:14 - INFO - Faltam 250 instâncias.
+2025-06-26 20:50:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-26 20:50:18 - INFO - Fleet created with instances: ['i-0bd3c6a42f195476b', 'i-0ab7a70ea82421b59']
+2025-06-28 00:21:31 - INFO - Start execution Nodes=300 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-06-28 00:21:39 - INFO - Faltam 300 instâncias.
+2025-06-28 00:21:39 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:21:49 - INFO - Fleet created with instances: ['i-0f5ad75a5c532b194', 'i-036996e1cce3cd637', 'i-0a23e89a2811b616c', 'i-0a5ff5c64edbaa16b', 'i-0450c815c18fda010', 'i-0c998f9238da321e9', 'i-0032434b18e65c79f', 'i-01a16edb6b058d9e2', 'i-055bd13a2e9efa393', 'i-0f149174af2bd2b1b', 'i-0ff4e344d74c5fe76', 'i-08e79b439cde9b1b4', 'i-002ed339454705993', 'i-0e7cd81d22d4731de', 'i-0c234cbab03be47ca', 'i-09aab6b3d63a07c85', 'i-0f83411b77aa679fa', 'i-0063d6dfb1d02bb5f', 'i-0103333a85b54887f', 'i-03a6022e1dd8f6c1a', 'i-017fc0bc998c15a73', 'i-00556e60218adbbe9', 'i-09d9cde384edf364b', 'i-032aa081151161083', 'i-08ffc6dd8a4c16219', 'i-0cff826ab9b2e2194', 'i-0eef5834db988c067', 'i-06f9b7eefbe9cffaf', 'i-0b9b7e6e614cddd7e', 'i-0f4fdc4b1d3212c26', 'i-09b60547b83e62475', 'i-0126b345ee2d1a6b2', 'i-07037a50465231b0f', 'i-0a1fafa83a0cf6c33', 'i-0023a5662d78d92f8', 'i-0fa3cea0251d97b8e', 'i-04a21ee3877e652e4', 'i-042709faa6840be94', 'i-0b1d9088c2984899a', 'i-0e7261e5676ef9ae3', 'i-0b0decb748b63961a', 'i-0a02750c9d7441a39', 'i-0a05005218a2dbffd', 'i-0988865edfeac0167', 'i-04826f6952d866dec', 'i-0dcbbf8e2e5e2f999', 'i-057163b418cdb30ca', 'i-0b81cf25cff0aef9f', 'i-071580f97d719b742', 'i-0ea5f662f3efc035b', 'i-09bdba139fded1111', 'i-0265d52b11c12b46c', 'i-0c65ab6f15d569bf3', 'i-013a1070c604b163f', 'i-0f057f1d1b1d9e280', 'i-039e26fb58faf6ea3', 'i-08aca6143199562ee', 'i-0e6d6c45d5a883f41', 'i-016ba7ff2ca39db99', 'i-05bea199fa5fc5d86', 'i-07a40c00d55d89db6', 'i-0899fef858b2a6b0c', 'i-074a1254a7d6016d3', 'i-0eee02109ec3665ec', 'i-017480f5c3a934566', 'i-093f300b8b83cca15', 'i-008c76c22fc37290b', 'i-0291e90ccd0a9071f', 'i-03e1a5bf6b1d64280', 'i-01e9a4332eeea5288', 'i-0e54e0eecf12983a4', 'i-09988adf6aac047e5', 'i-0a5b2b208b097f2ce', 'i-0e5812dbf8c654a61', 'i-07998cdb1a8101243', 'i-00cd6fe08a7d2d791', 'i-02632e37ab9f6ccd0', 'i-07ae5a0c91e7aa3ec', 'i-002d8a57075a20416', 'i-04b0326c2ec621cd7', 'i-0a8afe548af3bda8b', 'i-0580144c49a6ba0f0', 'i-0ab52796fcc42947e', 'i-0e04538407ad1022e', 'i-05b253b9320a0070b', 'i-018696e162d7ea72c', 'i-00c14eccdd02baed3', 'i-0d5c9f2b09c78d7de', 'i-00f947e0e3e4aa40a', 'i-071a3fc1c4b057530', 'i-06aa6f24e06b91993', 'i-0849f86eaa07a68b0', 'i-022c80c5f3423564f', 'i-0e5be7d0d67ea3435', 'i-024e72977232e3f77', 'i-0f0d2008195809110', 'i-015ab2571395be3ec', 'i-05338e0af29f8eafa', 'i-0d1c746b94370f31d', 'i-0df0af98282ca4e96', 'i-075686f4fe67b6fbc', 'i-0701d7393faa1dabf', 'i-05b914ac328f15565', 'i-0af13da0d30174a24', 'i-034f5b18a023cc4ba', 'i-04ecb71297ffc98da', 'i-005c83aa21987d446', 'i-089b75110b39292ee', 'i-03ecb71ff6c0c5dee', 'i-0eb4798cf41e99be2', 'i-063c8ae74af0aa2ec', 'i-0df09b16df5e29c57', 'i-0b68239d77d11f772', 'i-09bf942e1c17ac149', 'i-0fb35247919d704a8', 'i-06b3647037a445d77', 'i-054416a0f14e9a5b2', 'i-06f61d95dcf658143', 'i-0768d1159954164fd', 'i-04f00df128a11a0c0', 'i-0a139dac1d423995c', 'i-0664c944927d327a3', 'i-0154587d8f5c40b9d', 'i-0acd0e7e4b4f05134', 'i-09ba76ee2966e10c0', 'i-04222f556889bc4f5', 'i-0caced3b1ee04fd44', 'i-01562239bf007df81', 'i-09c0f92699cd6fb6c', 'i-09fedf134f33c9f57', 'i-05545a38f8478c09b', 'i-01f06de497a34a105', 'i-0959e46429a85e6a9', 'i-00c2901f3321328e7', 'i-071397bf69bbb4616', 'i-04362a18bdbf5e940', 'i-0f8aa78215302cafe', 'i-02b34a16150fb79b2', 'i-041c10263cc66c8c3', 'i-0bb53e06789a9a7a5', 'i-0d9eca3ed903b5e5c', 'i-0487abc3277128928', 'i-085099c1a21e1e5c1', 'i-0d8b392d2d606e624', 'i-094a616e7ce36486f', 'i-0da83cdc2d75ec8b2', 'i-02435207773fb40cf', 'i-0ce2b6e032927d5e5', 'i-08b97c0b588472520', 'i-092f8c6bb2a3e3c94', 'i-02dad3f29e550c6c8', 'i-0f8994cb525c34c75', 'i-0f4bf5bdb5d992a92', 'i-0bdaace62c2ef6e25', 'i-02fa6f89654e63c21', 'i-0ada8100f37fc4618', 'i-02d7b31571be98c87', 'i-07256f2532a1168b4', 'i-0eacb68fee163e5fc', 'i-0ba2e78e8e44e09ca', 'i-002585ea71fd113e2', 'i-0652cd2ee94c622cb', 'i-09511751a021c21f8', 'i-03cb200d76513bcbf', 'i-03910f98a9cf3264e', 'i-00235ad7f011c98b2', 'i-0a1907def8b167dfe', 'i-0890e427a52f0ee8d', 'i-0cf0ef72dc061f385', 'i-053f94abd427b952d', 'i-079cb7a4a4cbd3af9', 'i-00a1b46308f0fcb63', 'i-018e7e949c123f1eb', 'i-067b5f255e83fd4f6', 'i-0a51e6001663baa81', 'i-06aec5a014d6a24ba', 'i-041efc38d43c0eaa7', 'i-0fa8cc3e726e53579', 'i-07132a056bdc7ca27', 'i-064f922f19cb9c468', 'i-0d5552aa02c57b0ad', 'i-0aba433d9cc224606', 'i-0ba06b044212e77d4', 'i-08ea3556feccd42c8', 'i-07b7180cfc8d9c1d8', 'i-03a59ac237f1a5aff', 'i-02cba0e1b67fc3096', 'i-0b01a8cb8573ef7dc', 'i-07a6b4f3c11cfe2f6', 'i-034557567f0fd3104', 'i-03aeb0b08fb1ff922', 'i-00023fa5df0574f9c', 'i-0bbb4c05019c09531', 'i-07ed33fd205f979a2', 'i-0e722e7691e3ce7a8', 'i-0941a5e430d1fce77', 'i-02578a197323007c6', 'i-0c42266ae160859d3', 'i-01cd7c0d3fdcd3f42', 'i-0695733ba48bc4364', 'i-086a22ecdd3242db4', 'i-00560d55cba5a9481', 'i-0bd40aa3f5f944e1b', 'i-0e33ba78b18199abe', 'i-02b242fdfc3866a46', 'i-054e8f89b4ea74cd6', 'i-0135033e069f86139', 'i-04f435f9c4dd03e61', 'i-075d1398465c682c3', 'i-06336e4d6ea069bde', 'i-008e669d716532cf6', 'i-0a9649cc0f1909c92', 'i-06dad77b19ac404bb', 'i-017f11bf605b82d48', 'i-0f95f3fe32116469c', 'i-0dd2651c65f4a3793', 'i-053c7d652dd4f5771', 'i-0314c25b47bad0971', 'i-0e0cb14dafb823d53', 'i-01d3a1899e8014890', 'i-014bd98b1dd9f72a1', 'i-0071982aa878159cb', 'i-0f15adb782feae8a8', 'i-0694157024fc02da4', 'i-0653058802d94d07e', 'i-06fb62b1b70a194dd', 'i-08534c9d2109f34fa', 'i-095d7e08595e13859', 'i-026f091cfce5b1af7', 'i-0fb47d32433b4dd3e', 'i-06a6a1f5db7056bd0', 'i-035f3cf400db58978', 'i-058bb28960717fecc', 'i-062faf2ed93be063c', 'i-065c760210022e06d', 'i-09423fe0b9c5af2cb', 'i-057536645300a171b', 'i-0346c0dcc7baa11bf', 'i-0a9e457aafae1db10', 'i-00ed3c1c6ca2629eb', 'i-0ab9c97e7dad532fd', 'i-057f96f6f45314779', 'i-032471749ad5e2bdf', 'i-06647a693d85e5108', 'i-01ff63be8dc14ca33', 'i-0f501d1861cdec127', 'i-0af2119c72fbe94b8', 'i-059f237a03864c223', 'i-00eb3cab3ad5fdd5c']
+2025-06-28 00:24:01 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:01 - INFO - Total de instâncias acumuladas: 249/300
+2025-06-28 00:24:01 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:03 - WARNING - No instances were launched.
+2025-06-28 00:24:03 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:03 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:05 - WARNING - No instances were launched.
+2025-06-28 00:24:05 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:05 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:07 - WARNING - No instances were launched.
+2025-06-28 00:24:07 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:07 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:09 - WARNING - No instances were launched.
+2025-06-28 00:24:09 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:09 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:09 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:11 - WARNING - No instances were launched.
+2025-06-28 00:24:11 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:11 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:13 - WARNING - No instances were launched.
+2025-06-28 00:24:13 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:13 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:15 - WARNING - No instances were launched.
+2025-06-28 00:24:15 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:15 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:17 - WARNING - No instances were launched.
+2025-06-28 00:24:17 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:17 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:19 - WARNING - No instances were launched.
+2025-06-28 00:24:19 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:19 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:19 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:21 - WARNING - No instances were launched.
+2025-06-28 00:24:21 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:21 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:21 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:23 - WARNING - No instances were launched.
+2025-06-28 00:24:23 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:23 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:25 - WARNING - No instances were launched.
+2025-06-28 00:24:25 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:25 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:28 - WARNING - No instances were launched.
+2025-06-28 00:24:28 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:28 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:30 - WARNING - No instances were launched.
+2025-06-28 00:24:30 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:30 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:32 - WARNING - No instances were launched.
+2025-06-28 00:24:32 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:32 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:33 - WARNING - No instances were launched.
+2025-06-28 00:24:33 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:33 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:35 - WARNING - No instances were launched.
+2025-06-28 00:24:35 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:35 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:37 - WARNING - No instances were launched.
+2025-06-28 00:24:37 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:37 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:39 - WARNING - No instances were launched.
+2025-06-28 00:24:39 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:40 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:41 - WARNING - No instances were launched.
+2025-06-28 00:24:42 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:42 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:44 - WARNING - No instances were launched.
+2025-06-28 00:24:44 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:44 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:45 - WARNING - No instances were launched.
+2025-06-28 00:24:45 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:45 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:47 - WARNING - No instances were launched.
+2025-06-28 00:24:47 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:47 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:49 - WARNING - No instances were launched.
+2025-06-28 00:24:49 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:49 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:51 - WARNING - No instances were launched.
+2025-06-28 00:24:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:52 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:53 - WARNING - No instances were launched.
+2025-06-28 00:24:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:53 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:55 - WARNING - No instances were launched.
+2025-06-28 00:24:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:55 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:57 - WARNING - No instances were launched.
+2025-06-28 00:24:57 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:57 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:24:59 - WARNING - No instances were launched.
+2025-06-28 00:24:59 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:24:59 - INFO - Faltam 51 instâncias.
+2025-06-28 00:24:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:01 - WARNING - No instances were launched.
+2025-06-28 00:25:01 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:01 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:03 - WARNING - No instances were launched.
+2025-06-28 00:25:03 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:03 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:03 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:05 - WARNING - No instances were launched.
+2025-06-28 00:25:05 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:05 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:08 - WARNING - No instances were launched.
+2025-06-28 00:25:08 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:08 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:10 - WARNING - No instances were launched.
+2025-06-28 00:25:10 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:10 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:12 - WARNING - No instances were launched.
+2025-06-28 00:25:12 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:12 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:14 - WARNING - No instances were launched.
+2025-06-28 00:25:14 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:14 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:15 - WARNING - No instances were launched.
+2025-06-28 00:25:15 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:16 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:17 - WARNING - No instances were launched.
+2025-06-28 00:25:17 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:17 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:19 - WARNING - No instances were launched.
+2025-06-28 00:25:19 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:19 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:21 - WARNING - No instances were launched.
+2025-06-28 00:25:22 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:22 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:23 - WARNING - No instances were launched.
+2025-06-28 00:25:23 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:23 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:23 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:25 - WARNING - No instances were launched.
+2025-06-28 00:25:25 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:25 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:27 - WARNING - No instances were launched.
+2025-06-28 00:25:27 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:27 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:29 - WARNING - No instances were launched.
+2025-06-28 00:25:29 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:29 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:29 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:31 - WARNING - No instances were launched.
+2025-06-28 00:25:31 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:31 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:33 - WARNING - No instances were launched.
+2025-06-28 00:25:33 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:33 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:35 - WARNING - No instances were launched.
+2025-06-28 00:25:35 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:35 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:37 - WARNING - No instances were launched.
+2025-06-28 00:25:37 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:37 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:39 - WARNING - No instances were launched.
+2025-06-28 00:25:39 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:39 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:39 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:40 - WARNING - No instances were launched.
+2025-06-28 00:25:40 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:40 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:42 - WARNING - No instances were launched.
+2025-06-28 00:25:42 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:42 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:44 - WARNING - No instances were launched.
+2025-06-28 00:25:44 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:44 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:46 - WARNING - No instances were launched.
+2025-06-28 00:25:46 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:46 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:48 - WARNING - No instances were launched.
+2025-06-28 00:25:48 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:48 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:50 - WARNING - No instances were launched.
+2025-06-28 00:25:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:50 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:52 - WARNING - No instances were launched.
+2025-06-28 00:25:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:52 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:54 - WARNING - No instances were launched.
+2025-06-28 00:25:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:54 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:56 - WARNING - No instances were launched.
+2025-06-28 00:25:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:56 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:57 - WARNING - No instances were launched.
+2025-06-28 00:25:57 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:58 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:58 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:25:59 - WARNING - No instances were launched.
+2025-06-28 00:25:59 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:25:59 - INFO - Faltam 51 instâncias.
+2025-06-28 00:25:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:02 - WARNING - No instances were launched.
+2025-06-28 00:26:02 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:02 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:04 - WARNING - No instances were launched.
+2025-06-28 00:26:04 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:04 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:05 - WARNING - No instances were launched.
+2025-06-28 00:26:05 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:05 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:07 - WARNING - No instances were launched.
+2025-06-28 00:26:07 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:07 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:07 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:09 - WARNING - No instances were launched.
+2025-06-28 00:26:09 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:09 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:09 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:11 - WARNING - No instances were launched.
+2025-06-28 00:26:11 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:11 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:11 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:13 - WARNING - No instances were launched.
+2025-06-28 00:26:13 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:13 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:13 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:15 - WARNING - No instances were launched.
+2025-06-28 00:26:15 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:15 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:15 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:17 - WARNING - No instances were launched.
+2025-06-28 00:26:17 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:17 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:17 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:18 - WARNING - No instances were launched.
+2025-06-28 00:26:18 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:18 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:20 - WARNING - No instances were launched.
+2025-06-28 00:26:20 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:20 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:22 - WARNING - No instances were launched.
+2025-06-28 00:26:22 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:22 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:24 - WARNING - No instances were launched.
+2025-06-28 00:26:24 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:24 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:24 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:26 - WARNING - No instances were launched.
+2025-06-28 00:26:26 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:26 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:26 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:28 - WARNING - No instances were launched.
+2025-06-28 00:26:28 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:28 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:28 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:30 - WARNING - No instances were launched.
+2025-06-28 00:26:30 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:30 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:32 - WARNING - No instances were launched.
+2025-06-28 00:26:32 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:32 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:32 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:34 - WARNING - No instances were launched.
+2025-06-28 00:26:34 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:34 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:34 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:36 - WARNING - No instances were launched.
+2025-06-28 00:26:36 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:36 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:36 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:38 - WARNING - No instances were launched.
+2025-06-28 00:26:38 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:38 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:38 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:40 - WARNING - No instances were launched.
+2025-06-28 00:26:40 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:40 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:40 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:42 - WARNING - No instances were launched.
+2025-06-28 00:26:42 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:42 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:44 - WARNING - No instances were launched.
+2025-06-28 00:26:44 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:44 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:44 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:46 - WARNING - No instances were launched.
+2025-06-28 00:26:46 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:46 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:48 - WARNING - No instances were launched.
+2025-06-28 00:26:48 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:48 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:50 - WARNING - No instances were launched.
+2025-06-28 00:26:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:50 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:52 - WARNING - No instances were launched.
+2025-06-28 00:26:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:52 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:54 - WARNING - No instances were launched.
+2025-06-28 00:26:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:54 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:54 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 00:26:56 - WARNING - No instances were launched.
+2025-06-28 00:26:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 00:26:56 - INFO - Faltam 51 instâncias.
+2025-06-28 00:26:56 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:12:22 - INFO - Start execution Nodes=300 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-06-28 09:13:37 - INFO - Faltam 300 instâncias.
+2025-06-28 09:13:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:13:48 - INFO - Fleet created with instances: ['i-0a55c59fe45cd8511', 'i-016a0862204ba4452', 'i-08642bc965a32a9eb', 'i-0ab48c57615ba7396', 'i-0c4803fe05a94be93', 'i-0804460fe199a7238', 'i-083c5c6d50bb5d6f2', 'i-08f24da30de5859fa', 'i-0f5d7727bee8535f7', 'i-009ae6bd726dc352f', 'i-09b22bddb026cc733', 'i-019dee4345c99ad11', 'i-0d3d3529402b8b7b4', 'i-015307965f9007afc', 'i-0eaf33dbfb097423d', 'i-048d2d37d620d6586', 'i-0b9a589a99a9333a3', 'i-0ca1c2507a11f5f0c', 'i-04a85d252ff2756d6', 'i-0f837318463a289c7', 'i-0b749bf8543194eb7', 'i-0d124d95f8b4a39e0', 'i-0f0d4f205fd333f5e', 'i-0f96bf2a7ed353020', 'i-0e3ac0515e5c5ce70', 'i-0813c2d464040c6b3', 'i-043982bd75721b616', 'i-0467f334fac7dd36a', 'i-0625735bd559322d1', 'i-07eab4e7de3635038', 'i-0f298ee52d108a104', 'i-004c4bd24a094c253', 'i-082247704da113b66', 'i-0c2cc5226b2da8782', 'i-09c08d1ae0a262368', 'i-0d5427975642dab36', 'i-07a541666acd35492', 'i-07e9cca3f66bbf62e', 'i-0ebc42da39483e235', 'i-04383cd62f382df60', 'i-05b896db1b144bb08', 'i-0ee873e189366bd84', 'i-019543dc10081d26e', 'i-08daca58c2cf46182', 'i-068ec17a02be08723', 'i-099627e72aaf167ea', 'i-004678072fc28aebe', 'i-00e86d4e985a0a988', 'i-0637d335d5c7997a6', 'i-0d2b4e6cc0f41953e', 'i-0dd5bcdcf6c981181', 'i-0dfd4530df0212aa9', 'i-0e6067af7bd338e0b', 'i-04be43aad7d2cabb6', 'i-07127d7e4709e0222', 'i-01c5fb86d693aa82f', 'i-0f4d238a91051c9a8', 'i-01a3373b1d86f1aaa', 'i-0f3224e23de050032', 'i-08b7494a411ea7fa1', 'i-0b2a7c2892a8f7751', 'i-09a4b107b9a73e545', 'i-0050b0253441a9243', 'i-0fce42f20381aab07', 'i-058ecdbba20ebc407', 'i-0ab2d45de9c200592', 'i-0c7dc480246d2748a', 'i-01a9e316a2d7450a4', 'i-0671edb10e8638f02', 'i-00e81f1cb0ee65a4f', 'i-0f69060eb09cf5855', 'i-0cc526e1184aeb7e8', 'i-0f4146ebb29eecb63', 'i-031e98f2629134ede', 'i-087c5fcd7908c2442', 'i-074ccd0f870f5a4a9', 'i-0159741845d932762', 'i-0a314d0c4e8e3c54e', 'i-0eba59511256e4894', 'i-021e626e870576ab6', 'i-0a86928306e9c4b56', 'i-0dd141698c190f6d7', 'i-0d840a636c1040eba', 'i-062ec36b5da968566', 'i-01d314bcce281c51e', 'i-0ca90ed66fae837f3', 'i-0c22feccc05335412', 'i-09c1733059e2741c6', 'i-01a243584b86cd216', 'i-02661a2b0bf157a04', 'i-0d81e3a81fb657ca4', 'i-0e78ec117deb7743e', 'i-0551091a086302ebc', 'i-0fe60d1379f9093ae', 'i-081dab20e471c50dd', 'i-0f8a6aa4d1c986b04', 'i-0043365eb86e3d91f', 'i-0e765d6ab74054539', 'i-080d54962fd67b439', 'i-03a22deb8d9e9400f', 'i-00fa7900d1a152c18', 'i-022a6bf431ef95044', 'i-0cb3ef6e9f078197f', 'i-05b6c596f988c99e5', 'i-08c85278f5c45cb65', 'i-0bc6f14cc156a2d1a', 'i-06e8821dedd08d41c', 'i-0a8d707a758ff27b6', 'i-0aae75c1f5f3c100c', 'i-02dc06c9d1adb55ae', 'i-0aa1fb69c9af7040c', 'i-026204b0725e69905', 'i-03f74aef3f4dcaea3', 'i-07e8661a750db5d58', 'i-0dc60f652434c7766', 'i-025677371bbb2bf81', 'i-0493fd16259e74d93', 'i-07b9f27520742acb1', 'i-0627a28f0c963f012', 'i-01e95c3277dfd9e2e', 'i-0cc21c3238193e2f7', 'i-013e96de8009e1aa5', 'i-0a52dc755f27f2f2e', 'i-0583283f3930934cd', 'i-084d3e7a06770e970', 'i-059431d6a14bb4e5c', 'i-0be781c10cfb311c1', 'i-04c1293ed096e3a50', 'i-05c070b4f81ac600a', 'i-0dd1df558e3460f0b', 'i-08e23753bd0faec1b', 'i-0c38099268ea3ad85', 'i-0017b300955b1312e', 'i-01a18261ec4afd4ff', 'i-04532bf58db459998', 'i-08fddb4ca25b093fb', 'i-096a1fcceb60ba05f', 'i-0839b463e3e10da0a', 'i-05bb8afc0d9823898', 'i-04511e683b7890a50', 'i-0098a92721edd07e6', 'i-0f4b21f7537dd9c70', 'i-0231417357e90bd3e', 'i-0a1501f67fc0f30a9', 'i-0767b57506d3f5858', 'i-0913546ba9114382e', 'i-09da8d588004eb1fd', 'i-0af414865bbe0da7c', 'i-0328b500765724092', 'i-0a64ea45650933f67', 'i-053256a65023dc85b', 'i-091aca4b6740a9ab3', 'i-085d5e5b6878e4b81', 'i-0e038ba2898d436d0', 'i-04dd98cef8d6f60da', 'i-0060d7bed418507b8', 'i-0e59d1cfb81726a2e', 'i-06bfe852a4dae4a04', 'i-00ef1a25e6094e635', 'i-026ac45588be665b6', 'i-046ccc5c8323ce56b', 'i-0e4332bde6bbc1323', 'i-03e9bc35eb58bf46d', 'i-09c001e9b26ccf109', 'i-00de1e6ccf3e29f21', 'i-09b9e0973ba3ab3db', 'i-0b697ac40460ae45f', 'i-068bcc1e533955c73', 'i-0eb6510eeefd92735', 'i-06f86ae315e4abbe0', 'i-0c97771901322b7d3', 'i-0065eba3d86f09033', 'i-043cd571f04ae0337', 'i-00ff3d24fb33f5109', 'i-0b195d147ab64dab6', 'i-08323d15ba6b28fa5', 'i-0b85de930881edc22', 'i-09e2db67252cc007f', 'i-0b04bcc2046bd86af', 'i-047cd1a48ddea5b24', 'i-079b02b6014a396c6', 'i-01754c35fee28cc04', 'i-0884592011c1478d1', 'i-06da69bc2953c33c5', 'i-007dcb6ce745e786f', 'i-0121776e929ecf3d9', 'i-0219e6059536a2fbd', 'i-0d559230c2b8368f3', 'i-0144baecda7e7e90a', 'i-014e0195204efac36', 'i-0c9a9ad6b9f2a2dec', 'i-0e378c29fbbe4b94e', 'i-0664fc1edc4ff87fa', 'i-06a4ebda84906f331', 'i-0577d152c859d48f2', 'i-0f042167c19d044a5', 'i-09b5bac4857a1b8b7', 'i-058308fccee970639', 'i-00d20f75c9f6b9218', 'i-0d99a34ac3097b5e6', 'i-066806c79cbda7785', 'i-09f1e4ca07552afff', 'i-045cbfd3a2c70c730', 'i-0992c3027b8fdc4fa', 'i-0375a9bb999bed556', 'i-02fe7bdf8ee0d1c53', 'i-0db0c90e9f1e5d47d', 'i-098d3485d6f2f72c4', 'i-0253e339063775148', 'i-0685a98d7a4021a2b', 'i-0cfe4080b5b901897', 'i-0f65ec6656ceb974c', 'i-092d02bc9f0c597ac', 'i-0f0d71ea1657a2b07', 'i-08012e5715f5d52b3', 'i-079dd42a3991cd655', 'i-02f1d9f62ac047082', 'i-09035bc534d1e86f9', 'i-091448b1891db8f65', 'i-046df7caa6a2212c6', 'i-0e0b01b880a96805a', 'i-02e837153a4d08265', 'i-0af9524e6dfc304a0', 'i-00ce436edf640d502', 'i-086d35597c20440b6', 'i-01963df599dab0202', 'i-010a8a10169bcaf5e', 'i-05b05dd33f7a7560a', 'i-02e36c73542694ae6', 'i-0522fe1a1666ce1e5', 'i-04248594aa7b04e30', 'i-03dd5059e38e6f172', 'i-0a45f82e975394226', 'i-060d7edb69abfa9d3', 'i-084357eca1d9d61f9', 'i-0c5d80f84c2c7e5f7', 'i-07b454194b83ac639', 'i-06499ac7d42eed4fd', 'i-055b7892bab37b6d8', 'i-0bc1c643fa799f871', 'i-092dd97ffac200da5', 'i-0860be4c9ae4a99b6', 'i-04a94c9792c167620', 'i-0449c4620cbf1aeda', 'i-04eff094601822953', 'i-068a67e4a9da22253', 'i-0c8c447db2f3a337d', 'i-0e1cdcf9c80cf429c', 'i-08e8dedf52eac8b7e', 'i-0b5456a31a532266a']
+2025-06-28 09:16:00 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:00 - INFO - Total de instâncias acumuladas: 250/300
+2025-06-28 09:16:00 - INFO - Faltam 50 instâncias.
+2025-06-28 09:16:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:16:02 - WARNING - No instances were launched.
+2025-06-28 09:16:02 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:02 - INFO - Faltam 50 instâncias.
+2025-06-28 09:16:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:16:04 - WARNING - No instances were launched.
+2025-06-28 09:16:04 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:04 - INFO - Faltam 50 instâncias.
+2025-06-28 09:16:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:16:06 - WARNING - No instances were launched.
+2025-06-28 09:16:06 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:06 - INFO - Faltam 50 instâncias.
+2025-06-28 09:16:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-28 09:16:10 - INFO - Fleet created with instances: ['i-0e702a14536febcb1', 'i-0172756a9d02b08ca', 'i-02dc5cce274aeedaf', 'i-0c321186423424fa4', 'i-01544732c55f8ceac', 'i-0847ec322441fdf10', 'i-091e493373c340b76', 'i-05b011a7bd3ff18a7', 'i-0acd4b3a02889243c', 'i-07207f52f755fdb77', 'i-09ad3eaaff180ada5', 'i-04a3090a99feaf73f', 'i-021ef55c4f81da955', 'i-0968d07bf695cd5da', 'i-0cb086ca9c83a3e87', 'i-0233f7514f06757f2', 'i-04e66c8d61f826468', 'i-01f925976f05c549e', 'i-04b01585f8ca1c9e2', 'i-054121b422e2b126a', 'i-00612b57a59fed5b9', 'i-03f3aa729699adf3f', 'i-0e53b2f0b96835fef', 'i-08d7bbd49f57591fb', 'i-04185f257ef6c5cde', 'i-05f12b440494915d8', 'i-00cbe9245c3fd7b8f', 'i-0f98e60aa2ee87f94', 'i-000583deaeb4cd3dd', 'i-019f4ae92709c1896', 'i-04754739f2516c6b7', 'i-0e284229cb964782e', 'i-07a1ce4f5ffbf760e', 'i-08e56e5897c10069c', 'i-07e25ce5f56f32bb7', 'i-0452556c5ea8a8923', 'i-08a33b63d115a56c8', 'i-02ef1a27d3b3265e3', 'i-05dd3862a9883ff50', 'i-0ea05598f60980e8b', 'i-0bbfb7d9ba43d8246', 'i-0928d1a040a642d8d', 'i-0596851f37156cb73', 'i-036db622842fdefcf', 'i-08fbceb5669e34c54', 'i-00090fd19e4fcdf87', 'i-0b0f58d2c2d69de9a', 'i-06661544081588a65', 'i-05931c26dc4b68475', 'i-0e4d914c152536ac7']
+2025-06-28 09:16:50 - INFO - Total de instâncias acumuladas: 300/300
+2025-06-28 09:16:50 - INFO - Tempo gasto para receber respostas de 5 pedidos da AWS: 17.834393000000002
+2025-06-28 09:16:50 - INFO - Tempo gasto para 300 ficarem running: 168.533256
+2025-06-28 09:16:50 - INFO - Tempo total: 186.367649
+2025-06-28 09:16:50 - INFO - 300 instâncias no total. Iniciando benchmark em paralelo...
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:50 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:51 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:52 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:53 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:54 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:55 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:16:56 - INFO - Updating file: results/results_miguel_300.csv
+2025-06-28 09:17:17 - INFO - All instances have been terminated.
+2025-07-02 12:30:33 - INFO - Start execution Nodes=100 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-07-02 12:31:48 - INFO - Faltam 100 instâncias.
+2025-07-02 12:31:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:31:50 - WARNING - No instances were launched.
+2025-07-02 12:31:50 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:31:50 - INFO - Faltam 100 instâncias.
+2025-07-02 12:31:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:32:36 - INFO - Start execution Nodes=100 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-07-02 12:32:43 - INFO - All instances have been terminated.
+2025-07-02 12:34:29 - INFO - Start execution Nodes=100 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-07-02 12:34:30 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:30 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:31 - WARNING - No instances were launched.
+2025-07-02 12:34:31 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:31 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:31 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:33 - WARNING - No instances were launched.
+2025-07-02 12:34:33 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:33 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:33 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:35 - WARNING - No instances were launched.
+2025-07-02 12:34:35 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:35 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:35 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:37 - WARNING - No instances were launched.
+2025-07-02 12:34:37 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:37 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:37 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:39 - WARNING - No instances were launched.
+2025-07-02 12:34:39 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:39 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:39 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:41 - WARNING - No instances were launched.
+2025-07-02 12:34:41 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:41 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:43 - WARNING - No instances were launched.
+2025-07-02 12:34:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:43 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:45 - WARNING - No instances were launched.
+2025-07-02 12:34:45 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:45 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:47 - WARNING - No instances were launched.
+2025-07-02 12:34:47 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:34:47 - INFO - Faltam 100 instâncias.
+2025-07-02 12:34:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:34:51 - INFO - Fleet created with instances: ['i-0d05d746c9787099d', 'i-0cb7db6389e7688ed']
+2025-07-02 12:35:08 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:08 - INFO - Total de instâncias acumuladas: 2/100
+2025-07-02 12:35:08 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:10 - WARNING - No instances were launched.
+2025-07-02 12:35:10 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:10 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:12 - WARNING - No instances were launched.
+2025-07-02 12:35:12 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:12 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:14 - WARNING - No instances were launched.
+2025-07-02 12:35:14 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:14 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:14 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:16 - WARNING - No instances were launched.
+2025-07-02 12:35:16 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:16 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:16 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:18 - WARNING - No instances were launched.
+2025-07-02 12:35:18 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:18 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:18 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:20 - WARNING - No instances were launched.
+2025-07-02 12:35:20 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:20 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:20 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:22 - WARNING - No instances were launched.
+2025-07-02 12:35:22 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:35:22 - INFO - Faltam 98 instâncias.
+2025-07-02 12:35:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:35:26 - INFO - Fleet created with instances: ['i-01bd981dac7db73a0', 'i-005ee1eeb3be5c918', 'i-058b01aa17f932bdd', 'i-011a7460bcb52e729', 'i-0baf523955b39d2a3', 'i-0c556e54a14fece4a', 'i-031b52f4433a7a8ff', 'i-0282dbb83d86c501e', 'i-0b34b952378c9a57e', 'i-01a7d589d676269de', 'i-09c9e231d7be92ee9', 'i-08df9b6e1b5e321cd', 'i-06e348a32b6f1b169', 'i-0c5bcf7b274196f3d', 'i-0396c08973c1714d3', 'i-0a7f92d38a3e24629', 'i-0c039d4ff3ad8511c', 'i-028e5583bc6bb219b', 'i-0dcbc24ea5f730d09', 'i-0b939cf2bd3fe3d28', 'i-06e1137421a5eb4bd', 'i-085d2451856b85f41', 'i-08b2da65b4b7b4d7c', 'i-02e8102e0ed30c8b7', 'i-0a8e3720eaca4e85b', 'i-0c616d056bc0847fa', 'i-01a227f32e26c2558', 'i-0c5b6b277026986d0', 'i-04562dd573316c469', 'i-09f0d4e8faa535e3f', 'i-047c3518daacd78f9', 'i-007a9ecec52d651c7', 'i-0f10ffe010357d6d4', 'i-086a525805ac0083d', 'i-09d8e26bd4ddf382a', 'i-09f6fdefad99bd5f4']
+2025-07-02 12:36:00 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:00 - INFO - Total de instâncias acumuladas: 38/100
+2025-07-02 12:36:00 - INFO - Faltam 62 instâncias.
+2025-07-02 12:36:00 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:02 - WARNING - No instances were launched.
+2025-07-02 12:36:02 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:02 - INFO - Faltam 62 instâncias.
+2025-07-02 12:36:02 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:04 - WARNING - No instances were launched.
+2025-07-02 12:36:04 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:04 - INFO - Faltam 62 instâncias.
+2025-07-02 12:36:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:09 - INFO - Fleet created with instances: ['i-021e04beb8771433d', 'i-09fbd14bc05995e17', 'i-02e96d3b0fff2c3f2', 'i-0c7db5d24760eda9c', 'i-0cfc20df07d7dcdc7', 'i-020e076f9007583cb', 'i-03b2b8c23e112ea7c', 'i-0806a5ef37bae7204', 'i-01f07db3aa6dd19d9', 'i-081680ea1b56d847c', 'i-0a846beb10d86fa74', 'i-07c5f001e274224f7', 'i-0b5b9082e6371a4f3', 'i-0f44480812490a013', 'i-0e2b62ce612a3d554', 'i-0480e6c851a30db00', 'i-0321ea237d8cbdb2c', 'i-0db34d2ea2d07b1a9', 'i-075a8c83802437fc3', 'i-086595a7d1ded68ea', 'i-0942b97fdf2ef63a4', 'i-0f3038c18d2ebabbe', 'i-06a8520b930329c72', 'i-046897cdc7c4fcc77', 'i-03fbcc5fe266ee946', 'i-0322f6cb9c53fe51e', 'i-08ae3e134202d838e', 'i-0548fee9cb1a821f6', 'i-0b68cdc68c6941aa0', 'i-094128ce0b316207c', 'i-0bfc1b935a52fbe8f', 'i-0767d16a6e39a385a', 'i-04aba6edc6cf12cc7', 'i-0a4d54e072c0d7add', 'i-0ed6e379ee487d514', 'i-09179aec10f5e5006', 'i-0911ab9781bdad7c5', 'i-08934717764e4cf7d', 'i-0824acf02c4e299e6', 'i-08ac8a23aa80e17a9', 'i-023c38368e6710f39']
+2025-07-02 12:36:45 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:45 - INFO - Total de instâncias acumuladas: 79/100
+2025-07-02 12:36:45 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:45 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:47 - WARNING - No instances were launched.
+2025-07-02 12:36:47 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:47 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:49 - WARNING - No instances were launched.
+2025-07-02 12:36:49 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:49 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:51 - WARNING - No instances were launched.
+2025-07-02 12:36:51 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:51 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:53 - WARNING - No instances were launched.
+2025-07-02 12:36:53 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:53 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:53 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:55 - WARNING - No instances were launched.
+2025-07-02 12:36:55 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:55 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:55 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:57 - WARNING - No instances were launched.
+2025-07-02 12:36:57 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:57 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:57 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:36:59 - WARNING - No instances were launched.
+2025-07-02 12:36:59 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:36:59 - INFO - Faltam 21 instâncias.
+2025-07-02 12:36:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:01 - WARNING - No instances were launched.
+2025-07-02 12:37:01 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:01 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:01 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:03 - WARNING - No instances were launched.
+2025-07-02 12:37:03 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:03 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:04 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:06 - WARNING - No instances were launched.
+2025-07-02 12:37:06 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:06 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:06 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:08 - WARNING - No instances were launched.
+2025-07-02 12:37:08 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:08 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:10 - WARNING - No instances were launched.
+2025-07-02 12:37:10 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:10 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:10 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:12 - WARNING - No instances were launched.
+2025-07-02 12:37:12 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:12 - INFO - Faltam 21 instâncias.
+2025-07-02 12:37:12 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-02 12:37:16 - INFO - Fleet created with instances: ['i-0a1da536399de1907', 'i-0ae66535b872fcfae', 'i-0aee46ee9f89e130c', 'i-0f6ec51580529fb07', 'i-01fac2d5013d23ecd', 'i-0e07b54bdb1044e10', 'i-06d892b05d823a1bb', 'i-0431b8744cff4e0db', 'i-072ad307bf07b245a', 'i-074e8146d513c37c1', 'i-093533075f93a1448', 'i-01a50ea85b3fb7e46', 'i-0941c145e28e29613', 'i-0f7649dd256a97df1', 'i-0f21edce5aae352f8', 'i-0a2c70b319df632e5', 'i-082abb87b937c6591', 'i-06661ab2bad63a0b3', 'i-050bdcdceffa94e46', 'i-08a7d6dee2aa989fa', 'i-075ca32f81e0c465b']
+2025-07-02 12:37:42 - INFO - Total de instâncias acumuladas: 100/100
+2025-07-02 12:37:42 - INFO - Tempo gasto para receber respostas de 33 pedidos da AWS: 62.388248
+2025-07-02 12:37:42 - INFO - Tempo gasto para 100 ficarem running: 107.7424
+2025-07-02 12:37:42 - INFO - Tempo total: 170.130648
+2025-07-02 12:37:42 - INFO - 100 instâncias no total. Iniciando benchmark em paralelo...
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:42 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:43 - INFO - Updating file: results/results_miguel_100.csv
+2025-07-02 12:37:54 - INFO - All instances have been terminated.
+2025-08-11 20:57:40 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 20:58:12 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 20:59:32 - INFO - All instances have been terminated.
+2025-08-11 21:01:56 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:01:56 - INFO - Faltam 1 instâncias.
+2025-08-11 21:06:45 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:07:14 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:08:15 - INFO - Faltam 1 instâncias.
+2025-08-11 21:08:34 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:08:35 - INFO - Faltam 1 instâncias.
+2025-08-11 21:08:52 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:09:07 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:09:07 - INFO - Faltam 1 instâncias.
+2025-08-11 21:09:25 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:09:25 - INFO - Faltam 1 instâncias.
+2025-08-11 21:09:25 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:10:42 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:10:42 - INFO - Faltam 1 instâncias.
+2025-08-11 21:10:42 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:11:58 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:12:08 - INFO - Faltam 1 instâncias.
+2025-08-11 21:12:08 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:13:45 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:14:47 - INFO - Faltam 1 instâncias.
+2025-08-11 21:14:47 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:16:49 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:16:49 - INFO - Faltam 1 instâncias.
+2025-08-11 21:16:49 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:19:40 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:20:52 - INFO - Faltam 1 instâncias.
+2025-08-11 21:20:52 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:21:59 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:21:59 - INFO - Faltam 1 instâncias.
+2025-08-11 21:21:59 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:22:26 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:22:27 - INFO - Faltam 1 instâncias.
+2025-08-11 21:22:27 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:50:30 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:51:41 - INFO - Faltam 1 instâncias.
+2025-08-11 21:51:41 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:51:43 - WARNING - No instances were launched.
+2025-08-11 21:51:43 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 21:51:43 - INFO - Faltam 1 instâncias.
+2025-08-11 21:51:43 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:51:45 - INFO - Fleet created with instances: ['i-0c05b88991200a6d3']
+2025-08-11 21:52:01 - INFO - Total de instâncias acumuladas: 1/1
+2025-08-11 21:52:01 - INFO - Tempo gasto para receber respostas de 3 pedidos da AWS: 3.3622440000000005
+2025-08-11 21:52:01 - INFO - Tempo gasto para 1 ficarem running: 15.478474
+2025-08-11 21:52:01 - INFO - Tempo total: 18.840718000000003
+2025-08-11 21:52:01 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-08-11 21:52:01 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 21:52:09 - INFO - All instances have been terminated.
+2025-08-11 21:53:05 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:53:05 - INFO - Faltam 1 instâncias.
+2025-08-11 21:53:05 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 21:57:37 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 21:58:48 - INFO - Faltam 1 instâncias.
+2025-08-11 21:58:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 22:01:22 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 22:01:22 - INFO - Faltam 1 instâncias.
+2025-08-11 22:01:22 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 22:03:35 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 22:04:46 - INFO - Faltam 1 instâncias.
+2025-08-11 22:04:46 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 22:04:48 - WARNING - No instances were launched.
+2025-08-11 22:04:48 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 22:04:48 - INFO - Faltam 1 instâncias.
+2025-08-11 22:04:48 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 22:04:50 - INFO - Fleet created with instances: ['i-043a631d97cd96ab0']
+2025-08-11 22:05:06 - INFO - Total de instâncias acumuladas: 1/1
+2025-08-11 22:05:06 - INFO - Tempo gasto para receber respostas de 3 pedidos da AWS: 0
+2025-08-11 22:05:06 - INFO - Tempo gasto para 1 ficarem running: 0
+2025-08-11 22:05:06 - INFO - Tempo total: 0
+2025-08-11 22:05:06 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-08-11 22:05:06 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 22:05:13 - INFO - All instances have been terminated.
+2025-08-11 22:59:21 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 23:03:25 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 23:04:38 - INFO - Start execution Nodes=1 Benchmark=bt.A.x Allocation Strategy=lowest-price
+2025-08-11 23:05:50 - INFO - Faltam 1 instâncias.
+2025-08-11 23:05:50 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 23:05:51 - WARNING - No instances were launched.
+2025-08-11 23:05:51 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 23:05:51 - INFO - Faltam 1 instâncias.
+2025-08-11 23:05:51 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-11 23:05:54 - INFO - Fleet created with instances: ['i-062a498b2fec8c7ee']
+2025-08-11 23:06:10 - INFO - Total de instâncias acumuladas: 1/1
+2025-08-11 23:06:10 - INFO - Tempo gasto para receber respostas de 3 pedidos da AWS: 0
+2025-08-11 23:06:10 - INFO - Tempo gasto para 1 ficarem running: 0
+2025-08-11 23:06:10 - INFO - Tempo total: 0
+2025-08-11 23:06:10 - INFO - 1 instâncias no total. Iniciando benchmark em paralelo...
+2025-08-11 23:06:10 - INFO - Updating file: results/results_miguel_1.csv
+2025-08-11 23:06:17 - INFO - All instances have been terminated.
